@@ -28,16 +28,18 @@
   flex-direction: column;
   justify-content: center;
 
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  padding-top: 2rem;
 
   border-radius: 180px 0px 0px 0px;
 
   height: 55%;
-  width: 60%;
+  width: 62%;
 
   animation-duration: 1s;
   animation-name: diagPopBtm;
+  overflow: hidden;
 }
 #cardHead{
   /* opacity: 0%; */
@@ -56,7 +58,7 @@
   margin-top: 2rem;
   font-size: 1rem;
 
-  animation-duration: 2s;
+  animation-duration: 2.5s;
   animation-name: fade-in;
   animation-fill-mode: forwards;
 }
@@ -67,7 +69,7 @@
   align-items: center;
   margin-top: 2rem;
 
-  animation-duration: 2s;
+  animation-duration: 3s; 
   animation-name: fade-in;
   animation-fill-mode: forwards;
 }
@@ -102,13 +104,12 @@
 
 @keyframes diagPopBtm {
   from{
-    height: 0%;
     width: 0%;
-
+    height: 0%;
   }
   to{
+    width: 62%;
     height: 55%;
-    width: 60%;
   }
 }
 
