@@ -3,17 +3,17 @@ import logo from './assets/logo.png';
 import dropN from './assets/dropN.svg';
 import './styles/global.css';
 import useState from 'react';
+import NavBar from './components/navbar';
 
 function App(props) {
   // const cardContent = useState(props.cardContent);
   return (
     <>
       <div className="relative">
-
+        <NavBar/>
         <div id='topCard' className='card z-10 absolute'>
           <img id='logoImg' src={logo}/>
         </div> 
-
         <div id='bottomCard' className='card z-5 absolute bottom-0 right-0' >
           <div id='cardHead' className='font-Archivo text-[#424949]'>
               {props.cardContent.heading}
