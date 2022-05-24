@@ -15,17 +15,17 @@ function App(props) {
         </div> 
 
         <div id='bottomCard' className='card z-5 absolute bottom-0 right-0' >
-          <div id='cardHead'>
+          <div id='cardHead' className='font-Archivo text-[#424949]'>
               {props.cardContent.heading}
           </div>
-          <div id='cardDesc'>
+          <div id='cardDesc' className='font-Maven'>
               {props.cardContent.description}
           </div>
           <div id='cardCTA' className='flex flex-row'>
             <div id='cardBtn'>
               <img src={dropN} width='25px'/>
             </div>
-            <div className='mx-3 text-[18px]'>Read News</div>
+            <div className='mx-3 text-[18px] font-Maven'>Read News</div>
           </div>
           
         </div> 
