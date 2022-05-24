@@ -135,3 +135,12 @@
     opacity: 100%
   }
 }
+
+#navbar{
+  display: flex;
+  justify-content: space-around;
+  min-width: 20;
+  font-size: 1.2vw;
+  position: absolute;
+  z-index: 100;
+}

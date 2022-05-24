@@ -1,15 +1,16 @@
 import video from './assets/final.mp4';
 import logo from './assets/logo.png';
 import dropN from './assets/dropN.svg';
-import './styles/global.css';
+import './styles/App.css';
 import useState from 'react';
+import NavBar from './components/navbar';
 
 function App(props) {
   // const cardContent = useState(props.cardContent);
   return (
     <>
       <div className="relative">
-
+        <NavBar/>
         <div id='topCard' className='card z-10 absolute'>
           <img id='logoImg' src={logo}/>
         </div> 
