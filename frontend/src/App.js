@@ -14,13 +14,16 @@ function App(props) {
           <img id='logoImg' src={logo}/>
         </div> 
 
-        <div id='bottomCard' className='card z-5 absolute bottom-0 right-0' >
+        <div id='bottomCard' className='card z-5 absolute right-0' >
+
           <div id='cardHead' className='font-Archivo text-[#424949]'>
               {props.cardContent.heading}
           </div>
+
           <div id='cardDesc' className='font-Maven'>
               {props.cardContent.description}
           </div>
+
           <div id='cardCTA' className='flex flex-row'>
             <div id='cardBtn'>
               <img src={dropN} width='25px'/>
@@ -30,10 +33,20 @@ function App(props) {
           
         </div> 
 
-
         <video loop autoPlay muted id='bgrVideo' className='h-screen w-screen object-cover'>
           <source src={video} type="video/mp4"/>Your browser does not support the video tag.
         </video> 
+
+        <div id='scrollText1'>WHY US?</div>
+        <div id='scrollText1'>WHY US?</div>
+        <div id='scrollText1'>WHY US?</div>
+        <div id='scrollText1'>WHY US?</div>
+        <div id='scrollText1'>WHY US?</div>
+        <div id='scrollText1'>WHY US?</div>
+        <div id='scrollText1'>WHY US?</div>
+        <div id='scrollText1'>WHY US?</div>
+
+
 
       </div>
     </>

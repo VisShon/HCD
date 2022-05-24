@@ -5,6 +5,9 @@
   color: #000000;
 
 }
+#bgrVideo{
+  z-index: 0;
+}
 #logoImg{
   width: 80%;
 
@@ -14,7 +17,7 @@
 #topCard{ 
   display: flex;
   border-radius: 0px 0px 180px 0px;
-  height: 50%;
+  height: 50vh;
   width: 25%;
   justify-content: center;
   align-items: center;
@@ -29,17 +32,22 @@
   flex-direction: column;
   justify-content: center;
 
+  position: absolute;
+  z-index: +30;
+  margin-top: 100vh;
+
   padding-left: 8%;
   padding-right: 8%;
   padding-top: 4%;
 
   border-radius: 180px 0px 0px 0px;
 
-  height: 55%;
-  width: 60%;
+  height: 55vh;
+  width: 62%;
 
   animation-duration: 1s;
   animation-name: diagPopBtm;
+  animation-fill-mode: forwards;
   overflow: hidden;
 }
 #cardHead{
@@ -78,8 +86,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70px;
-  width: 70px;
+  height: 4vw;
+  width: 4vw;
 
   border-radius: 50%;
   border-width: 4px;
@@ -98,19 +106,21 @@
 
   }
   to{
-    height: 50%;
+    height: 50vh;
     width: 25%;
   }
 }
 
 @keyframes diagPopBtm {
-  from{
+  0%{
     width: 0%;
     height: 0%;
+    margin-top: 100vh;
   }
-  to{
+  100%{
     width: 62%;
-    height: 55%;
+    height: 55vh;
+    margin-top: 45vh;
   }
 }
 
