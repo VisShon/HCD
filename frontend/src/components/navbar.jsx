@@ -4,9 +4,13 @@ export default function NavBar(){
         <>
             <div id='navbar' className='font-Archivo text-[#424949] my-10'>
                     <div to='/'>ABOUT</div>
+                    <div to='/'>|</div>
                     <div to='/'>ACADEMICS</div>
+                    <div to='/'>|</div>
                     <div to='/'>PEOPLE</div>
+                    <div to='/'>|</div>
                     <div to='/'>RESEARCH</div>
+                    <div to='/'>|</div>
                     <div to='/'>CONTACT US</div>
             </div>
         </>
