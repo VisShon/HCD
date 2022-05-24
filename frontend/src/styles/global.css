@@ -29,9 +29,9 @@
   flex-direction: column;
   justify-content: center;
 
-  padding-left: 9rem;
-  padding-right: 9rem;
-  padding-top: 2rem;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
 
   border-radius: 180px 0px 0px 0px;
 
@@ -46,7 +46,7 @@
   /* opacity: 0%; */
 
   transition: all ease-in 0.5s;
-  font-size: 5vw;
+  font-size: 4.5vw;
   line-height: 100%;
 
   animation-duration: 2s;
@@ -56,7 +56,7 @@
 #cardDesc{
   /* opacity: 0%; */
 
-  margin-top: 2rem;
+  margin-top: 2%;
   font-size: 1.2vw;
 
   animation-duration: 2.5s;
@@ -68,7 +68,7 @@
 
   display: flex;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 2%;
 
   animation-duration: 3s; 
   animation-name: fade-in;
