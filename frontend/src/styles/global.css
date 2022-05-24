@@ -46,11 +46,7 @@
   /* opacity: 0%; */
 
   transition: all ease-in 0.5s;
-<<<<<<< HEAD
-  font-size: 8vh;
-=======
-  font-size: 5vw;
->>>>>>> ce2fbde0f61fed0844067c3189a5dac9222026fe
+  font-size: 4.5vw;
   line-height: 100%;
 
   animation-duration: 2s;
