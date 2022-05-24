@@ -1,0 +1,9 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 62%;
+    right: 0;
+    font-size: 1.2vw;
+    position: absolute;
+    z-index: 100;
+  }
