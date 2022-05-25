@@ -4,7 +4,7 @@ import '../styles/navbar.css';
 export default function NavBar(){
     return(
         <>
-            <div id='navbar' className='font-Maven text-[#444343] my-10'>
+            <div id='navbar' className='font-Maven text-[#040404] my-10'>
                 <Link to='about'>ABOUT</Link>
                 <div to='/'>|</div>
                 <Link to='academics'>ACADEMICS</Link>
