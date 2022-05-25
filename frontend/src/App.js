@@ -1,10 +1,11 @@
 import video from './assets/final.mp4';
+import alumn from './assets/alumini.png';
 import './styles/App.css';
 import NavBar from './components/navbar';
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 import BottomCard from './components/bottomCard';
 import TopCard from './components/topCard';
-const FadeUp = batch(Fade(), Move(), Sticky());
+const MoveUS = batch(MoveIn(1500,0),MoveOut(-1500,0));
 function App(data) {
   // const cardContent = useState(data.cardContent);
   return (
@@ -20,12 +21,18 @@ function App(data) {
                 <source src={video} type="video/mp4"/>Your browser does not support the video tag.
               </video> 
           </ScrollPage>
-          
+
           <ScrollPage page={1}>
             <div id='whyUs_Page'> 
-              <Animator animation={MoveIn(1000,0)}>
-                <div className='font-Maven font-semibold text-[#39AEA8] text-[10vw]'>WHY US?</div>
+              <Animator animation={MoveUS}>
+                <div className='font-Maven font-semibold text-[#39AEA8] text-[10vw]'>WHY CHOOSE HCD?</div>
               </Animator>
+            </div>
+          </ScrollPage>
+
+          <ScrollPage page={2}>
+            <div id='Alumni_Page'> 
+              <img src={alumn}  className='h-screen w-screen object-cover' />
             </div>
           </ScrollPage>
 

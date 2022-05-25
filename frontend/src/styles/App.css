@@ -18,3 +18,12 @@
   background-color: #f1f1f1;
 
 }
+#Alumni_Page{
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #58B9B4;
+
+}
