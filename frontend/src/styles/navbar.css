@@ -4,6 +4,7 @@
     min-width: 62%;
     right: 0;
     font-size: 1.2vw;
+    font-weight: 900;
     position: absolute;
     z-index: 100;
   }
