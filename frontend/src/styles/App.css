@@ -22,8 +22,12 @@
   min-width: 100%;
   min-height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   background-color: #58B9B4;
+  position: relative;
 
+}
+#AlumniTXT{
+  transform: rotate(90deg);
 }

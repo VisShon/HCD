@@ -32,7 +32,8 @@ function App(data) {
 
           <ScrollPage page={2}>
             <div id='Alumni_Page'> 
-              <img src={alumn}  className='h-screen w-screen object-cover' />
+              <img src={alumn}  className='h-screen w-screen object-cover absolute z-0' />
+              <div id='AlumniTXT' className='absolute z-10 font-Archivo text-[#ffffff] text-[10vw]'>ALUMNI</div>
             </div>
           </ScrollPage>
 
