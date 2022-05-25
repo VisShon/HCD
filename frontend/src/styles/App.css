@@ -135,3 +135,14 @@
     opacity: 100%
   }
 }
+
+
+#whyUs_Page{
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+
+}
