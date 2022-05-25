@@ -6,6 +6,7 @@ import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveI
 import BottomCard from './components/bottomCard';
 import TopCard from './components/topCard';
 const MoveUS = batch(MoveIn(1500,0),MoveOut(-1500,0));
+const MoveAlumn = batch(MoveOut(-1500,0));
 function App(data) {
   // const cardContent = useState(data.cardContent);
   return (
@@ -32,8 +33,10 @@ function App(data) {
 
           <ScrollPage page={2}>
             <div id='Alumni_Page'> 
-              <img src={alumn}  className='h-screen w-screen object-cover absolute z-0' />
-              <div id='AlumniTXT' className='absolute z-10 font-Archivo text-[#ffffff] text-[10vw]'>ALUMNI</div>
+              <Animator animation={MoveAlumn}>
+                <img src={alumn}  className='h-screen w-screen object-cover z-0' />
+              </Animator>
+                <div id='AlumniTXT' className='absolute z-10 font-Archivo text-[#ffffff] text-[10vw]'>ALUMNI</div>
             </div>
           </ScrollPage>
 
