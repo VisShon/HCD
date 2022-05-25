@@ -24,7 +24,7 @@ function App(data) {
           </ScrollPage>
 
           <ScrollPage page={1}>
-            <div id='whyUs_Page'> 
+            <div id='whyUsSection'> 
               <Animator animation={MoveUS}>
                 <div className='font-Maven font-semibold text-[#39AEA8] text-[10vw]'>WHY CHOOSE HCD?</div>
               </Animator>
@@ -32,7 +32,7 @@ function App(data) {
           </ScrollPage>
 
           <ScrollPage page={2}>
-            <div id='Alumni_Page'> 
+            <div id='AlumniSection'> 
               <Animator animation={MoveAlumn}>
                 <img src={alumn}  className='h-screen w-screen object-cover z-0' />
               </Animator>

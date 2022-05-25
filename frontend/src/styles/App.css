@@ -9,7 +9,7 @@
 }
 
 
-#whyUs_Page{
+#whyUsSection{
   min-width: 100%;
   min-height: 100%;
   display: flex;
@@ -18,7 +18,7 @@
   background-color: #f1f1f1;
 
 }
-#Alumni_Page{
+#AlumniSection{
   min-width: 100%;
   min-height: 100%;
   display: flex;
