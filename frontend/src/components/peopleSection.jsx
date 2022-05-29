@@ -3,7 +3,7 @@ import { Animator, batch, MoveOut} from "react-scroll-motion";
 const MoveAlumn = batch(MoveOut(-1500,0));
 
 
-export default function AlumniSection(){
+export default function PeopleSection(){
     return(
         <div class='Section Section-Alumni'>
             {/* <Animator animation={MoveAlumn}> */}

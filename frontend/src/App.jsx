@@ -4,12 +4,8 @@ import Footer from './components/footer';
 import {ScrollContainer, ScrollPage} from "react-scroll-motion";
 import MainSection from './components/mainSection';
 import WhyUsSection from './components/whyUsSection';
-import AlumniSection from './components/alumniSection';
-import StudentsSection from './components/studentSection';
-import PapersSection from './components/papersSection';
-import FacultySection from './components/facultySection';
-
-
+import PeopleSection from './components/facultySection';
+import GallerySection from './components/gallerySection';
 
 
 function App(data) {
@@ -28,27 +24,26 @@ function App(data) {
           </ScrollPage>
 
           <ScrollPage page={2}>
-            <AlumniSection />
+            <PeopleSection />
           </ScrollPage>
 
-          <ScrollPage page={2}>
-            <StudentsSection />
-          </ScrollPage>
-
-          <ScrollPage page={2}>
-            <PapersSection />
-          </ScrollPage>
-
-          <ScrollPage page={2}>
-            <FacultySection />
-          </ScrollPage>
-
-          
-          <ScrollPage page={2}>
-            <FacultySection />
-          </ScrollPage>
-          
           <ScrollPage page={3}>
+            <PeopleSection />
+          </ScrollPage>
+
+          <ScrollPage page={4}>
+            <PeopleSection />
+          </ScrollPage>
+
+          <ScrollPage page={5}>
+            <PeopleSection />
+          </ScrollPage>
+
+          <ScrollPage page={6}>
+            <GallerySection />
+          </ScrollPage>
+          
+          <ScrollPage page={7}>
             <Footer/>
           </ScrollPage>
 

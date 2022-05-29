@@ -9,46 +9,46 @@ export default function footer(){
             <div id="footer">
                 <div className='flex justify-evenly'>
 
-                    <div className="flex flex-col">
-                        <div className="font-Maven text-[#277773] text-[1.1vw]">USEFUL LINKS</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw]'>CARRERS @HCD</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw]'>HCD AlUMNI</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw]'>FACULTY</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw]'>STUDENTS</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw]'>RESEARCH PAPERS</div>
+                    <div className="flex flex-col font-Maven text-[#808080] text-[0.9em]">
+                        <span className="text-[#277773] text-[1.1em]">USEFUL LINKS</span>
+                        <span>CARRERS @HCD</span>
+                        <span>HCD AlUMNI</span>
+                        <span>FACULTY</span>
+                        <span>STUDENTS</span>
+                        <span>RESEARCH PAPERS</span>
                     </div>
 
-                    <div className="flex flex-col">
-                        <div className="font-Maven text-[#277773] text-[1.1vw]">INITIATIVES</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw]'>WORKSHOPS</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw]'>PLACEMENT</div>
+                    <div className="flex flex-col font-Maven text-[#808080] text-[0.9em]">
+                        <span className="text-[#277773] text-[1.1em]">INITIATIVES</span>
+                        <span>WORKSHOPS</span>
+                        <span>PLACEMENT</span>
                     </div>
 
-                    <div className="flex flex-col">
-                        <div className="font-Maven text-[#277773] text-[1.1vw]">CONTACT US</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw]'>admin-hcd@iiitd.ac.in</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw]'>+91-11-26907588</div>
-                        <div className='flex justify-between my-4 mx-2'>
+                    <div className="flex flex-col font-Maven text-[#808080] text-[0.9em]'">
+                        <span className="text-[#277773] text-[1.1em]">CONTACT US</span>
+                        <span> admin-hcd@iiitd.ac.in</span>
+                        <span>+91-11-26907588</span>
+                        <span className='flex justify-between my-4 mx-2'>
                             <img src={facebook}/>
                             <img src={tweet}/>
                             <img src={insta}/>
-                        </div>
+                        </span>
                     </div>
 
                     <div className="flex flex-col">
-                        <div className="font-Maven text-[#277773] text-[1.1vw]">COLLABORATIONS</div>
+                        <div className="font-Maven text-[#277773] text-[1.1em]">COLLABORATIONS</div>
                     </div>
                 </div>
                 <div className="flex justify-between mx-[13vw]">
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col font-Maven text-[#808080] text-[0.9em]'>
 
-                        <div className='font-Maven text-[#808080] text-[0.9vw] font-bold'>ALL RIGHTS RESERVED</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw]'>2022 IIITD</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw]'>LAST UPDATED 26/05/2022</div>
+                        <span className='font-bold'>ALL RIGHTS RESERVED</span>
+                        <span>2022 IIITD</span>
+                        <span>LAST UPDATED 26/05/2022</span>
                     </div>
-                    <div className='flex'>
-                        <div className='font-Maven text-[#808080] text-[0.9vw] mr-5'>Terms and Conditions</div>
-                        <div className='font-Maven text-[#808080] text-[0.9vw] ml-5'>Privacy Policy</div>
+                    <div className='flex font-Maven text-[#808080] text-[0.9em] mr-5'>
+                        <span>Terms and Conditions</span>
+                        <span className='ml-5'>Privacy Policy</span>
                     </div>
                 </div>
             </div>
