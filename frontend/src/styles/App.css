@@ -18,17 +18,31 @@
   background-color: #f1f1f1;
 
 }
-#AlumniSection{
+.Section{
   min-width: 100%;
   min-height: 100%;
   display: flex;
-  justify-content: end;
+
   align-items: center;
-  background-color: #58B9B4;
   position: relative;
 
 }
-#AlumniHeading{
-  margin-right: -10vw;
+
+.Section-Alumni{
+  background-color: #58B9B4;
+}
+.Section-Students{
+  background-color: #7FD3CF;
+}
+.Section-Papers{
+  background-color: #8AD3D0;
+}
+.Section-Faculty{
+  background-color: #B3E2E0;
+}
+
+#SectionHeading{
+  
+  margin-right: -7vw;
   transform: rotate(90deg);
 }
