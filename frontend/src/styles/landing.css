@@ -1,0 +1,19 @@
+.card{
+
+  background-color: #f1f1f1;
+  color: #000000;
+
+}
+#bgrVideo{
+  z-index: -50;
+}
+
+
+#whyUsSection{
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}

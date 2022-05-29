@@ -1,0 +1,29 @@
+.peopleSection{
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+  
+    align-items: center;
+    position: relative;
+  
+}
+
+.alumniSection{
+    background-color: #58B9B4;
+}
+.studentsSection{
+    background-color: #7FD3CF;
+}
+.papersSection{
+    background-color: #8AD3D0;
+}
+.facultySection{
+    background-color: #B3E2E0;
+}
+
+.SectionHeading{
+    display: flex;
+
+    margin-right: 14%;
+    writing-mode: vertical-rl;
+}

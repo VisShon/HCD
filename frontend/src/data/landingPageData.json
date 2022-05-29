@@ -1,0 +1,31 @@
+{
+    "cardContent": {
+        "heading": "Advancing Human Creativity",
+        "description": "We at HCD@IIITD, focus on finding innovative solutions to challenges one faces every time a new technology is adopted by the masses. ",
+        "buttonText": "Read News"
+    }, 
+    "alumniData": {
+        "heading": "ALUMNI",
+        "description": "We at HCD@IIITD, focus on finding innovative solutions to challenges one faces every time a new technology is adopted by the masses. ",
+        "stat": "2000+",
+        "CSSclassName": "alumniSection"
+    },
+    "studentData": {
+        "heading": "STUDENTS",
+        "description": "We at HCD@IIITD, focus on finding innovative solutions to challenges one faces every time a new technology is adopted by the masses. ",
+        "stat": "2000+",
+        "CSSclassName": "studentsSection"
+    },
+    "paperData": {
+        "heading": "PAPERS",
+        "description": "We at HCD@IIITD, focus on finding innovative solutions to challenges one faces every time a new technology is adopted by the masses. ",
+        "stat": "20+",
+        "CSSclassName": "papersSection"
+    },
+    "facultyData": {
+        "heading": "FACULTY",
+        "description": "We at HCD@IIITD, focus on finding innovative solutions to challenges one faces every time a new technology is adopted by the masses. ",
+        "stat": "200+",
+        "CSSclassName": "facultySection"
+    }
+}
