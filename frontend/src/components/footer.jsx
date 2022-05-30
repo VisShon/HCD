@@ -1,4 +1,5 @@
 import '../styles/footer.css';
+import '../styles/button.css';
 import img from '../assets/bcg.png';
 import tweet from '../assets/tweet.png';
 import insta from '../assets/insta.png';
@@ -7,7 +8,7 @@ export default function footer(){
     return(
         <>
             <div id="footer">
-                <div className='flex justify-evenly'>
+                <div className='flex justify-evenly  z-10'>
 
                     <div className="flex flex-col font-Maven text-[#808080] text-[0.9em]">
                         <span className="text-[#277773] text-[1.1em]">USEFUL LINKS</span>
@@ -52,7 +53,7 @@ export default function footer(){
                     </div>
                 </div>
             </div>
-            <img src={img} className='h-screen w-screen object-cover'/>
+                <img src={img} className='h-screen w-screen object-cover'/>
         </>
     );
 }

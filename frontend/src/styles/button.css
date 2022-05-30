@@ -1,0 +1,8 @@
+#btn{
+    background-color: #39AEA8;
+    min-width : 10vw;
+    border-radius: 6px; 
+    padding: 0.5vw 0vw 0.5vw ;
+    margin-top: 2vw;
+    box-shadow: 8.5px 10.5px 27px 1px #CECECE, -12px -6px 14px 1px #ffffff;
+}

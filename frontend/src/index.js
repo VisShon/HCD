@@ -6,6 +6,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Landing from './pages/Landing';
 import CommingSoon from './pages/Commingsoon';
 import NotFound from './pages/Notfound';
+import Faculty from './pages/Faculty';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -19,6 +20,9 @@ root.render(
     </Routes>
     <Routes>
       <Route path="/NotFound" element={<NotFound/>}/>
+    </Routes>
+    <Routes>
+      <Route path="/Faculty" element={<Faculty/>}/>
     </Routes>
   </BrowserRouter>
 );

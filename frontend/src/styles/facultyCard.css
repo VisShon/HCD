@@ -1,0 +1,8 @@
+#facultyCard{
+    background-color: #f1f1f1;
+    margin-bottom:10vw;
+    width: 20em;
+    height: 30em;
+    box-shadow: 20px 20px 27px 1px #d2d2d36c, -10px -10px 40px 1px #ffffff;
+    border-radius: 80px;
+}
