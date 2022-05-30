@@ -1,0 +1,52 @@
+.body{
+    display: flex;
+    width: screen;
+    height: screen;
+}
+
+.body-section{
+    width: 75%;
+    justify-content:flex-end;
+    text-align: right;
+}
+
+#panel{
+    height: 100vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#logoSec{
+    margin-top: 3em;
+    padding: 2vw;
+}
+#logo{
+    background-color: #EEEEEE;
+    border-radius: 20em;
+    padding: 1rem;
+    width: 10vw;
+    height: 10vw;
+    box-shadow: 2px 2px 45px 1px #6161615b;
+}
+
+
+
+#contentSpace{
+    padding-top: 10em;
+    padding-bottom: 10em;
+    padding-right: 5em;
+    display: flex;
+    flex-direction: column;
+}
+#description{
+     align-self: flex-end;
+     margin-top: 6em;
+}
+#btn{
+    margin-top:5em;
+    align-self: flex-end;
+    border-radius: 1em;
+}
+
