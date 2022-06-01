@@ -22,9 +22,6 @@ function Commingsoon(){
                         </div>
                     </div>
                 </ScrollPage>
-                <ScrollPage page={1}>
-                    <Footer/>
-                </ScrollPage>
             </ScrollContainer>
         </>
     );
