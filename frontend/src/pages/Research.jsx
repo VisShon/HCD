@@ -20,11 +20,11 @@ function Research(){
     return (
         <>
             <div class='body'>
-                {/* <Panel color='#39AEA8' logo={di} image={robo}/>
+                <Panel color='#39AEA8' logo={di} image={robo}/>
                 <Panel color='#F4B950' logo={weave} image={vr}/>
-                <Panel color='#F28900' logo={midas} image={hands}/> */}
+                <Panel color='#F28900' logo={midas} image={hands}/>
                 <Panel color='#A4DAC3' logo={living} image={hci}/>
-                <Body/>
+                {/* <Body/> */}
             </div>
         </>
     )
