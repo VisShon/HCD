@@ -5,7 +5,7 @@ import '../styles/research.css';
 function researchbody(data) {
   return (
     <div class='body'>
-      <div class="body-section">
+      <div id="body-section">
         <div id="contentSpace">
             <h2 id="title" className="font-Archivo text-[3.5rem] font-bold" style={{color: data.color}}>{data.title}</h2>
             <h id="info" className="font-Archivo text-[1.5rem] font-semibold text-[#464646]">{data.info}</h>
