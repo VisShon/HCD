@@ -28,10 +28,15 @@ function clicked(id){
         }
     }
 }
+
+function back(){
+    window.location.reload(false);
+}
 function Research(){
 
     return (
         <>
+            <button type="button"  onClick={()=>back()}>back</button>
             <div className="panelBody">
                 <div id = 'panel1' onClick={()=>clicked('panel1')}>
                     <Panel color='#39AEA8' logo={di} image={robo}/>
@@ -45,8 +50,8 @@ function Research(){
                 <div id='panel4' onClick={()=>clicked('panel4')}>
                     <Panel color='#A4DAC3' logo={living} image={hci} />
                 </div>
-                <Body title='Human - Machine Interaction Lab' color='#39AEA8' info='Dr. Jainendra Shukla, A - 413' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus sapien, ullamcorper vel lorem at, volutpat eleifend orci. Proin sagittis tristique euismod. ' link='https://hmi.iiitd.edu.in/'/>
             </div>
+            <Body title='Human - Machine Interaction Lab' color='#39AEA8' info='Dr. Jainendra Shukla, A - 413' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus sapien, ullamcorper vel lorem at, volutpat eleifend orci. Proin sagittis tristique euismod. ' link='https://hmi.iiitd.edu.in/'/>
         </>
     )
 };
