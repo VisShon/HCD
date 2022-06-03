@@ -20,24 +20,28 @@ import hci from '../assets/hci.png'
 const arr = ['1','2','3','4']
 
 function clicked(id){
-    console.log('clicked')
-    var panel = document.getElementById(id);
-    var body = document.getElementById('body-section');
     for(var i = 0; i < arr.length; i++){
         if(arr[i]!== id){
             const hide = document.getElementById(arr[i]);
             hide.style="transition: opacity 0.2s; opacity: 0;pointer-events: none;"
         }
     }
-    const x = document.getElementById('backBtn');
-    x.hidden=false;
+
+    var panel = document.getElementById(id);
+    var body = document.getElementById('body-section');
     panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(25*(parseInt(id)-1))+'vw);pointer-events: none;';
     body.style="transform: translateX(0);"
+
+    const x = document.getElementById('backBtn');
+    x.hidden=false;
+
 }
 
 function back(){
     window.location.reload(false);
 }
+
+
 function Research(){
 
     return (
