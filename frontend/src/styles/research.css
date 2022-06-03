@@ -2,14 +2,20 @@
     display: flex;
     width: screen;
     height: screen;
+    justify-content: flex-end;
 }
 
 .body-section{
     width: 75%;
-    justify-content:flex-end;
+    margin-right: 10vh;
     text-align: right;
+    position: absolute;
+    z-index: -10;
 }
 
+.panelBody{
+    display: flex;
+}
 #panel{
     height: 100vh;
     width: 25vw;
@@ -17,6 +23,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    
 }
 #logoSec{
     margin-top: 3em;
@@ -36,7 +43,6 @@
 #contentSpace{
     padding-top: 10em;
     padding-bottom: 10em;
-    padding-right: 5em;
     display: flex;
     flex-direction: column;
 }
@@ -45,6 +51,7 @@
      margin-top: 6em;
 }
 #btn{
+    text-align: center;
     margin-top:5em;
     align-self: flex-end;
     border-radius: 1em;
