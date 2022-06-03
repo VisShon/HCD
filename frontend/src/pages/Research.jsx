@@ -27,6 +27,8 @@ function clicked(id){
             hide.hidden = true;
         }
     }
+    const x = document.getElementById('backBtn');
+    x.hidden = false;
 }
 
 function back(){
@@ -36,7 +38,7 @@ function Research(){
 
     return (
         <>
-            <button type="button"  onClick={()=>back()}>back</button>
+            <button type="button" id='backBtn' hidden="true" onClick={()=>back()}>X</button>
             <div className="panelBody">
                 <div id = 'panel1' onClick={()=>clicked('panel1')}>
                     <Panel color='#39AEA8' logo={di} image={robo}/>
