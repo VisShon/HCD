@@ -38,6 +38,12 @@
     
     overflow: hidden;
 }
+
+#panel:hover{
+    transition: transform 0.3s ease-out;
+    transform: scale(1.025);
+}
+
 #logoSec{
     margin-top: 3em;
     padding: 2vw;

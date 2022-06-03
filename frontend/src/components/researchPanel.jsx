@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 function researchPanel(data){
+
     return (
       <>
         <div id='panel' style={{backgroundColor:data.color}}>
@@ -7,7 +8,7 @@ function researchPanel(data){
                   <img id='logo' src={data.logo}/>
               </div>
               <div>
-                  <img src={data.image}/>
+                  <img id='panelImage' src={data.image}/>
               </div>
         </div>
       </>

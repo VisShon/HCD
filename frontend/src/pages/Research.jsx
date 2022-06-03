@@ -24,15 +24,14 @@ function clicked(id){
     for(var i = 0; i < arr.length; i++){
         if(arr[i]!== id){
             const hide = document.getElementById(arr[i]);
-            hide.style="transition: opacity 0.3s; opacity: 0;"
+            hide.style="transition: opacity 0.2s; opacity: 0;"
         }
     }
     const x = document.getElementById('backBtn');
     x.hidden=false;
-    panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(25*(parseInt(id)-1))+'vw)';
+    panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(25*(parseInt(id)-1))+'vw);pointer-events: none;';
     body.style="transform: translateX(0);"
 }
-
 
 function back(){
     window.location.reload(false);
