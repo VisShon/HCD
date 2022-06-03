@@ -77,7 +77,8 @@
 
 }
 #backBtn{
-    margin: 1em;
+    margin: 1.5em;
+    transform: scale(1.5);
     position: absolute;
     z-index: 20;
 }

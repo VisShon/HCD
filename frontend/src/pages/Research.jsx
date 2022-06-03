@@ -3,6 +3,8 @@ import '../styles/research.css';
 import Panel from '../components/researchPanel';
 import Body from '../components/researchbody';
 
+import backBtn from '../assets/bBtn.png'
+
 import di from '../assets/di.png'
 import robo from '../assets/robo.png';
 
@@ -24,7 +26,7 @@ function clicked(id){
     for(var i = 0; i < arr.length; i++){
         if(arr[i]!== id){
             const hide = document.getElementById(arr[i]);
-            hide.style="transition: opacity 0.2s; opacity: 0;"
+            hide.style="transition: opacity 0.2s; opacity: 0;pointer-events: none;"
         }
     }
     const x = document.getElementById('backBtn');
@@ -40,7 +42,9 @@ function Research(){
 
     return (
         <>
-            <button className="font-Maven text-[#ffffff]" type="button" id='backBtn' hidden="true" onClick={()=>back()} >X</button>
+            <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
+                <img src={backBtn}/>
+            </button>
             <div className="panelBody">
                 <div id = '1' onClick={()=>clicked('1')}>
                     <Panel color='#39AEA8' logo={di} image={robo}/>
