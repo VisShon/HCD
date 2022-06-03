@@ -37,7 +37,7 @@ function Research(){
 
     return (
         <>
-            <button type="button" id='backBtn' hidden="true" onClick={()=>back()}>X</button>
+            <button className="font-Maven text-[#ffffff]" type="button" id='backBtn' hidden="true" onClick={()=>back()} >X</button>
             <div className="panelBody">
                 <div id = 'panel1' onClick={()=>clicked('panel1')}>
                     <Panel color='#39AEA8' logo={di} image={robo}/>
