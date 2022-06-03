@@ -20,7 +20,6 @@ const arr = ['panel1','panel2','panel3','panel4']
 function clicked(id){
     console.log('clicked')
     var panel = document.getElementById(id);
-    var body = document.getElementById('contentSpace');
     for(var i = 0; i < arr.length; i++){
         if(arr[i]!== id){
             const hide = document.getElementById(arr[i]);
@@ -52,8 +51,8 @@ function Research(){
                 <div id='panel4' onClick={()=>clicked('panel4')}>
                     <Panel color='#A4DAC3' logo={living} image={hci} />
                 </div>
+                <Body title='Human - Machine Interaction Lab' color='#39AEA8' info='Dr. Jainendra Shukla, A - 413' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus sapien, ullamcorper vel lorem at, volutpat eleifend orci. Proin sagittis tristique euismod. ' link='https://hmi.iiitd.edu.in/'/>
             </div>
-            <Body title='Human - Machine Interaction Lab' color='#39AEA8' info='Dr. Jainendra Shukla, A - 413' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus sapien, ullamcorper vel lorem at, volutpat eleifend orci. Proin sagittis tristique euismod. ' link='https://hmi.iiitd.edu.in/'/>
         </>
     )
 };
