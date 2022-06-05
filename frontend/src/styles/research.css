@@ -9,12 +9,26 @@
     position: absolute;
     top: 0px;
     overflow: hidden;
+
+    animation-name: researchBodyBringFront;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
+@keyframes researchBodyBringFront {
+    0%{
+        z-index: -20;
+    }
+    100%{
+        z-index: 40;
+    }
+}
+
 #body-section{
     transform: translateX(100%);
     transition: transform ease-out 0.5s;
     width: 75%;
-    margin-right: 10vh;
+    margin-right: calc(10vh - 2rem);
     text-align: right;
     overflow: hidden;
 
@@ -27,10 +41,12 @@
     0%{
         opacity: 0%;
         transform: translateX(100%);
+        z-index: -20;
     }
     100%{
         opacity: 100%;
         transform: translateX(0);
+        z-index: 40;
     }
 }
 
@@ -74,15 +90,27 @@
 }
 
 
+#title{
+    margin-right: 2rem;
 
+}
+#info{
+    margin-right: 2rem;
+}
 #contentSpace{
     padding-top: 20%;
     display: flex;
     flex-direction: column;
+
+    margin-right: 2rem;
+
+    
 }
 #description{
      align-self: flex-end;
      margin-top: 6em;
+
+    margin-right: 2rem;
 }
 #btn{
     text-align: center;
@@ -90,6 +118,7 @@
     align-self: flex-end;
     border-radius: 1em;
 
+    margin-right: 2rem;
 }
 #backBtn{
     margin: 1.5em;
@@ -106,8 +135,10 @@
 @keyframes backButtonFadeIn {
     0%{
         opacity: 0%;
+        z-index: 20;
     }
     100%{
         opacity: 100%;
+        z-index: 50;
     }
 }
