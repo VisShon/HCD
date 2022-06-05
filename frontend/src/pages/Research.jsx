@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import '../styles/research.css';
 import Panel from '../components/researchPanel';
 import Body from '../components/researchbody';
@@ -17,25 +17,11 @@ import hands from '../assets/hands.png'
 import living from '../assets/living.png';
 import hci from '../assets/hci.png'
 
+import data from '../data/researchPageData.json';
+
 const arr = ['1','2','3','4']
 
-function clicked(id){
-    for(var i = 0; i < arr.length; i++){
-        if(arr[i]!== id){
-            const hide = document.getElementById(arr[i]);
-            hide.style="transition: opacity 0.2s; opacity: 0;pointer-events: none;"
-        }
-    }
 
-    var panel = document.getElementById(id);
-    var body = document.getElementById('body-section');
-    panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(25*(parseInt(id)-1))+'vw);pointer-events: none;';
-    body.style="transform: translateX(0);"
-
-    const x = document.getElementById('backBtn');
-    x.hidden=false;
-
-}
 
 function back(){
     window.location.reload(false);
@@ -43,6 +29,24 @@ function back(){
 
 
 function Research(){
+    const [panelID, setPanelID] = useState('0');
+    
+    function clicked(id){
+        for(var i = 0; i < arr.length; i++){
+            if(arr[i]!== id){
+                const hide = document.getElementById(arr[i]);
+                hide.style="transition: opacity 0.2s; opacity: 0;pointer-events: none;"
+            }
+        }
+        setPanelID(id);
+        var panel = document.getElementById(id);
+        // var body = document.getElementById('body-section');
+        panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(25*(parseInt(id)-1))+'vw);pointer-events: none;';
+        // body.style="transform: translateX(0);"
+
+        const x = document.getElementById('backBtn');
+        x.hidden=false;
+    }
 
     return (
         <>
@@ -62,7 +66,7 @@ function Research(){
                 <div id='4' onClick={()=>clicked('4')}>
                     <Panel color='#A4DAC3' logo={living} image={hci} />
                 </div>
-                <Body title='Human - Machine Interaction Lab' color='#39AEA8' info='Dr. Jainendra Shukla, A - 413' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus sapien, ullamcorper vel lorem at, volutpat eleifend orci. Proin sagittis tristique euismod. ' link='https://hmi.iiitd.edu.in/'/>
+                <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>
             </div>
         </>
     )

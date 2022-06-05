@@ -1,3 +1,34 @@
-{
-    
-}
+[
+    {
+        "title": "Human - Machine Interaction Lab",
+        "subtitle": "Dr. Jainendra Shukla, A - 413",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus sapien, ullamcorper vel lorem at, volutpat eleifend orci. Proin sagittis tristique euismod. ",
+        "buttonText": "Visit Website",
+        "link":"https://hmi.iiitd.edu.in/",
+        "color": "#39AEA8"
+    },
+    {
+        "title": "Weave Lab",
+        "subtitle": "Dr. Jainendra Shukla, A - 413",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus sapien, ullamcorper vel lorem at, volutpat eleifend orci. Proin sagittis tristique euismod. ",
+        "buttonText": "Visit Website",
+        "link":"https://hmi.iiitd.edu.in/",
+        "color": "#F4B950"
+    },
+    {
+        "title": "MIDAS Lab",
+        "subtitle": "Dr. Jainendra Shukla, A - 413",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus sapien, ullamcorper vel lorem at, volutpat eleifend orci. Proin sagittis tristique euismod. ",
+        "buttonText": "Visit Website",
+        "link":"https://hmi.iiitd.edu.in/",
+        "color": "#F28900"
+    },
+    {
+        "title": "Living Lab",
+        "subtitle": "Dr. Jainendra Shukla, A - 413",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus sapien, ullamcorper vel lorem at, volutpat eleifend orci. Proin sagittis tristique euismod. ",
+        "buttonText": "Visit Website",
+        "link":"https://hmi.iiitd.edu.in/",
+        "color": "#A4DAC3"
+    }
+]

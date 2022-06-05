@@ -17,6 +17,21 @@
     margin-right: 10vh;
     text-align: right;
     overflow: hidden;
+
+    animation-name: researchBodyFadeIn;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes researchBodyFadeIn {
+    0%{
+        opacity: 0%;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 100%;
+        transform: translateX(0);
+    }
 }
 
 
@@ -81,4 +96,18 @@
     transform: scale(1.5);
     position: absolute;
     z-index: 20;
+    opacity: 0%;
+
+    animation-name: backButtonFadeIn;
+    animation-delay: 1s;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+@keyframes backButtonFadeIn {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
 }
