@@ -9,6 +9,7 @@ import NotFound from './pages/Notfound';
 import Faculty from './pages/Faculty';
 import Research from './pages/ResearchLabs.jsx';
 import Academics from './pages/Academics';
+import Research from './pages/ResearchProj';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
