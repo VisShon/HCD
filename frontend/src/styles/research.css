@@ -68,6 +68,8 @@
     justify-content: center;
     
     overflow: hidden;
+    transition: transform 0.3s ease-out;
+    transform: scale(1);
 }
 
 #panel:hover{
@@ -188,12 +190,25 @@
 
 
 
-
+#projBody{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10em;
+}
 #profScroll{
-    position: absolute;
-    top: 20%;
     display: flex;
     width: 100%;
     padding: 5em;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+#publicationsSection{
+    position : relative;
+    top: -2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    background-color: #ffffff;
+    width: 90%;
 }

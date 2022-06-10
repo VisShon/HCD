@@ -1,8 +1,9 @@
 import React from 'react'
 import NavBar from '../components/navbar';
 import ProfCard from '../components/profCard'
+import ProjDescp from '../components/projDescp';
+import grace from '../assets/profsImg/grace.png'
 import '../styles/research.css'
-
 function ResearchProj() {
     const data = [
         {
@@ -39,10 +40,18 @@ function ResearchProj() {
   return (
     <>
         <NavBar logo={true}/>
-        <div id="profScroll">
-            {data.map((item,index)=>(
-                <ProfCard  image={item.image} name={item.name}key={index}/>
-            ))}
+        <div id="projBody"> 
+            <div id="profScroll">
+                {data.map((item,index)=>(
+                    <ProfCard  img={grace} name={item.name}key={index}/>
+                ))}
+            </div>
+            <div id='publicationsSection' className="p-[2%]">
+                    <ProjDescp/>
+                    <ProjDescp/>
+                    <ProjDescp/>
+                    <ProjDescp/>
+            </div>
         </div>
     </>
   )
