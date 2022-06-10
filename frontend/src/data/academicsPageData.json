@@ -1,0 +1,12 @@
+{
+    "section1": {
+        "headingBlack": "B.Tech In",
+        "headingBold": "Computer Science And Design",
+        "body": "\"Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices.\""
+    },
+    "section2":{
+        "leftText": "With internet expanding in all spheres of life, and most industries increasing their web presence and interactivity with their stakeholders and customers, demand for incorporating good design and interaction design with rich media is increasing in all businesses. With increasing focus on user experience, the importance of Interaction Design and Design Methods is also increasing rapidly in IT products and services.",
+        "rightText": "The B.Tech. in Computer Science and Design aims to develop graduates that are not only well versed with computing approaches, tools, and technologies, but are also experienced with Design approaches and new Media technologies and uses. The program has a small set of core courses in CS and Design, and many electives which can be taken from CS as well as Design and Digital Media. This enables the students to build a program most suitable for them.",
+        "bottomText": " The program will prepare students to work in the IT industry as well as digital media industry like gaming, animation, virtual/augmented reality, etc. The program will also allow students, who want to pursue higher studies, to take up higher studies in CS/IT or in Design."
+    }
+}
