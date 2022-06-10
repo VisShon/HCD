@@ -1,5 +1,5 @@
 import '../styles/facultyCard.css';
-import NavBar2 from '../components/navbar2';
+import NavBar from '../components/navbar';
 import Footer from '../components/footer';
 import pup from '../assets/pup.png';
 import coding from '../assets/coding.png';
@@ -9,7 +9,7 @@ function Faculty(){
     return(
         <>
             <div className=" h-screen w-screen  bg-[#39AEA8]">
-                <NavBar2/>
+                <NavBar logo={true}/>
                 <div className="flex absolute z-[10]">
                     <div className=" justify-self-start">
                         <p className="font-Archivo font-bold text-[#F1F1F1] text-[5vw] m-20 w-[10vw] ">Faculty</p>

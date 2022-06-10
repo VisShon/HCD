@@ -13,7 +13,7 @@ function Landing() {
     <>
       <ScrollContainer>
 
-          <NavBar/>
+          <NavBar logo={false}/>
 
           <ScrollPage page={0}>
             <MainSection cardContent={LandingPageData.cardContent}/>
