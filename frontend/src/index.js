@@ -7,7 +7,7 @@ import Landing from './pages/Landing';
 import CommingSoon from './pages/Commingsoon';
 import NotFound from './pages/Notfound';
 import Faculty from './pages/Faculty';
-import Research from './pages/Research';
+import Research from './pages/ResearchLabs.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

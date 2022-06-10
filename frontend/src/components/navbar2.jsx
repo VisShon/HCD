@@ -6,7 +6,7 @@ export default function NavBar2(){
     return(
         <>  
             <div id='navbar2' className="flex items-center">
-                <div className="rounded-br-[90px] bg-[#F1F1F1] items-center">
+                <div className="rounded-br-[90px] bg-[#F1F1F1] items-center ">
                     <img src = {logo} className="h-[10em] mx-[2vw] my-[1vw]"/>
                 </div>
                 <div id='navbar' className='font-Archivo text-[#444343] '>

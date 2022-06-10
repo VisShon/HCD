@@ -31,7 +31,6 @@
     margin-right: calc(10vh - 2rem);
     text-align: right;
     overflow: hidden;
-
     animation-name: researchBodyFadeIn;
     animation-delay: 0.3s;
     animation-duration: 1s;
@@ -53,19 +52,20 @@
 
 .panelBody{
     display: flex;
+    align-items: center;
     z-index: 10;
     overflow: hidden;
 }
 #panel{
-    
+    position: relative;
     height: 100vh;
-    width: 25vw;
+    width: 20vw;
     
     display: flex;
     flex-direction: column;
 
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     
     overflow: hidden;
 }
@@ -75,46 +75,67 @@
     transform: scale(1.025);
 }
 
+#panelImage{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    margin-top:10vw;
+    animation-name: imgDown;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 #logoSec{
-    margin-top: 3em;
-    padding: 2vw;
+    position: absolute;
+    z-index: 10;
+    padding: 1vw;
+    top:20vw;
+
+    
+    animation-name: logoUp;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 #logo{
+    object-fit: cover;
     background-color: #EEEEEE;
     border-radius: 20em;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 10vw;
     height: 10vw;
     box-shadow: 2px 2px 45px 1px #6161615b;
-    object-fit: cover;
 }
 
 
 #title{
     margin-right: 2rem;
+    right: 0;
+    padding-left: 30%;
 
 }
 #info{
     margin-right: 2rem;
 }
 #contentSpace{
-    padding-top: 20%;
     display: flex;
+    position: absolute;
     flex-direction: column;
-
+    top:20%;
     margin-right: 2rem;
 
     
 }
 #description{
      align-self: flex-end;
-     margin-top: 6em;
+     margin-top: 3em;
 
     margin-right: 2rem;
 }
 #btn{
     text-align: center;
-    margin-top:5em;
+    margin-top:2.5em;
     align-self: flex-end;
     border-radius: 1em;
 
@@ -131,6 +152,24 @@
     animation-delay: 1s;
     animation-duration: 0.2s;
     animation-fill-mode: forwards;
+}
+@keyframes logoUp {
+    0%{
+        transform: translateY(0vw)
+    }
+    100%{
+        transform: translateY(-10vw)
+    }
+    
+}
+@keyframes imgDown {
+    0%{
+        transform: translateY(0vw)
+    }
+    100%{
+        transform: translateY(10vw)
+    }
+    
 }
 @keyframes backButtonFadeIn {
     0%{

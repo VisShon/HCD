@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Design and  Innovation Lab",
+        "subtitle": "Dr. Aman Parnami, A - 405",
+        "description": "Design & Innovation Lab offers a unique opportunity for students for prototyping of their ideas and thereby inculcate the habit of innovation, which can be useful for society, community, research so as to improve quality of life human beings live and promoting Do-It-Yourself attitude.",
+        "buttonText": "Visit Website",
+        "link":"https://dilab.iiitd.ac.in/",
+        "color": "#39AEA8"
+    },
+    {
+        "title": "Centre for Design and New Media",
+        "subtitle": "Prof. Mukesh Mohania, A - 507",
+        "description": "The Center is unique in the country and brings together researchers in the areas of design, computer science, and new media, to conduct research and education in areas of Interaction Design, HCI, New Media, Animation, Film & Video, Gaming, etc., and how they can be leveraged effectively in domains like education, healthcare and transportation.",
+        "buttonText": "Visit Website",
+        "link":"https://cdnm.iiitd.ac.in/",
+        "color": "#1799C2"
+    },
+    {
+        "title": "Centre for Design and New Media",
+        "subtitle": "Prof. Mukesh Mohania, A - 507",
+        "description": "The Center is unique in the country and brings together researchers in the areas of design, computer science, and new media, to conduct research and education in areas of Interaction Design, HCI, New Media, Animation, Film & Video, Gaming, etc., and how they can be leveraged effectively in domains like education, healthcare and transportation.",
+        "buttonText": "Visit Website",
+        "link":"https://cdnm.iiitd.ac.in/",
+        "color": "#1799C2"
+    }
+]
