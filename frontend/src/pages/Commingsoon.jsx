@@ -1,4 +1,4 @@
-import NavBar2 from '../components/navbar2';
+import NavBar from '../components/navbar';
 import Footer from '../components/footer';
 import pup from '../assets/pup.png';
 import coding from '../assets/coding.png';
@@ -11,7 +11,7 @@ function Commingsoon(){
                 <ScrollPage page={0}>
                     <div className="flex flex-col relative h-screen w-screen  bg-[#39AEA8]">
                         <div>
-                            <NavBar2/>
+                            <NavBar logo={true}/>
                             <div className="flex justify-start">
                                 <p className="font-Archivo font-bold text-[#F1F1F1] text-[8vw] m-20 w-[10vw] "> Coming Soon</p>
                                 <img src={pup} className="absolute z-0 bottom-0 w-[65vw] mx-[25%]"/>

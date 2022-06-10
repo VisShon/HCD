@@ -1,11 +1,18 @@
+#navbarContainer{
+  position: absolute;
+  z-index: 100;
+
+  display: flex;
+  min-width: 100%;
+}
 #navbar{
-    display: flex;
-    justify-content: space-evenly;
-    min-width: 62%;
-    right: 0;
-    text-color: #444343;
-    font-size: 1.2vw;
-    font-weight: 500;
-    position: absolute;
-    z-index: 100;
-  }
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 62%;
+  right: 0;
+  /* color: #444343; */
+  font-size: 1.1rem;
+  font-weight: 500;
+  position: absolute;
+  z-index: 100;
+}
