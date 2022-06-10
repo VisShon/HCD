@@ -10,7 +10,7 @@ import LandingPageData from "../data/landingPageData.json";
 
 function Landing() {
   return (
-    <>
+    <div className="relative">
       <ScrollContainer>
 
           <NavBar logo={false}/>
@@ -20,35 +20,45 @@ function Landing() {
           </ScrollPage>
 
           <ScrollPage page={1}>
-            <WhyUsSection />
+            <WhyUsSection left={150}/>
           </ScrollPage>
-
           <ScrollPage page={2}>
-            <PeopleSection content={LandingPageData.alumniData}/>
+            <WhyUsSection left={46}/>
+          </ScrollPage>
+          <ScrollPage page={3}>
           </ScrollPage>
 
-          <ScrollPage page={3}>
-            <PeopleSection content={LandingPageData.studentData}/>
-          </ScrollPage>
+
 
           <ScrollPage page={4}>
+            <PeopleSection content={LandingPageData.alumniData}/>
+          </ScrollPage>
+          <ScrollPage page={5}>
+            <PeopleSection content={LandingPageData.studentData}/>
+          </ScrollPage>
+          <ScrollPage page={6}>
             <PeopleSection content={LandingPageData.paperData}/>
           </ScrollPage>
-
-          <ScrollPage page={5}>
+          <ScrollPage page={7}>
             <PeopleSection content={LandingPageData.facultyData}/>
           </ScrollPage>
 
-          <ScrollPage page={6}>
-            <GallerySection />
+
+          
+          <ScrollPage page={8}>
+            <GallerySection left={150}/>
+          </ScrollPage>
+          <ScrollPage page={9}>
+            <GallerySection left={46}/>
+          </ScrollPage>
+          <ScrollPage page={10}>
           </ScrollPage>
           
-          <ScrollPage page={7}>
-            <Footer/>
-          </ScrollPage>
+
+          <Footer/>
 
       </ScrollContainer>
-    </>
+    </div>
   );
 }
 

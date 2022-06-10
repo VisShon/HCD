@@ -1,12 +1,12 @@
 
 #footer{
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    min-height: 60%;
+    min-height: 5%;
     min-width: 100%;
     bottom: 0;
-    position: absolute;
     border-radius: 40px 40px 0px 0px;
     background-color: #ffffff;
 }

@@ -42,15 +42,14 @@ function ResearchProj() {
         <NavBar logo={true}/>
         <div id="projBody"> 
             <div id="profScroll">
-                {data.map((item,index)=>(
-                    <ProfCard  img={grace} name={item.name}key={index}/>
+                {data.map((prof,Pindex)=>(
+                    <ProfCard  img={grace} name={prof.name}key={Pindex}/>
                 ))}
             </div>
             <div id='publicationsSection' className="p-[2%]">
+                {data.map((decp,Dindex)=>(
                     <ProjDescp/>
-                    <ProjDescp/>
-                    <ProjDescp/>
-                    <ProjDescp/>
+                ))}
             </div>
         </div>
     </>

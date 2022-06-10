@@ -9,11 +9,9 @@
 }
 
 
-#whyUsSection{
-  min-width: 100%;
-  min-height: 100%;
+.whyUsSection{
+  width: 100vw;
+  height: 200vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #f1f1f1;
 }

@@ -9,7 +9,8 @@ import NotFound from './pages/Notfound';
 import Faculty from './pages/Faculty';
 // import Research from './pages/ResearchLabs.jsx';
 import Academics from './pages/Academics';
-import Research from './pages/ResearchProj';
+import Research from './pages/ResearchLabs';
+import ResearchProj from './pages/ResearchProj';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -29,6 +30,9 @@ root.render(
     </Routes>
     <Routes>
       <Route path="/Research" element={<Research/>}/>
+    </Routes>
+    <Routes>
+      <Route path="/Res" element={<ResearchProj/>}/>
     </Routes>
     <Routes>
       <Route path="/Academics" element={<Academics/>}/>

@@ -53,7 +53,7 @@ export default function footer(){
                     </div>
                 </div>
             </div>
-                <img src={img} className='h-screen w-screen object-cover'/>
+            <img src={img} className='h-screen w-screen object-cover'/>
         </>
     );
 }

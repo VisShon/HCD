@@ -2,7 +2,7 @@ import React, { Component, useState } from 'react'
 import '../styles/research.css';
 import Panel from '../components/researchPanel';
 import Body from '../components/researchbody';
-
+import NavBar from '../components/navbar';
 import backBtn from '../assets/bBtn.png'
 
 import aid from '../assets/aid.png'
@@ -56,6 +56,7 @@ function Research(){
 
     return (
         <>
+            <NavBar/>
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>
