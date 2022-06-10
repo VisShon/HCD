@@ -8,6 +8,7 @@ import CommingSoon from './pages/Commingsoon';
 import NotFound from './pages/Notfound';
 import Faculty from './pages/Faculty';
 import Research from './pages/ResearchLabs.jsx';
+import Academics from './pages/Academics';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -27,6 +28,9 @@ root.render(
     </Routes>
     <Routes>
       <Route path="/Research" element={<Research/>}/>
+    </Routes>
+    <Routes>
+      <Route path="/Academics" element={<Academics/>}/>
     </Routes>
   </BrowserRouter>
 );
