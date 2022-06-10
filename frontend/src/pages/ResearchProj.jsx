@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../components/navbar2';
+import NavBar from '../components/navbar';
 import ProfCard from '../components/profCard'
 import '../styles/research.css'
 
@@ -38,7 +38,7 @@ function ResearchProj() {
     ];
   return (
     <>
-        <NavBar/>
+        <NavBar logo={true}/>
         <div id="profScroll">
             {data.map((item,index)=>(
                 <ProfCard  image={item.image} name={item.name}key={index}/>

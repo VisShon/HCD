@@ -190,6 +190,8 @@
 
 
 #profScroll{
+    position: absolute;
+    top: 20%;
     display: flex;
     width: 100%;
     padding: 5em;
