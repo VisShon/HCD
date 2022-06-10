@@ -1,0 +1,105 @@
+.section1Container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sec1Info{
+    margin-top: 17rem;
+    margin-left: 4rem;
+    grid-column: 1/2;
+    margin-right: 7rem;
+}
+.sec1Info h1{
+    font-family: Archivo;
+    font-size: 2.3rem;
+}
+.sec1Info h2{
+    font-family: Archivo;
+    font-size: 4rem;
+    line-height: 4rem;
+
+    color: #39AEA8;
+}
+.sec1Info p{
+    width: 85%;
+    margin-top: 2rem;
+    font-family: Archivo;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.sec1ImgContainer{
+    display: flex;
+    grid-column: 2/3;
+    height: 100vh;
+    justify-content: end;
+}
+.sec1Img{
+    height: 100%;
+    z-index: -20;
+    opacity: 0%;
+    animation-duration: 1 s;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.section2Container{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2Container img{
+    z-index: -5;
+    height: 80%;
+}
+.section2Container .textContainer{
+    font-family: Archivo;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+.textContainer .flex1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 10rem;
+}
+.textContainer .flex2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 6rem;
+}
+.textContainer .left{
+    width: 34%;
+    text-align: right;
+    margin-right: 8rem;
+    line-height: 2rem;
+}
+.textContainer .right{
+    width: 34%;
+    text-align: left;
+    margin-left: 8rem;
+    line-height: 2rem;
+}
+.textContainer .bottom{
+    width: 30%;
+    text-align: center;
+    line-height: 2rem;
+}
