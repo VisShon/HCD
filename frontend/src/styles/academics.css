@@ -119,6 +119,7 @@
 }
 .section3Container img{
     height: 100vh;
+    object-fit: cover;
 }
 .section3Container .infoContainer{
     margin-top: 10rem;
