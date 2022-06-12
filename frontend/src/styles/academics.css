@@ -277,7 +277,7 @@
 
 .section5Container .courses{
     width: 80%;
-    min-height: 20rem;
+    min-height: 25rem;
     display: flex;
     justify-content: left;
     overflow: auto;
@@ -369,7 +369,7 @@
     display: flex;
     justify-content: center;
 
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
 }
 .section7Container .cardsContainer{
     display: flex;
