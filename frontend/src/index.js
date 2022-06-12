@@ -4,7 +4,7 @@ import './styles/index.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 import Landing from './pages/Landing';
-import CommingSoon from './pages/Commingsoon';
+import ComingSoon from './pages/Comingsoon';
 import NotFound from './pages/Notfound';
 import Faculty from './pages/Faculty';
 import Academics from './pages/Academics';
@@ -22,7 +22,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Landing/>} />
-      <Route path="/CommingSoon" element={<CommingSoon/>}/>
+      <Route path="/ComingSoon" element={<ComingSoon/>}/>
 
 
       <Route path="/Faculty" element={<Faculty/>}/>

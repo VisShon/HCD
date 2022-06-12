@@ -7,7 +7,7 @@ const PageData =data.section7
 export default function StudentConduct(){
     return(
         <>
-            <NavBar/>
+        <NavBar logo={true} />
             <div className="section7Container">
                 <h1>
                     {PageData.heading}
