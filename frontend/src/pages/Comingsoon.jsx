@@ -4,7 +4,7 @@ import pup from '../assets/pup.png';
 import coding from '../assets/coding.png';
 import {ScrollContainer, ScrollPage} from "react-scroll-motion";
 
-function Commingsoon(){
+function ComingSoon(){
     return(
         <>
             <NavBar logo={true}/>
@@ -20,4 +20,4 @@ function Commingsoon(){
         </>
     );
 }
-export default Commingsoon;
+export default ComingSoon;

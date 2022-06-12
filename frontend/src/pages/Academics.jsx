@@ -19,8 +19,6 @@ export default function Academics(){
             <Section3 data={data.section3} />
             <Section4 data={data.section4} />
             <Section5 data={data.section5} />
-            <Section6 data={data.section6} />
-            <Section7 data={data.section7} />
         </>
     );
 }

@@ -53,7 +53,7 @@ export default function NavBar({logo}){
                             <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
                             <Link id="subHeading" to='/academics'>B.Tech. in CSD </Link>
                             <Link id="subHeading" to='/phd'>Ph.D.</Link>
-                            <Link id="subHeading" to='/studentConduct'>Student Conduct Policy</Link>
+                            <Link id="subHeading" to='/StudentConduct'>Student Conduct Policy</Link>
                         </div>}
                     </div>
 
@@ -84,7 +84,7 @@ export default function NavBar({logo}){
 
                     <div>|</div>
 
-                    <Link  className="w-[20%] text-center mx-5 hover:bg-[#C1DFDE] rounded-[0.5rem]" to='/commingsoon'>CONTACT US</Link>
+                    <Link  className="w-[20%] text-center mx-5 hover:bg-[#C1DFDE] rounded-[0.5rem]" to='/comingSoon'>CONTACT US</Link>
                 </div>
             </div>
         </>

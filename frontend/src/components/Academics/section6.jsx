@@ -1,8 +1,10 @@
 import phdImg from "../../assets/academics/PHDimg.svg";
+import NavBar from "../navbar";
 
 export default function Section6({data}){
     return(
         <>
+            <NavBar logo={true}/>
             <div className="section6Container">
                 <span className="infoContainer">
                     <h1>{data.heading}</h1>

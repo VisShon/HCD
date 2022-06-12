@@ -1,8 +1,10 @@
 import arrow from "../../assets/academics/arrow.svg";
+import NavBar from "../navbar";
 
 export default function Section7({data}){
     return(
         <>
+        <NavBar logo={true} />
             <div className="section7Container">
                 <h1>
                     {data.heading}
