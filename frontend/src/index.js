@@ -22,9 +22,6 @@ root.render(
       <Route path="/Academics" element={<Academics/>}/>
       <Route path="*" element={<NotFound/>}/>
     </Routes>
-    <Routes>
-      <Route path="*" element={<NotFound/>}/>
-    </Routes>
   </BrowserRouter>
 );
 
