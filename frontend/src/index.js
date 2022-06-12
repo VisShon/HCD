@@ -35,6 +35,9 @@ root.render(
     <Routes>
       <Route path="/About" element={<Landing/>}/>
     </Routes>
+    <Routes>
+      <Route path="*" element={<NotFound/>}/>
+    </Routes>
   </BrowserRouter>
 );
 
