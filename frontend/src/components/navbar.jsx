@@ -18,13 +18,13 @@ export default function NavBar({logo}){
                 }
                 <div id='navbar' className='font-Archivo text-[#444343] my-20'>
                     <Link to='/about'>ABOUT</Link>
-                    <div to='/'>|</div>
+                    <div>|</div>
                     <Link to='/academics'>ACADEMICS</Link>
-                    <div to='/'>|</div>
+                    <div>|</div>
                     <Link to='/people'>PEOPLE</Link>
-                    <div to='/'>|</div>
+                    <div>|</div>
                     <Link to='/research'>RESEARCH</Link>
-                    <div to='/'>|</div>
+                    <div>|</div>
                     <Link to='/contactus'>CONTACT US</Link>
                 </div>
             </div>

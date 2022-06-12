@@ -7,10 +7,8 @@ import Landing from './pages/Landing';
 import CommingSoon from './pages/Commingsoon';
 import NotFound from './pages/Notfound';
 import Faculty from './pages/Faculty';
-// import Research from './pages/ResearchLabs.jsx';
 import Academics from './pages/Academics';
 import Research from './pages/ResearchLabs';
-import ResearchProj from './pages/ResearchProj';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -29,13 +27,13 @@ root.render(
       <Route path="/Faculty" element={<Faculty/>}/>
     </Routes>
     <Routes>
-      <Route path="/Research" element={<ResearchProj/>}/>
-    </Routes>
-    <Routes>
-      <Route path="/Res" element={<ResearchProj/>}/>
+      <Route path="/Research" element={<Research/>}/>
     </Routes>
     <Routes>
       <Route path="/Academics" element={<Academics/>}/>
+    </Routes>
+    <Routes>
+      <Route path="/About" element={<Landing/>}/>
     </Routes>
   </BrowserRouter>
 );
