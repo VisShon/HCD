@@ -21,7 +21,7 @@ export default function NavBar({logo}){
                     <div>|</div>
                     <Link to='/academics'>ACADEMICS</Link>
                     <div>|</div>
-                    <Link to='/people'>PEOPLE</Link>
+                    <Link to='/commingsoons'>PEOPLE</Link>
                     <div>|</div>
                     <Link to='/research'>RESEARCH</Link>
                     <div>|</div>
