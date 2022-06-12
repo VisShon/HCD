@@ -5,9 +5,6 @@ import Section1 from "../components/Academics/section1";
 import Section2 from "../components/Academics/section2";
 import Section3 from "../components/Academics/section3";
 import Section4 from "../components/Academics/section4";
-
-import Section6 from "../components/Academics/section6";
-import Section7 from "../components/Academics/section7";
 import Section5 from "../components/Academics/section5";
 
 export default function Academics(){

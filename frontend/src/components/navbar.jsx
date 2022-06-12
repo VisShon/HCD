@@ -3,7 +3,7 @@ import React,{useState} from 'react'
 import '../styles/navbar.css';
 import logoImg from '../assets/logo.png';
 
-export default function NavBar({logo}){
+export default function NavBar({logo, rel}){
 
 
     const[isAcadClicked, setAcadClicked] = useState(false);
@@ -32,7 +32,7 @@ export default function NavBar({logo}){
 
     return(
         <>  
-            <div id='navbarContainer' className={"flex items-center "+logo?(""):("my-20")}>
+            <div id={rel==true?('navbarContainer'):('navbarContainer2')} className={"flex items-center "+logo?(""):("my-20")}>
                 {
                     (logo)?(
                         <div className="rounded-br-[90px] bg-[#F1F1F1] items-center ">
@@ -44,7 +44,7 @@ export default function NavBar({logo}){
                     )
                 }
                 <div id='navbar' className='font-Archivo text-[#444343] my-20'>
-                    <Link className="w-[20%] text-center mx-5 hover:bg-[#C1DFDE] rounded-[0.5rem]" to='/'>ABOUT</Link>
+                    <Link className="w-[20%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/'>ABOUT</Link>
 
                     <div>|</div>
 
@@ -84,7 +84,7 @@ export default function NavBar({logo}){
 
                     <div>|</div>
 
-                    <Link  className="w-[20%] text-center mx-5 hover:bg-[#C1DFDE] rounded-[0.5rem]" to='/comingSoon'>CONTACT US</Link>
+                    <Link  className="w-[20%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/commingsoon'>CONTACT US</Link>
                 </div>
             </div>
         </>

@@ -13,9 +13,8 @@ import Teaching from './pages/TeachingLabs';
 import ResearchProj from './pages/ResearchProj';
 import ResearchPub from './pages/ResearchPub';
 import Contact from './pages/Contactus';
-import Section6 from './components/Academics/section6';
-import AcadData from './data/academicsPageData.json'
-import Section7 from './components/Academics/section7';
+import StudentConduct from './pages/studentConductPolicy';
+import PHD from './pages/phd';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -38,8 +37,9 @@ root.render(
 
 
       <Route path="/Academics" element={<Academics/>}/>
-      <Route path="/PHD" element={<Section6 data={AcadData.section6}/>}/>
-      <Route path="/StudentConduct" element={<Section7 data={AcadData.section7}/>}/>
+      <Route path="/PHD" element={<PHD/>}/>
+      <Route path="/StudentConduct" element={<StudentConduct/>}/>
+
       <Route path="/Contactus" element={<Contact/>}/>
 
       <Route path="*" element={<NotFound/>}/>
