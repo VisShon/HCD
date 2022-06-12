@@ -16,24 +16,11 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Landing/>} />
-    </Routes>
-    <Routes>
       <Route path="/CommingSoon" element={<CommingSoon/>}/>
-    </Routes>
-    <Routes>
-      <Route path="/NotFound" element={<NotFound/>}/>
-    </Routes>
-    <Routes>
       <Route path="/Faculty" element={<Faculty/>}/>
-    </Routes>
-    <Routes>
       <Route path="/Research" element={<Research/>}/>
-    </Routes>
-    <Routes>
       <Route path="/Academics" element={<Academics/>}/>
-    </Routes>
-    <Routes>
-      <Route path="/About" element={<Landing/>}/>
+      <Route path="*" element={<NotFound/>}/>
     </Routes>
     <Routes>
       <Route path="*" element={<NotFound/>}/>
