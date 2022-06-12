@@ -13,6 +13,8 @@ import Teaching from './pages/TeachingLabs';
 import ResearchProj from './pages/ResearchProj';
 import ResearchPub from './pages/ResearchPub';
 import Contact from './pages/Contactus';
+import StudentConduct from './pages/studentConductPolicy';
+import PHD from './pages/phd';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -35,8 +37,8 @@ root.render(
 
 
       <Route path="/Academics" element={<Academics/>}/>
-      <Route path="/PHD" element={<Academics/>}/>
-      <Route path="/StudentConduct" element={<Academics/>}/>
+      <Route path="/PHD" element={<PHD/>}/>
+      <Route path="/StudentConduct" element={<StudentConduct/>}/>
 
       <Route path="/Contactus" element={<Contact/>}/>
 

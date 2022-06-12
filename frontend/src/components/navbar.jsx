@@ -44,7 +44,7 @@ export default function NavBar({logo}){
                     )
                 }
                 <div id='navbar' className='font-Archivo text-[#444343] my-20'>
-                    <Link className="w-[20%] text-center mx-5 hover:bg-[#C1DFDE] rounded-[0.5rem]" to='/'>ABOUT</Link>
+                    <Link className="w-[20%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/'>ABOUT</Link>
 
                     <div>|</div>
 
@@ -84,7 +84,7 @@ export default function NavBar({logo}){
 
                     <div>|</div>
 
-                    <Link  className="w-[20%] text-center mx-5 hover:bg-[#C1DFDE] rounded-[0.5rem]" to='/commingsoon'>CONTACT US</Link>
+                    <Link  className="w-[20%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/commingsoon'>CONTACT US</Link>
                 </div>
             </div>
         </>

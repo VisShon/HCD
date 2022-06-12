@@ -1,15 +1,20 @@
-import arrow from "../../assets/academics/arrow.svg";
+import arrow from "../assets/academics/arrow.svg";
+import NavBar from "../components/navbar";
+import data from "../data/academicsPageData.json";
+import "../styles/academics.css";
 
-export default function Section7({data}){
+const PageData =data.section7
+export default function StudentConduct(){
     return(
         <>
+            <NavBar/>
             <div className="section7Container">
                 <h1>
-                    {data.heading}
+                    {PageData.heading}
                 </h1>
                 <div className="cardsContainer">
                     {
-                        data.policies.map((policy) => {
+                        PageData.policies.map((policy) => {
                             return (
                                 <a href={policy.link}>
                                     <button>

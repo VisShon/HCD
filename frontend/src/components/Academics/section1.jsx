@@ -1,4 +1,4 @@
-import sec1Img from "../../assets/academics/acadSec1Img.svg";
+import sec1Img from "../../assets/academics/acadSec1Img.png";
 
 export default function Section1({data}){
     return(
