@@ -104,6 +104,35 @@
     },
     "section6": {
         "heading": "Ph.D.",
-        "body": "The PhD program at IIIT-Delhi is focused towards research like any other PhD program – limited coursework to enhance the breadth and depth of a student, followed by focused research. Admissions are made through regular admission process as well as rolling mode. Regular admissions for all disciplines are made in March-April and Nov-Dec every year. For rolling admission, the interested candidates are expected to interact with the concerned faculty member(s) in IIIT-Delhi and get their consent for working with him/her. However, such candidates will undergo a full selection process before being admitted to the PhD program. For more details, please visit Ph.D. Admissions IIITD"
+        "body": "The PhD program at IIIT-Delhi is focused towards research like any other PhD program – limited coursework to enhance the breadth and depth of a student, followed by focused research. Admissions are made through regular admission process as well as rolling mode. Regular admissions for all disciplines are made in March-April and Nov-Dec every year. For rolling admission, the interested candidates are expected to interact with the concerned faculty member(s) in IIIT-Delhi and get their consent for working with him/her. However, such candidates will undergo a full selection process before being admitted to the PhD program.",
+        "redirect": {
+            "text": "Ph.D. Admissions IIITD",
+            "link": "https://google.com"
+        }
+    },
+    "section7":{
+        "heading": "Student Conduct Policy",
+        "policies": [
+            {
+                "text": "Policy against use of violence",
+                "link": ""
+            },
+            {
+                "text": "Policy against Sexual Misconduct, Harassment, eve teasing, stalking",
+                "link": ""
+            },
+            {
+                "text": "Alcohol and Drug abuse policy",
+                "link": ""
+            },
+            {
+                "text": "Policy against ragging",
+                "link": ""
+            },
+            {
+                "text": "Policy of non-discrimination and Campus Use",
+                "link": ""
+            }
+        ]
     }
 }
