@@ -2,9 +2,11 @@ import React from 'react'
 import NavBar from '../components/navbar';
 import ProfCard from '../components/profCard'
 import ProjDescp from '../components/projDescp';
-import grace from '../assets/profsImg/grace.png'
+import grace from '../assets/profsImg/richagupta.png'
 import '../styles/research.css'
+
 function ResearchProj() {
+
     const data = [
         {
             id: 1,

@@ -29,7 +29,7 @@ root.render(
       <Route path="/Faculty" element={<Faculty/>}/>
     </Routes>
     <Routes>
-      <Route path="/Research" element={<Research/>}/>
+      <Route path="/Research" element={<ResearchProj/>}/>
     </Routes>
     <Routes>
       <Route path="/Res" element={<ResearchProj/>}/>
