@@ -1,8 +1,35 @@
 import {Link} from "react-router-dom";
+import React,{useState} from 'react'
 import '../styles/navbar.css';
 import logoImg from '../assets/logo.png';
 
 export default function NavBar({logo}){
+
+
+    const[isAcadClicked, setAcadClicked] = useState(false);
+    const[isPeoplesClicked, setPeoplesClicked] = useState(false);
+    const[isResearchClicked, setResearchClicked] = useState(false);
+    const leaveHandler=()=>{
+        setResearchClicked(false);
+        setPeoplesClicked(false);
+        setAcadClicked(false); 
+    }
+    const acadClickHandler=()=>{
+        setResearchClicked(false);
+        setPeoplesClicked(false);
+        setAcadClicked(true);
+    }
+    const peepClickHandler=()=>{
+        setAcadClicked(false);
+        setResearchClicked(false);
+        setPeoplesClicked(true);
+    }
+    const resClickHandler=()=>{
+        setAcadClicked(false);
+        setPeoplesClicked(false);
+        setResearchClicked(true);
+    }
+
     return(
         <>  
             <div id='navbarContainer' className={"flex items-center "+logo?(""):("my-20")}>
@@ -17,15 +44,47 @@ export default function NavBar({logo}){
                     )
                 }
                 <div id='navbar' className='font-Archivo text-[#444343] my-20'>
-                    <Link to='/'>ABOUT</Link>
+                    <Link className="w-[20%] text-center mx-5 hover:bg-[#C1DFDE] rounded-[0.5rem]" to='/'>ABOUT</Link>
+
                     <div>|</div>
-                    <Link to='/academics'>ACADEMICS</Link>
+
+                    <div className={isAcadClicked?"Selected w-[20%] text-center mx-5":" w-[20%] text-center mx-5"} onMouseOver={acadClickHandler} onMouseOut={leaveHandler}>ACADEMICS
+                        {isAcadClicked&&<div hidden={true} className='SelectedContent'>
+                            <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
+                            <Link id="subHeading" to='/academics'>B.Tech. in CSD </Link>
+                            <Link id="subHeading" to='/phd'>Ph.D.</Link>
+                            <Link id="subHeading" to='/studentConduct'>Student Conduct Policy</Link>
+                        </div>}
+                    </div>
+
                     <div>|</div>
-                    <Link to='/people'>PEOPLE</Link>
+
+                    <div className={isPeoplesClicked?"Selected w-[20%] text-center mx-5":" w-[20%] text-center mx-5"} onMouseOver={peepClickHandler} onMouseOut={leaveHandler}>PEOPLE
+                        {isPeoplesClicked&&<div className='SelectedContent'>
+                            <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
+                            <Link id="subHeading" to='/faculty'>Faculty</Link>
+                            <Link id="subHeading" to='/staff'>Staff</Link>
+                            <Link id="subHeading" to='/students'>Students</Link>
+                        </div>}
+                    </div>
+
                     <div>|</div>
-                    <Link to='/research'>RESEARCH</Link>
+
+                    <div  className={isResearchClicked?"Selected w-[20%] text-center mx-5":" w-[20%] text-center mx-5"} onMouseOver={resClickHandler} onMouseOut={leaveHandler}>RESEARCH
+                        {isResearchClicked&&
+                        <div className='SelectedContent'>
+                            <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
+                            <Link id="subHeading" to='/researchLabs'>Research Labs</Link>
+                            <Link id="subHeading" to='/teachingLabs'>Teaching Labs</Link>
+                            <Link id="subHeading" to='/researchProjects'>Projects</Link>
+                            <Link id="subHeading" to='/researchPublication'> Publications</Link>
+                        </div>
+                        }                       
+                    </div>
+
                     <div>|</div>
-                    <Link to='/contactus'>CONTACT US</Link>
+
+                    <Link  className="w-[20%] text-center mx-5 hover:bg-[#C1DFDE] rounded-[0.5rem]" to='/commingsoon'>CONTACT US</Link>
                 </div>
             </div>
         </>
