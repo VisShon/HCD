@@ -16,3 +16,31 @@
   position: absolute;
   z-index: 100;
 }
+
+.Selected{
+  background-color: #C1DFDE;
+  padding-left: 0.1rem;
+  padding-bottom: 1rem;
+  padding-right: 0.1rem;
+  border-radius: 0.5rem;
+}
+.SelectedContent{
+  width: 100%;
+  height: 90%;
+  display:flex; 
+  flex-direction: column; 
+  align-items: center;
+  justify-content: space-between;
+}
+#subHeading{
+  text-align: left;
+  width: 95%;
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
+  top: 1rem;
+  font-size: 0.8rem;
+}
+#subHeading:hover{
+  background: #E1F2F1;
+  border-radius: 0.5rem;
+}
