@@ -18,9 +18,10 @@
 }
 
 .Selected{
+  transition: linear 0.5s;
   background-color: #C1DFDE;
   padding-left: 0.1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   padding-right: 0.1rem;
   border-radius: 0.5rem;
 }
@@ -42,5 +43,5 @@
 }
 #subHeading:hover{
   background: #E1F2F1;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
 }
