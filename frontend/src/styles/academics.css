@@ -137,3 +137,69 @@
     line-height: 2rem;
 
 }
+
+
+
+
+.section4Container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+.section4Container .headingContainer{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4Container .headingContainer h1{
+    font-family: Archivo;
+    color: #39AEA8;
+    font-size: 3.5rem;
+
+    margin-top: 4rem;
+}
+.section4Container .headingContainer p{
+    margin: 0rem 6.9rem;
+}
+.section4Container .imgContainer{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4Container .imgContainer img{
+    width: 70%;
+}
+.section4Container .listContainer{
+    grid-column: 2/3;
+    grid-row: 1/3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section4Container .listContainer .listObj{
+    margin: 0.5rem 4rem;
+
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+.section4Container .listContainer .listObjNum{
+    font-family: Archivo;
+    font-size: 4rem;
+    color: #39AEA8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4Container .listContainer .listObjBody{
+    display: flex;
+    align-items: center;
+}

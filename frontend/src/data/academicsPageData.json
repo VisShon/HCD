@@ -12,5 +12,98 @@
     "section3": {
         "heading": "Admissions",
         "body": "Admission to this program will be through two channels – approximately half of the seats will be through the Joint Admission Counselling (JAC) of Delhi, which takes students through JEE (Main), and approximately half the seats will be filled through UCEED conducted by IIT Bombay. More information about the admission to all the B.Tech. programs at IIIT-Delhi will be made available on the admissions pages from time to time.More details regarding admissions are available here."
+    },
+    "section4": {
+        "heading": "Programme Structure",
+        "body": "The program aims to develop capabilities in CS as well as Design and Digital Media. At the end of the program, a student will have:",
+        "programObjectives": [
+            {
+                "id": 1,
+                "body": "Ability to function effectively in teams to accomplish a common goal."
+            },
+            {
+                "id": 2,
+                "body": "Ability to design and implement efficient software solutions using suitable algorithms, data structures, and other computing techniques."
+            },
+            {
+                "id": 3,
+                "body": "Understanding of design principles and techniques and ability to apply these for developing solutions to human/societal problems."
+            },
+            {
+                "id": 4,
+                "body": "Ability to independently investigate a problem which can be solved by an Human Computer Interaction (HCI) design process and then design an end-to-end solution to it (i.e., from user need identification to UI design to technical coding and evaluation)."
+            },
+            {
+                "id": 5,
+                "body": "Ability to effectively use suitable tools and platforms, as well as enhance them, to develop applications/ products using for new media design in areas like animation, gaming, virtual reality, etc."
+            }
+        ]
+    },
+    "section5": {
+        "subjects": [
+            {
+                "code": "DES",
+                "text": "Design Courses"
+            },
+            {
+                "code": "CSE",
+                "text": "CSE Courses"
+            },
+            {
+                "code": "SSH",
+                "text": "SSH Courses"
+            }
+        ],
+        "courseList": [
+            {
+                "code": "DES130",
+                "name": "Introduction to Engineering Design",
+                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+            },
+            {
+                "code": "DES130",
+                "name": "Introduction to Engineering Design",
+                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+            },
+            {
+                "code": "DES130",
+                "name": "Introduction to Engineering Design",
+                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+            },
+            {
+                "code": "DES130",
+                "name": "Introduction to Engineering Design",
+                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+            },
+            {
+                "code": "DES130",
+                "name": "Introduction to Engineering Design",
+                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+            },
+            {
+                "code": "DES130",
+                "name": "Introduction to Engineering Design",
+                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+            },
+            {
+                "code": "DES130",
+                "name": "Introduction to Engineering Design",
+                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+            },
+            {
+                "code": "DES130",
+                "name": "Introduction to Engineering Design",
+                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+            },
+            {
+                "code": "DES130",
+                "name": "Introduction to Engineering Design",
+                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+            }
+        ]
+    },
+    "section6": {
+        "heading": "Ph.D.",
+        "body": "The PhD program at IIIT-Delhi is focused towards research like any other PhD program – limited coursework to enhance the breadth and depth of a student, followed by focused research. Admissions are made through regular admission process as well as rolling mode. Regular admissions for all disciplines are made in March-April and Nov-Dec every year. For rolling admission, the interested candidates are expected to interact with the concerned faculty member(s) in IIIT-Delhi and get their consent for working with him/her. However, such candidates will undergo a full selection process before being admitted to the PhD program. For more details, please visit Ph.D. Admissions IIITD"
     }
 }
