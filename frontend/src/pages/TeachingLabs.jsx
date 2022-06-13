@@ -20,9 +20,12 @@ function back(){
 }
 
 function TeachingLabs() {
+
+    const[isLogo,setIsLogo] = useState(true);
     const [panelID, setPanelID] = useState('0');
     
     function clicked(id){
+        setIsLogo(false)
         for(var i = 0; i < arr.length; i++){
             if(arr[i]!== id){
                 const hide = document.getElementById(arr[i]);
@@ -44,7 +47,7 @@ function TeachingLabs() {
 
     return (
         <>
-            <NavBar logo={true}  rel={true} />
+            <NavBar logo={isLogo}  rel={true} />
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>
