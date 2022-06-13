@@ -196,12 +196,6 @@
     flex-direction: column;
     align-items: center;
 }
-#profScroll{
-    display: flex;
-    width: 100%;
-    padding: 5em;
-    justify-content: space-between;
-}
 #publicationsSection{
     position : relative;
     top: -2em;
@@ -211,3 +205,12 @@
     background-color: #ffffff;
     width: 90%;
 }
+#profScroll{
+    display: flex;
+    overflow-x: auto;
+    justify-content: left;
+    min-height: 22rem;
+    min-width: 100%;
+    padding: 3rem 5rem;
+}
+
