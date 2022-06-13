@@ -41,7 +41,7 @@ function ResearchProj() {
     ];
   return (
     <>
-        <NavBar logo={true}  rel={true} />
+        <NavBar logo={true} rel={false} />
         <div id="projBody"> 
             <div id="profScroll">
                 {data.map((prof,Pindex)=>(
