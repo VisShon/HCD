@@ -34,6 +34,8 @@
     line-height: 2rem;
 }
 .sec1ImgContainer{
+    
+    overflow: hidden;
     display: flex;
     grid-column: 2/3;
     height: 100vh;
@@ -43,7 +45,7 @@
     height: 100%;
     z-index: -20;
     opacity: 0%;
-    animation-duration: 1 s;
+    animation-duration: 1s;
     animation-name: fadeIn;
     animation-fill-mode: forwards;
 }
@@ -339,7 +341,9 @@
 }
 .section6Container .imgContainer{
     background-color: #39AEA8;
-
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-direction: forwards;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -372,6 +376,9 @@
     margin-bottom: 2rem;
 }
 .section7Container .cardsContainer{
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-direction: forwards;
     display: flex;
     justify-content: space-around;
     width: 90%;
