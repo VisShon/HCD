@@ -1,63 +1,28 @@
 import '../styles/landing.css';
 import NavBar from '../components/navbar';
 import Footer from '../components/footer';
-import {ScrollContainer, ScrollPage} from "react-scroll-motion";
 import MainSection from '../components/mainSection';
 import WhyUsSection from '../components/whyUsSection';
 import PeopleSection from '../components/peopleSection';
 import GallerySection from '../components/gallerySection';
+import NewsSection from '../components/newsSection';
+import WhatHappensSection from '../components/whatHappensSection';
 import LandingPageData from "../data/landingPageData.json";
 
 function Landing() {
   return (
-    <div className="relative">
-      <ScrollContainer>
-
+    <div>
           <NavBar logo={false}/>
-
-          <ScrollPage page={0}>
-            <MainSection cardContent={LandingPageData.cardContent}/>
-          </ScrollPage>
-
-          <ScrollPage page={1}>
-            <WhyUsSection left={150}/>
-          </ScrollPage>
-          <ScrollPage page={2}>
-            <WhyUsSection left={46}/>
-          </ScrollPage>
-          <ScrollPage page={3}>
-          </ScrollPage>
-
-
-
-          <ScrollPage page={4}>
-            <PeopleSection content={LandingPageData.alumniData}/>
-          </ScrollPage>
-          <ScrollPage page={5}>
-            <PeopleSection content={LandingPageData.studentData}/>
-          </ScrollPage>
-          <ScrollPage page={6}>
-            <PeopleSection content={LandingPageData.paperData}/>
-          </ScrollPage>
-          <ScrollPage page={7}>
-            <PeopleSection content={LandingPageData.facultyData}/>
-          </ScrollPage>
-
-
-          
-          <ScrollPage page={8}>
-            <GallerySection left={150}/>
-          </ScrollPage>
-          <ScrollPage page={9}>
-            <GallerySection left={46}/>
-          </ScrollPage>
-          <ScrollPage page={10}>
-          </ScrollPage>
-          
-
+          <MainSection cardContent={LandingPageData.cardContent}/>
+          <WhyUsSection/>
+          <PeopleSection content={LandingPageData.alumniData}/>
+          <PeopleSection content={LandingPageData.studentData}/>
+          <PeopleSection content={LandingPageData.paperData}/>
+          <PeopleSection content={LandingPageData.facultyData}/>
+          <WhatHappensSection/>
+          {/* <GallerySection /> */}
+          <NewsSection/>
           <Footer/>
-
-      </ScrollContainer>
     </div>
   );
 }

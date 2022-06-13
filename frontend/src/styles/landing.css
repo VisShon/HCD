@@ -10,8 +10,20 @@
 
 
 .whyUsSection{
-  width: 100vw;
-  height: 200vh;
+  height: 100vh;
+  position: relative;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+.whatHappensSection{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #f1f1f1;
 }
