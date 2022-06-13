@@ -44,7 +44,7 @@ function TeachingLabs() {
 
     return (
         <>
-            <NavBar logo={true}/>
+            <NavBar logo={true}  rel={true} />
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>

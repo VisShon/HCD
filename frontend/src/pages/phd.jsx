@@ -6,7 +6,7 @@ const PageData = data.section6;
 export default function Section6(){
     return(
         <>
-            <NavBar/>
+            <NavBar logo={true}  rel={true} />
             <div className="section6Container">
                 <span className="infoContainer">
                     <h1>{PageData.heading}</h1>
