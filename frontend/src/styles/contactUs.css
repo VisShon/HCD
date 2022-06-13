@@ -1,0 +1,31 @@
+#topSection{
+    background: #39AEA8;
+    width: 100vw;
+    height: 40vh;
+    display : flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+#heading{
+    color: #f1f1f1;
+    position: relative;
+    bottom: -4.5vw;
+}
+#Content {
+    width: 100vw;
+    height: 60vh;
+    display : flex;
+    justify-content:center;
+    padding: 4%;
+}
+.Card{
+    background:#ffffff;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 2rem;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}

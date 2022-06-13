@@ -84,7 +84,7 @@ export default function NavBar({logo, rel}){
 
                     <div>|</div>
 
-                    <Link  className="w-[20%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/commingsoon'>CONTACT US</Link>
+                    <Link  className="w-[20%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/contactUs'>CONTACT US</Link>
                 </div>
             </div>
         </>
