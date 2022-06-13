@@ -9,7 +9,7 @@ export default function PeopleSection({content}){
 
     return(
         <div className={"peopleSection "+content.CSSclassName}>
-            <img src={alumn}  className='self-start object-cover w-[70%] z-10 aspect-video rounded-br-[4em]' />
+            <img src={alumn}  className='self-start object-cover h-[65vh] z-10 aspect-video rounded-br-[4em]' />
             <div className='SectionHeading absolute right-[-1em] z-10 font-Archivo text-[#ffffff] text-[8vw]'>
                 {content.heading}
             </div>
