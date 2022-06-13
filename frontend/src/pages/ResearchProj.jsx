@@ -42,6 +42,9 @@ function ResearchProj() {
   return (
     <>
         <NavBar logo={true} rel={false} />
+        <div id="topSection">
+          <span id="heading" className='font-Archivo font-[200] text-[10vw]'>PROJECTS</span>
+        </div>
         <div id="projBody"> 
             <div id="profScroll">
                 {data.map((prof,Pindex)=>(

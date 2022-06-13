@@ -26,14 +26,14 @@ root.render(
 
 
       <Route path="/Faculty" element={<Faculty/>}/>
-      <Route path="/Staff" element={<Faculty/>}/>
-      <Route path="/Students" element={<Faculty/>}/>
+      <Route path="/Staff" element={<ComingSoon/>}/>
+      <Route path="/Students" element={<ComingSoon/>}/>
 
 
       <Route path="/ResearchLabs" element={<Research/>}/>
       <Route path="/TeachingLabs" element={<Teaching/>}/>
       <Route path="/ResearchProjects" element={<ResearchProj/>}/>
-      <Route path="/ResearchPub" element={<ResearchPub/>}/>
+      <Route path="/ResearchPublication" element={<ResearchPub/>}/>
 
 
       <Route path="/Academics" element={<Academics/>}/>

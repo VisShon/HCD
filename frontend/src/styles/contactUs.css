@@ -5,6 +5,9 @@
     display : flex;
     justify-content:center;
     align-items: flex-end;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-direction: forwards;
 }
 #heading{
     color: #f1f1f1;
