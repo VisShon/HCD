@@ -19,9 +19,9 @@ function Landing() {
           <PeopleSection content={LandingPageData.studentData}/>
           <PeopleSection content={LandingPageData.paperData}/>
           <PeopleSection content={LandingPageData.facultyData}/>
-          <WhatHappensSection/>
-          {/* <GallerySection /> */}
-          <NewsSection/>
+          {/* <WhatHappensSection/> */}
+          <GallerySection />
+          {/* <NewsSection/> */}
           <Footer/>
     </div>
   );
