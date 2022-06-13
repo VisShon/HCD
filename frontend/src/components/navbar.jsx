@@ -32,7 +32,7 @@ export default function NavBar({logo, rel}){
 
     return(
         <>  
-            <div id={rel==true?('navbarContainer'):('navbarContainer2')} className={"flex items-center "+logo?(""):("my-20")}>
+            <div id={!rel?('navbarContainer'):('navbarContainer2')} className={"flex items-center "+logo?(""):("my-20")}>
                 {
                     (logo)?(
                         <div className="rounded-br-[90px] bg-[#F1F1F1] items-center ">

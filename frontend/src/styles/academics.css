@@ -354,7 +354,7 @@
 
 
 .section7Container{
-    height: 100vh;
+    min-height: calc(100vh - 20rem);
 
     display: flex;
     flex-direction: column;
