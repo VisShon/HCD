@@ -44,10 +44,18 @@
 .sec1Img{
     height: 100%;
     z-index: -20;
-    opacity: 0%;
+    opacity: 100%;
     animation-duration: 1s;
-    animation-name: fadeIn;
+    animation-name: moveSideIn;
     animation-fill-mode: forwards;
+}
+@keyframes moveSideIn{
+    0%{
+        transform: translateX(10vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
 @keyframes fadeIn {
     0%{

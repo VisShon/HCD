@@ -15,6 +15,7 @@ import ResearchPub from './pages/ResearchPub';
 import Contact from './pages/Contactus';
 import StudentConduct from './pages/studentConductPolicy';
 import PHD from './pages/phd';
+import Staff from './pages/Staff'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -26,7 +27,7 @@ root.render(
 
 
       <Route path="/Faculty" element={<Faculty/>}/>
-      <Route path="/Staff" element={<ComingSoon/>}/>
+      <Route path="/Staff" element={<Staff/>}/>
       <Route path="/Students" element={<ComingSoon/>}/>
 
 
