@@ -241,7 +241,7 @@
 }
 .section5Container .subjects .subject{
     background-color: #39AEA8;
-    box-shadow: 8px 10px 13px #CECECE, -12px -8px 7px #ffffff;
+    box-shadow: 4px 5px 13px #CECECE, -6px -4px 7px #ffffff;
     min-width: 10rem;
     height: 2rem;
     border-radius: 8px;
@@ -258,7 +258,7 @@
 }
 .section5Container .subjects .selectedSubject{
     background-color: #f1f1f1;
-    box-shadow: 8px 10px 13px #CECECE, -12px -8px 7px #ffffff;
+    box-shadow: 4px 5px 13px #CECECE, -6px -4px 7px #ffffff;
     min-width: 10rem;
     height: 2rem;
     border-radius: 8px;
@@ -369,13 +369,14 @@
     display: flex;
     justify-content: center;
 
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 .section7Container .cardsContainer{
     display: flex;
     justify-content: space-around;
     width: 90%;
     flex-flow: wrap;
+    margin-bottom: 3rem;
 }
 .section7Container .cardsContainer button{
     height: 15rem;
@@ -384,7 +385,7 @@
     border-radius: 25px;
     box-shadow: 8px 10px 26px #CECECE, -12px -8px 14px #ffffff;
 
-    margin: 2rem 1rem 0rem 1rem;
+    margin: 2rem 0.5rem 0rem 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
