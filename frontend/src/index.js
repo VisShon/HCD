@@ -34,7 +34,7 @@ root.render(
       <Route path="/ResearchLabs" element={<Research/>}/>
       <Route path="/TeachingLabs" element={<Teaching/>}/>
       <Route path="/ResearchProjects" element={<ResearchProj/>}/>
-      <Route path="/ResearchPublication" element={<ResearchPub/>}/>
+      <Route path="/ResearchPublication" element={<ComingSoon/>}/>
 
 
       <Route path="/Academics" element={<Academics/>}/>
