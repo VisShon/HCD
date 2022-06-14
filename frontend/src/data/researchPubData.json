@@ -1,32 +1,122 @@
 [
     {
-        "id": 1,
-        "image": "../assets/profsImg/Jainendra.png",
-        "name": "Dr. Jainendra Shukla"
+        "profInfo": {
+            "image": "Jainendra.png",
+            "name": "Dr. Jainendra Shukla"
+        },
+        "projects": [
+            {
+                "title": "AI Empowered Attention Evaluation among Children with ADHD",
+                "fundedBy": "TIH-Anubhuti",
+                "year": "September 2021 - August 2024",
+                "description": "Specific Learning Disabilities (SLDs) conditions manifest as a deficit in processing language, spoken or written, that may manifest itself as a difficulty to comprehend, speak, read, write, spell, or to do mathematical calculations and includes such conditions as perceptual disabilities, dyslexia, dysgraphia, dyscalculia, dyspraxia, and developmental aphasia. The cognitive flexibility associated with SLDs can manifest itself in noteworthy talents, which include a multi-sensory lens for creative and lateral thinking, resulting in out-of-the-box solutions for problems. The untapped potential of SLDs causes a high opportunity cost for the Nation’s progress. However, children with SLDs experience repeated failures and poor performance despite their continuous efforts and practice in learning. At the same time, worldwide, the condition will SLDs has been exacerbated due to the COVID-19 pandemic when education delivery shifted online. Thus, strengthening online education delivery will be important and impacting. However, research has indicated that educators might not always be aware of their students’ attentional focus, and this may be particularly true for novice teachers. The aim of this project is to develop an AI-empowered tool that will offer personalized, monitored, and evidence-based identification of attention levels among children with SLD. The project will first develop a multimodal dataset of audio-visual and physiological signals among 150 children with SLD to understand the attention and engagement of children with SLD during digital learning. It will further perform a systematic comparison of physiological, audio-visual, and eye-dilation signals for the attention monitoring of children with SLD to identify the valid indicators of attention. Based on these, the project will develop an AI-empowered system for real-time continuous monitoring of attention among children with SLD. Finally, the project will deploy and evaluate the efficacy of the developed AI-empowered system among 50 children with SLD and 25 typically developing children in naturalistic settings. Once validated the findings of this project can improve and monitor the attention of children with SLDs and can play a significant role in their inclusion during digital learning."
+            },
+            {
+                "title": "Robot-Assisted Diagnosis for Children with Autism",
+                "fundedBy": "SERB, DST",
+                "year": "December 2020 - November 2022",
+                "description": "Early detection of Autism Spectrum Disorder (ASD) is crucial for deciding the appropriate educational and behavioral intervention at the most suitable time. However, there are no absolute biological markers for autism and an accurate diagnosis of ASD requires extensive training and experience acquired over the years and such expertise is limited to a few individuals centered in metropolitans and is beyond the reach of most of the affected population. robot-assisted interventions have found increasing acceptance as a support tool for therapy and education for children with autism (CwA). CwA prefers to interact with technological tools rather than human beings and hence, robot-assisted diagnosis systems can be employed to improve the early detection of ASD in an automated assessment manner making the ASD diagnosis more objective. The overarching goal of this project is to develop a robot-assisted system for the diagnosis of ASD suitable for children of Indian ethnicity. Upon validation, the benefits of this project can be made available to the unreachable children masses of India."
+            }
+        ]
     },
     {
-        "id": 2,
-        "image": "../assets/profsImg/ratna-suri.png",
-        "name": "Dr. Ratnadeep Suri"
+        "profInfo": {
+            "image": "ratna-suri.png",
+            "name": "Dr. Ratnadeep Suri"
+        },
+        "projects": [
+            {
+                "title": "AI Empowered Attention Evaluation among Children with ADHD",
+                "fundedBy": "TIH-Anubhuti",
+                "year": "September 2021 - August 2024",
+                "description": "Specific Learning Disabilities (SLDs) conditions manifest as a deficit in processing language, spoken or written, that may manifest itself as a difficulty to comprehend, speak, read, write, spell, or to do mathematical calculations and includes such conditions as perceptual disabilities, dyslexia, dysgraphia, dyscalculia, dyspraxia, and developmental aphasia. The cognitive flexibility associated with SLDs can manifest itself in noteworthy talents, which include a multi-sensory lens for creative and lateral thinking, resulting in out-of-the-box solutions for problems. The untapped potential of SLDs causes a high opportunity cost for the Nation’s progress. However, children with SLDs experience repeated failures and poor performance despite their continuous efforts and practice in learning. At the same time, worldwide, the condition will SLDs has been exacerbated due to the COVID-19 pandemic when education delivery shifted online. Thus, strengthening online education delivery will be important and impacting. However, research has indicated that educators might not always be aware of their students’ attentional focus, and this may be particularly true for novice teachers. The aim of this project is to develop an AI-empowered tool that will offer personalized, monitored, and evidence-based identification of attention levels among children with SLD. The project will first develop a multimodal dataset of audio-visual and physiological signals among 150 children with SLD to understand the attention and engagement of children with SLD during digital learning. It will further perform a systematic comparison of physiological, audio-visual, and eye-dilation signals for the attention monitoring of children with SLD to identify the valid indicators of attention. Based on these, the project will develop an AI-empowered system for real-time continuous monitoring of attention among children with SLD. Finally, the project will deploy and evaluate the efficacy of the developed AI-empowered system among 50 children with SLD and 25 typically developing children in naturalistic settings. Once validated the findings of this project can improve and monitor the attention of children with SLDs and can play a significant role in their inclusion during digital learning."
+            },
+            {
+                "title": "Robot-Assisted Diagnosis for Children with Autism",
+                "fundedBy": "SERB, DST",
+                "year": "December 2020 - November 2022",
+                "description": "Early detection of Autism Spectrum Disorder (ASD) is crucial for deciding the appropriate educational and behavioral intervention at the most suitable time. However, there are no absolute biological markers for autism and an accurate diagnosis of ASD requires extensive training and experience acquired over the years and such expertise is limited to a few individuals centered in metropolitans and is beyond the reach of most of the affected population. robot-assisted interventions have found increasing acceptance as a support tool for therapy and education for children with autism (CwA). CwA prefers to interact with technological tools rather than human beings and hence, robot-assisted diagnosis systems can be employed to improve the early detection of ASD in an automated assessment manner making the ASD diagnosis more objective. The overarching goal of this project is to develop a robot-assisted system for the diagnosis of ASD suitable for children of Indian ethnicity. Upon validation, the benefits of this project can be made available to the unreachable children masses of India."
+            }
+        ]
     },
     {
-        "id": 3,
-        "image": "../assets/profsImg/richagupta.png",
-        "name": "Dr. Richa Gupta"
+        "profInfo": {
+            "image": "richagupta.png",
+            "name": "Dr. Richa Gupta"
+        },
+        "projects": [
+            {
+                "title": "AI Empowered Attention Evaluation among Children with ADHD",
+                "fundedBy": "TIH-Anubhuti",
+                "year": "September 2021 - August 2024",
+                "description": "Specific Learning Disabilities (SLDs) conditions manifest as a deficit in processing language, spoken or written, that may manifest itself as a difficulty to comprehend, speak, read, write, spell, or to do mathematical calculations and includes such conditions as perceptual disabilities, dyslexia, dysgraphia, dyscalculia, dyspraxia, and developmental aphasia. The cognitive flexibility associated with SLDs can manifest itself in noteworthy talents, which include a multi-sensory lens for creative and lateral thinking, resulting in out-of-the-box solutions for problems. The untapped potential of SLDs causes a high opportunity cost for the Nation’s progress. However, children with SLDs experience repeated failures and poor performance despite their continuous efforts and practice in learning. At the same time, worldwide, the condition will SLDs has been exacerbated due to the COVID-19 pandemic when education delivery shifted online. Thus, strengthening online education delivery will be important and impacting. However, research has indicated that educators might not always be aware of their students’ attentional focus, and this may be particularly true for novice teachers. The aim of this project is to develop an AI-empowered tool that will offer personalized, monitored, and evidence-based identification of attention levels among children with SLD. The project will first develop a multimodal dataset of audio-visual and physiological signals among 150 children with SLD to understand the attention and engagement of children with SLD during digital learning. It will further perform a systematic comparison of physiological, audio-visual, and eye-dilation signals for the attention monitoring of children with SLD to identify the valid indicators of attention. Based on these, the project will develop an AI-empowered system for real-time continuous monitoring of attention among children with SLD. Finally, the project will deploy and evaluate the efficacy of the developed AI-empowered system among 50 children with SLD and 25 typically developing children in naturalistic settings. Once validated the findings of this project can improve and monitor the attention of children with SLDs and can play a significant role in their inclusion during digital learning."
+            },
+            {
+                "title": "Robot-Assisted Diagnosis for Children with Autism",
+                "fundedBy": "SERB, DST",
+                "year": "December 2020 - November 2022",
+                "description": "Early detection of Autism Spectrum Disorder (ASD) is crucial for deciding the appropriate educational and behavioral intervention at the most suitable time. However, there are no absolute biological markers for autism and an accurate diagnosis of ASD requires extensive training and experience acquired over the years and such expertise is limited to a few individuals centered in metropolitans and is beyond the reach of most of the affected population. robot-assisted interventions have found increasing acceptance as a support tool for therapy and education for children with autism (CwA). CwA prefers to interact with technological tools rather than human beings and hence, robot-assisted diagnosis systems can be employed to improve the early detection of ASD in an automated assessment manner making the ASD diagnosis more objective. The overarching goal of this project is to develop a robot-assisted system for the diagnosis of ASD suitable for children of Indian ethnicity. Upon validation, the benefits of this project can be made available to the unreachable children masses of India."
+            }
+        ]
     },
     {
-        "id": 4,
-        "image": "../assets/profsImg/amanparnami.png",
-        "name": "Dr. Aman Parnami"
+        "profInfo": {
+            "image": "amanparnami.png",
+            "name": "Dr. Aman Parnami"
+        },
+        "projects": [
+            {
+                "title": "AI Empowered Attention Evaluation among Children with ADHD",
+                "fundedBy": "TIH-Anubhuti",
+                "year": "September 2021 - August 2024",
+                "description": "Specific Learning Disabilities (SLDs) conditions manifest as a deficit in processing language, spoken or written, that may manifest itself as a difficulty to comprehend, speak, read, write, spell, or to do mathematical calculations and includes such conditions as perceptual disabilities, dyslexia, dysgraphia, dyscalculia, dyspraxia, and developmental aphasia. The cognitive flexibility associated with SLDs can manifest itself in noteworthy talents, which include a multi-sensory lens for creative and lateral thinking, resulting in out-of-the-box solutions for problems. The untapped potential of SLDs causes a high opportunity cost for the Nation’s progress. However, children with SLDs experience repeated failures and poor performance despite their continuous efforts and practice in learning. At the same time, worldwide, the condition will SLDs has been exacerbated due to the COVID-19 pandemic when education delivery shifted online. Thus, strengthening online education delivery will be important and impacting. However, research has indicated that educators might not always be aware of their students’ attentional focus, and this may be particularly true for novice teachers. The aim of this project is to develop an AI-empowered tool that will offer personalized, monitored, and evidence-based identification of attention levels among children with SLD. The project will first develop a multimodal dataset of audio-visual and physiological signals among 150 children with SLD to understand the attention and engagement of children with SLD during digital learning. It will further perform a systematic comparison of physiological, audio-visual, and eye-dilation signals for the attention monitoring of children with SLD to identify the valid indicators of attention. Based on these, the project will develop an AI-empowered system for real-time continuous monitoring of attention among children with SLD. Finally, the project will deploy and evaluate the efficacy of the developed AI-empowered system among 50 children with SLD and 25 typically developing children in naturalistic settings. Once validated the findings of this project can improve and monitor the attention of children with SLDs and can play a significant role in their inclusion during digital learning."
+            },
+            {
+                "title": "Robot-Assisted Diagnosis for Children with Autism",
+                "fundedBy": "SERB, DST",
+                "year": "December 2020 - November 2022",
+                "description": "Early detection of Autism Spectrum Disorder (ASD) is crucial for deciding the appropriate educational and behavioral intervention at the most suitable time. However, there are no absolute biological markers for autism and an accurate diagnosis of ASD requires extensive training and experience acquired over the years and such expertise is limited to a few individuals centered in metropolitans and is beyond the reach of most of the affected population. robot-assisted interventions have found increasing acceptance as a support tool for therapy and education for children with autism (CwA). CwA prefers to interact with technological tools rather than human beings and hence, robot-assisted diagnosis systems can be employed to improve the early detection of ASD in an automated assessment manner making the ASD diagnosis more objective. The overarching goal of this project is to develop a robot-assisted system for the diagnosis of ASD suitable for children of Indian ethnicity. Upon validation, the benefits of this project can be made available to the unreachable children masses of India."
+            }
+        ]
     },
     {
-        "id": 5,
-        "image": "../assets/profsImg/grace.png",
-        "name": "Dr. Grace Eden"
+        "profInfo": {
+            "image": "grace.png",
+            "name": "Dr. Grace Eden"
+        },
+        "projects": [
+            {
+                "title": "AI Empowered Attention Evaluation among Children with ADHD",
+                "fundedBy": "TIH-Anubhuti",
+                "year": "September 2021 - August 2024",
+                "description": "Specific Learning Disabilities (SLDs) conditions manifest as a deficit in processing language, spoken or written, that may manifest itself as a difficulty to comprehend, speak, read, write, spell, or to do mathematical calculations and includes such conditions as perceptual disabilities, dyslexia, dysgraphia, dyscalculia, dyspraxia, and developmental aphasia. The cognitive flexibility associated with SLDs can manifest itself in noteworthy talents, which include a multi-sensory lens for creative and lateral thinking, resulting in out-of-the-box solutions for problems. The untapped potential of SLDs causes a high opportunity cost for the Nation’s progress. However, children with SLDs experience repeated failures and poor performance despite their continuous efforts and practice in learning. At the same time, worldwide, the condition will SLDs has been exacerbated due to the COVID-19 pandemic when education delivery shifted online. Thus, strengthening online education delivery will be important and impacting. However, research has indicated that educators might not always be aware of their students’ attentional focus, and this may be particularly true for novice teachers. The aim of this project is to develop an AI-empowered tool that will offer personalized, monitored, and evidence-based identification of attention levels among children with SLD. The project will first develop a multimodal dataset of audio-visual and physiological signals among 150 children with SLD to understand the attention and engagement of children with SLD during digital learning. It will further perform a systematic comparison of physiological, audio-visual, and eye-dilation signals for the attention monitoring of children with SLD to identify the valid indicators of attention. Based on these, the project will develop an AI-empowered system for real-time continuous monitoring of attention among children with SLD. Finally, the project will deploy and evaluate the efficacy of the developed AI-empowered system among 50 children with SLD and 25 typically developing children in naturalistic settings. Once validated the findings of this project can improve and monitor the attention of children with SLDs and can play a significant role in their inclusion during digital learning."
+            },
+            {
+                "title": "Robot-Assisted Diagnosis for Children with Autism",
+                "fundedBy": "SERB, DST",
+                "year": "December 2020 - November 2022",
+                "description": "Early detection of Autism Spectrum Disorder (ASD) is crucial for deciding the appropriate educational and behavioral intervention at the most suitable time. However, there are no absolute biological markers for autism and an accurate diagnosis of ASD requires extensive training and experience acquired over the years and such expertise is limited to a few individuals centered in metropolitans and is beyond the reach of most of the affected population. robot-assisted interventions have found increasing acceptance as a support tool for therapy and education for children with autism (CwA). CwA prefers to interact with technological tools rather than human beings and hence, robot-assisted diagnosis systems can be employed to improve the early detection of ASD in an automated assessment manner making the ASD diagnosis more objective. The overarching goal of this project is to develop a robot-assisted system for the diagnosis of ASD suitable for children of Indian ethnicity. Upon validation, the benefits of this project can be made available to the unreachable children masses of India."
+            }
+        ]
     },
     {
-        "id": 6,
-        "image": "../assets/profsImg/ratn.png",
-        "name": "Dr. Rajiv R Shah"
+        "profInfo": {
+            "image": "ratn.png",
+            "name": "Dr. Rajiv R Shah"
+        },
+        "projects": [
+            {
+                "title": "AI Empowered Attention Evaluation among Children with ADHD",
+                "fundedBy": "TIH-Anubhuti",
+                "year": "September 2021 - August 2024",
+                "description": "Specific Learning Disabilities (SLDs) conditions manifest as a deficit in processing language, spoken or written, that may manifest itself as a difficulty to comprehend, speak, read, write, spell, or to do mathematical calculations and includes such conditions as perceptual disabilities, dyslexia, dysgraphia, dyscalculia, dyspraxia, and developmental aphasia. The cognitive flexibility associated with SLDs can manifest itself in noteworthy talents, which include a multi-sensory lens for creative and lateral thinking, resulting in out-of-the-box solutions for problems. The untapped potential of SLDs causes a high opportunity cost for the Nation’s progress. However, children with SLDs experience repeated failures and poor performance despite their continuous efforts and practice in learning. At the same time, worldwide, the condition will SLDs has been exacerbated due to the COVID-19 pandemic when education delivery shifted online. Thus, strengthening online education delivery will be important and impacting. However, research has indicated that educators might not always be aware of their students’ attentional focus, and this may be particularly true for novice teachers. The aim of this project is to develop an AI-empowered tool that will offer personalized, monitored, and evidence-based identification of attention levels among children with SLD. The project will first develop a multimodal dataset of audio-visual and physiological signals among 150 children with SLD to understand the attention and engagement of children with SLD during digital learning. It will further perform a systematic comparison of physiological, audio-visual, and eye-dilation signals for the attention monitoring of children with SLD to identify the valid indicators of attention. Based on these, the project will develop an AI-empowered system for real-time continuous monitoring of attention among children with SLD. Finally, the project will deploy and evaluate the efficacy of the developed AI-empowered system among 50 children with SLD and 25 typically developing children in naturalistic settings. Once validated the findings of this project can improve and monitor the attention of children with SLDs and can play a significant role in their inclusion during digital learning."
+            },
+            {
+                "title": "Robot-Assisted Diagnosis for Children with Autism",
+                "fundedBy": "SERB, DST",
+                "year": "December 2020 - November 2022",
+                "description": "Early detection of Autism Spectrum Disorder (ASD) is crucial for deciding the appropriate educational and behavioral intervention at the most suitable time. However, there are no absolute biological markers for autism and an accurate diagnosis of ASD requires extensive training and experience acquired over the years and such expertise is limited to a few individuals centered in metropolitans and is beyond the reach of most of the affected population. robot-assisted interventions have found increasing acceptance as a support tool for therapy and education for children with autism (CwA). CwA prefers to interact with technological tools rather than human beings and hence, robot-assisted diagnosis systems can be employed to improve the early detection of ASD in an automated assessment manner making the ASD diagnosis more objective. The overarching goal of this project is to develop a robot-assisted system for the diagnosis of ASD suitable for children of Indian ethnicity. Upon validation, the benefits of this project can be made available to the unreachable children masses of India."
+            }
+        ]
     }
 ]

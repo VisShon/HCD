@@ -3,8 +3,8 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    width: 12vw;
-    height: 30vh;
+    width: 12rem;
+    height: 18rem;
 
     color: #414141;
 
@@ -52,6 +52,7 @@
     display: flex;
     justify-content: space-evenly;
 
+    font-family: Maven Pro;
     margin: 1rem;
 }
 

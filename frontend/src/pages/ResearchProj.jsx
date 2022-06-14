@@ -3,10 +3,8 @@ import NavBar from '../components/navbar';
 import ProfCard from '../components/profCard'
 import ProjDescp from '../components/projDescp';
 import data from "../data/researchProjData.json";
-import grace from '../assets/profsImg/richagupta.png'
 import '../styles/research.css'
 import { useState } from 'react';
-import { useEffect } from 'react';
 
 function ResearchProj(){
     const [selectedProf, setSelectedProf] = useState(null);
@@ -15,7 +13,7 @@ function ResearchProj(){
         <>
             <NavBar logo={true} rel={false} />
             <div id="topSection">
-            <span id="heading" className='font-Archivo font-[200] text-[10vw]'>PROJECTS</span>
+                <span id="heading" className='font-Archivo font-[200] text-[10vw]'>PROJECTS</span>
             </div>
             <div id="projBody"> 
                 <div id="profScroll">
@@ -24,9 +22,15 @@ function ResearchProj(){
                     ))}
                 </div>
                 <div id='publicationsSection' className="p-[2%]">
-                    {displayProjects.map((project, index)=>
-                        <ProjDescp data={project} index={index} />
-                    )}
+                    {
+                        (selectedProf==null)?(
+                            "Please select a professor to show projects"
+                            ):(
+                            displayProjects.map((project, index) =>
+                                <ProjDescp data={project} index={index} />
+                            )
+                        )
+                    }
                 </div>
             </div>
         </>
