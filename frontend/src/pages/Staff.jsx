@@ -13,18 +13,9 @@ function Staff() {
             <div className="flex justify-evenly w-[60%]">
                 <div id="profCardContainer" className='ml-10'>
                     {/* <FacultyCard image={} Name={} Description={}/> */}
-                    <FacultyCard/>
-                    <FacultyCard/>
-                    <FacultyCard/>
-                    <FacultyCard/>
+
                 </div>
                 <div id="profCardContainer" >
-                    <FacultyCard/>
-                    <FacultyCard/>
-                    <FacultyCard/>
-                    <FacultyCard/>
-                    <FacultyCard/>
-                    <FacultyCard/>
                 </div>
             </div>
         </div>

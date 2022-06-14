@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "Jainendra.png",
+        "name": "Dr. Jainendra Shukla",
+        "description": "DPhil, University of Oxford"
+    },
+    {
+        "id": 2,
+        "image": "ratna-suri.png",
+        "name": "Dr. Ratnadeep Suri",
+        "description": "DPhil, University of Oxford"
+    },
+    {
+        "id": 3,
+        "image": "richagupta.png",
+        "name": "Dr. Richa Gupta",
+        "description": "DPhil, University of Oxford"
+    },
+    {
+        "id": 4,
+        "image": "amanparnami.png",
+        "name": "Dr. Aman Parnami",
+        "description": "DPhil, University of Oxford"
+    },
+    {
+        "id": 5,
+        "image": "grace.png",
+        "name": "Dr. Grace Eden",
+        "description": "DPhil, University of Oxford"
+    },
+    {
+        "id": 6,
+        "image": "ratn.png",
+        "name": "Dr. Rajiv R Shah",
+        "description": "DPhil, University of Oxford"
+    }
+]

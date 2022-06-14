@@ -2,6 +2,8 @@ import '../styles/faculty.css';
 import NavBar from '../components/navbar';
 import FacultyCard  from '../components/facultyCard';
 import FacultyImg from '../assets/facultyImg.png';
+import data from "../data/facultyPageData.json"
+
 function Faculty(){
     return(
         <>
@@ -15,19 +17,15 @@ function Faculty(){
                 </div>
                 <div className="flex justify-between w-[60%]">
                     <div id="profCardContainer" className='ml-10'>
-                        {/* <FacultyCard image={} Name={} Description={}/> */}
-                        <FacultyCard/>
-                        <FacultyCard/>
-                        <FacultyCard/>
-                        <FacultyCard/>
+                        {data.map((items)=>(
+                            (<FacultyCard image={items.image} Name={items.name} Description={items.description} key={items.id}/>)
+                        ))}
                     </div>
                     <div id="profCardContainer">
-                        <FacultyCard/>
-                        <FacultyCard/>
-                        <FacultyCard/>
-                        <FacultyCard/>
-                        <FacultyCard/>
-                        <FacultyCard/>
+                        {data.map((items)=>(
+
+                            (<FacultyCard image={items.image} Name={items.name} Description={items.description} key={items.id}/>)
+                        ))}
                     </div>
                 </div>
             </div>
