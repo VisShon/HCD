@@ -12,16 +12,16 @@ function ResearchProj(){
     return (
         <>
             <NavBar logo={true} rel={false} />
-            <div id="topSection">
+            <div id="topSection">    
                 <span id="heading" className='font-Archivo font-[200] text-[10vw]'>PROJECTS</span>
             </div>
-            <div id="projBody"> 
-                <div id="profScroll">
+            <div className="projBody"> 
+                <div className="profScroll">
                     {data.map((prof, index)=>(
                         <ProfCard data={prof} index={index} selectedProf={selectedProf} setSelectedProf={setSelectedProf} setDisplayProjects={setDisplayProjects}/>
                     ))}
                 </div>
-                <div id='publicationsSection' className="p-[2%]">
+                <div className="publicationsSection p-[2%]">
                     {
                         (selectedProf==null)?(
                             "Please select a professor to show projects"

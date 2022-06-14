@@ -3,9 +3,8 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    width: 12rem;
+    min-width: 12rem;
     height: 18rem;
-
     color: #414141;
 
     overflow: hidden;
