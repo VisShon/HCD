@@ -9,7 +9,13 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    position: relative;
+    animation: autoScroll 50s alternate forwards infinite;
 }
+.facultyCard.right{
+    animation: autoScroll2 50s alternate forwards infinite;
+}
+
 .facultyContainer{
     width: 100vw;
     height: 100vh;
@@ -36,6 +42,24 @@
 #profCardContainer::-webkit-scrollbar {
     display: none;
   }
+@keyframes autoScroll {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -98vw;
+    }
+}
+@keyframes autoScroll2 {
+    0%{
+        bottom: 100vw;
+    }
+    100%{
+        bottom: 0;
+    }
+}
+
+
 .facultyImage{
     animation: moveIn 1s forwards;
 }

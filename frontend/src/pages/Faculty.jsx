@@ -18,13 +18,12 @@ function Faculty(){
                 <div className="flex justify-between w-[60%]">
                     <div id="profCardContainer" className='ml-10'>
                         {data.map((items)=>(
-                            (<FacultyCard image={items.image} Name={items.name} Description={items.description} key={items.id}/>)
+                            (<FacultyCard right={false} image={items.image} Name={items.name} Description={items.description} key={items.id}/>)
                         ))}
                     </div>
                     <div id="profCardContainer">
                         {data.map((items)=>(
-
-                            (<FacultyCard image={items.image} Name={items.name} Description={items.description} key={items.id}/>)
+                            (<FacultyCard right={true} image={items.image} Name={items.name} Description={items.description} key={items.id}/>)
                         ))}
                     </div>
                 </div>
