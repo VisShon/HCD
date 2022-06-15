@@ -21,7 +21,7 @@ function Landing() {
           <PeopleSection content={LandingPageData.facultyData}/>
           {/* <WhatHappensSection/> */}
           <GallerySection />
-          {/* <NewsSection/> */}
+          <NewsSection/>
           <Footer/>
     </div>
   );

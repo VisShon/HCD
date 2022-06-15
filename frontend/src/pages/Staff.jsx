@@ -13,7 +13,6 @@ function Staff() {
             <div className="flex justify-evenly w-[60%]">
                 <div id="profCardContainer" className='ml-10'>
                     {/* <FacultyCard image={} Name={} Description={}/> */}
-
                 </div>
                 <div id="profCardContainer" >
                 </div>

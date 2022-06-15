@@ -1,0 +1,39 @@
+#newsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+
+}
+#section{
+    display: flex;
+    flex-direction: column;
+    background-color: #B4DBD9;
+    border-radius: 2em;
+    padding: 2rem;
+    height: 70vh;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+#section::-webkit-scrollbar{
+    display: none;
+}
+.Divider{
+    background-color: #B8B8B8;
+    width: 1%;
+    height: 70vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 2em;
+}
+#contentContainer{
+    display: flex;
+    margin-top: 1rem;
+}   
+#sectionHeading{
+    font-family: "Archivo",sans-serif;
+    font: 200;
+    color: #414141;
+    font-size: 2rem;
+    text-align: center;
+}
