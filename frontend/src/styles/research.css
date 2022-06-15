@@ -209,10 +209,12 @@
 }
 .profScroll{
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     justify-content: left;
     min-height: 25rem;
     min-width: 100%;
     padding: 3rem 3rem;
 }
-
+.profScroll::-webkit-scrollbar{
+    display: none;
+}
