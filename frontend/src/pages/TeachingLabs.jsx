@@ -7,12 +7,6 @@ import Body from '../components/researchbody';
 import backBtn from '../assets/bBtn.png'
 import data from '../data/teachingPageData.json';
 
-import di from '../assets/di.png'
-import robo from '../assets/robo.png'
-
-import cdnm from '../assets/cdnm.png'
-import cdnmImg from '../assets/cdnmImg.png'
-
 const arr = ['1','2','3']
 
 function back(){
@@ -57,15 +51,9 @@ function TeachingLabs() {
                         The purpose of Teaching Labs is to learn together about practice and develop shared, collaborative practices. In this spirit, all participants engage in the learning and planning. The lab is organized around the learning cycle.
                     </p>
                 </div>
-                <div id = '1' onClick={()=>clicked('1')}>
-                    <Panel color='#39AEA8' logo={di} image={robo}/>
-                </div> 
-                <div id='2' onClick={()=>clicked('2')}>
-                    <Panel color='#1799C2' logo={cdnm} image={cdnmImg} />
-                </div>
-                <div id='3' onClick={()=>clicked('3')}>
-                    <Panel color='#A4DAC3' logo={cdnm} image={cdnmImg} />
-                </div>
+                {data.map((labs)=>(<div id={labs.id} onClick={()=>clicked(labs.id)} key={labs.id}>
+                    <Panel color={labs.color} logo={labs.logo} image={labs.Panelimage}/>
+                </div> ))}
                 <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>
             </div>
         </>

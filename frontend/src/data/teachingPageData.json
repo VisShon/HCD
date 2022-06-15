@@ -1,26 +1,35 @@
 [
     {
+        "id":"1",
         "title": "Design and  Innovation Lab",
-        "subtitle": "Dr. Aman Parnami, A - 405",
+        "subtitle": "B-004, Research & Development Block, IIITD",
         "description": "Design & Innovation Lab offers a unique opportunity for students for prototyping of their ideas and thereby inculcate the habit of innovation, which can be useful for society, community, research so as to improve quality of life human beings live and promoting Do-It-Yourself attitude.",
         "buttonText": "Visit Website",
         "link":"https://dilab.iiitd.ac.in/",
-        "color": "#39AEA8"
+        "color": "#39AEA8",
+        "logo": "di.png",
+        "Panelimage": "robo.png"
     },
     {
-        "title": "Centre for Design and New Media",
-        "subtitle": "Prof. Mukesh Mohania, A - 507",
-        "description": "The Center is unique in the country and brings together researchers in the areas of design, computer science, and new media, to conduct research and education in areas of Interaction Design, HCI, New Media, Animation, Film & Video, Gaming, etc., and how they can be leveraged effectively in domains like education, healthcare and transportation.",
+        "id":"2",
+        "title": "Audio & Video Studio",
+        "subtitle": "B4, Research & Development Block, IIITD",
+        "description": "The Audio-Visual Studio is currently under the supervision of Aman Samuel (Visiting Faculty, HCD, IIIT-Delhi) and Anoop Ratn (Visiting Faculty, HCD, IIIT-Delhi) has a multi- channel sound driver by Focusrite and 10 speakers with individual control.The lab's goal is to turn the research and intellectual capital of academia on Digital & Social Media and Innovative Media Services into insights for the real world. Audio -Visual Studio helps students prepare a comprehensive understanding of the modern media landscape through a blend of focused study and hands-on practice. The lab fosters students to advance in knowledge and widespread learning of the challenges of the new Digital Media era.",
         "buttonText": "Visit Website",
         "link":"https://cdnm.iiitd.ac.in/",
-        "color": "#1799C2"
+        "color": "#1799C2",
+        "logo": "logo.png",
+        "Panelimage": "cdnmImg.png"
     },
     {
-        "title": "Centre for Design and New Media",
-        "subtitle": "Prof. Mukesh Mohania, A - 507",
-        "description": "The Center is unique in the country and brings together researchers in the areas of design, computer science, and new media, to conduct research and education in areas of Interaction Design, HCI, New Media, Animation, Film & Video, Gaming, etc., and how they can be leveraged effectively in domains like education, healthcare and transportation.",
-        "buttonText": "Visit Website",
-        "link":"https://cdnm.iiitd.ac.in/",
-        "color": "#1799C2"
+        "id":"3",
+        "title": "Design Arcade",
+        "subtitle": "A105, Research & Development Block, IIITD",
+        "description": "Every year students and faculty of CDNM create digital or physical systems for serving a societal need or exploring novel ways of interactions, however, a proper showcase was difficult to organize due to lack of space conducive to minimalistic and serene requirements of design presentations. We created a hall with a large projection screen, motorized curtains, overhead lights, overhead projector, and outlets for a successful interactive design exhibition. The space could also be used during other design-related activities such as the TEDx conference.",
+        "buttonText": "",
+        "link":"",
+        "color": "#A4DAC3",
+        "logo": "logo.png",
+        "Panelimage": "art.png"
     }
 ]

@@ -6,3 +6,6 @@
     margin-top: 2vw;
     box-shadow: 8.5px 10.5px 27px 1px #CECECE, -12px -6px 14px 1px #ffffff;
 }
+#btn:hover{
+    background-color: #f1f1f1;
+}
