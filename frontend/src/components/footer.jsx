@@ -13,23 +13,23 @@ export default function footer(){
 
                         <div className="flex flex-col font-Maven text-[#808080] text-[0.9em]">
                             <span className="text-[#277773] text-[1.1em]">USEFUL LINKS</span>
-                            <span>CARRERS @HCD</span>
-                            <span>HCD AlUMNI</span>
-                            <span>FACULTY</span>
-                            <span>STUDENTS</span>
-                            <span>RESEARCH PAPERS</span>
+                            <a>CARRERS @HCD</a>
+                            <a>HCD AlUMNI</a>
+                            <a>FACULTY</a>
+                            <a>STUDENTS</a>
+                            <a>RESEARCH PAPERS</a>
                         </div>
 
                         <div className="flex flex-col font-Maven text-[#808080] text-[0.9em]">
-                            <span className="text-[#277773] text-[1.1em]">INITIATIVES</span>
-                            <span>WORKSHOPS</span>
-                            <span>PLACEMENT</span>
+                            <a className="text-[#277773] text-[1.1em]">INITIATIVES</a>
+                            <a>WORKSHOPS</a>
+                            <a>PLACEMENT</a>
                         </div>
 
                         <div className="flex flex-col font-Maven text-[#808080] text-[0.9em]'">
                             <span className="text-[#277773] text-[1.1em]">CONTACT US</span>
-                            <span> admin-hcd@iiitd.ac.in</span>
-                            <span>+91-11-26907588</span>
+                            <a> admin-hcd@iiitd.ac.in</a>
+                            <a>+91-11-26907588</a>
                             <span className='flex justify-between my-4 mx-2'>
                                 <img src={facebook}/>
                                 <img src={tweet}/>
@@ -49,8 +49,8 @@ export default function footer(){
                             <span>LAST UPDATED 26/05/2022</span>
                         </div>
                         <div className='flex font-Maven text-[#808080] text-[0.9em] mr-5'>
-                            <span>Terms and Conditions</span>
-                            <span className='ml-5'>Privacy Policy</span>
+                            <a>Terms and Conditions</a>
+                            <a className='ml-5'>Privacy Policy</a>
                         </div>
                     </div>
                 </div>
