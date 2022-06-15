@@ -1,6 +1,6 @@
 import React from 'react'
-import data from '../data/researchPageData.json'
-import '../styles/news.css'
+import data from '../../data/researchPageData.json'
+import '../../styles/news.css'
 function newsSection() {
   return (
     <>

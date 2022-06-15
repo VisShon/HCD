@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../components/navbar';
-import ProfCard from '../components/profCard'
-import ProjDescp from '../components/projDescp';
+import ProfCard from '../components/Research/profCard'
+import ProjDescp from '../components/Research/projDescp';
 import data from "../data/researchProjData.json";
 import '../styles/research.css'
 import { useState } from 'react';

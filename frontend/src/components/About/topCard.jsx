@@ -1,5 +1,5 @@
-import logo from '../assets/logo.png';
-import "../styles/topCard.css";
+import logo from '../../assets/logo.png';
+import "../../styles/topCard.css";
 
 export default function TopCard(){
     return(

@@ -1,5 +1,5 @@
-import alumn from '../assets/alumini.png';
-import "../styles/peopleSection.css";
+import alumn from '../../assets/alumini.png';
+import "../../styles/peopleSection.css";
 import { Animator, batch, MoveOut} from "react-scroll-motion";
 
 const MoveAlumn = batch(MoveOut(-1500,0));

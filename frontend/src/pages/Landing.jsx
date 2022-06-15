@@ -1,12 +1,12 @@
 import '../styles/landing.css';
 import NavBar from '../components/navbar';
 import Footer from '../components/footer';
-import MainSection from '../components/mainSection';
-import WhyUsSection from '../components/whyUsSection';
-import PeopleSection from '../components/peopleSection';
-import GallerySection from '../components/gallerySection';
-import NewsSection from '../components/newsSection';
-import WhatHappensSection from '../components/whatHappensSection';
+import MainSection from '../components/About/mainSection';
+import WhyUsSection from '../components/About/whyUsSection';
+import PeopleSection from '../components/About/peopleSection';
+import GallerySection from '../components/About/gallerySection';
+import NewsSection from '../components/About/newsSection';
+import WhatHappensSection from '../components/About/whatHappensSection';
 import LandingPageData from "../data/landingPageData.json";
 
 function Landing() {

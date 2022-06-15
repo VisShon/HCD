@@ -1,6 +1,6 @@
 import TopCard from "./topCard";
 import BottomCard from "./bottomCard";
-import video from '../assets/final.mp4';
+import video from '../../assets/final.mp4';
 
 export default function MainSection(data){
     return(

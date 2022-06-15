@@ -1,5 +1,5 @@
-import "../styles/bottomCard.css";
-import dropN from '../assets/dropN.svg';
+import "../../styles/bottomCard.css";
+import dropN from '../../assets/dropN.svg';
 
 export default function BottomCard(props){
     return(

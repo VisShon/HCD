@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/research.css';
+import '../../styles/research.css';
 
 
 function researchbody({data}) {

@@ -1,7 +1,7 @@
 import React, { Component, useState } from 'react'
 import '../styles/research.css';
-import Panel from '../components/researchPanel';
-import Body from '../components/researchbody';
+import Panel from '../components/Research/researchPanel';
+import Body from '../components/Research/researchbody';
 import NavBar from '../components/navbar';
 import backBtn from '../assets/bBtn.png';
 import data from '../data/researchPageData.json';
