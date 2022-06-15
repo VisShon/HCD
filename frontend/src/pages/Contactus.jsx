@@ -33,9 +33,15 @@ function Contactus() {
               <a className="text-[#414141]" href="tel:+91-11-26907588">+91-11-26907588</a>
               <p className="mt-4"><b>Socials</b></p>
               <span className='flex my-2 justify-between w-[40%]'>
-                  <img  src={facebook}/>
-                  <img  src={tweet}/>
-                  <img  src={insta}/>
+                <a href="https://www.facebook.com/IIITDelhi/">
+                  <img className='hover:scale-125' src={facebook}/>
+                </a>
+                <a href="https://www.instagram.com/iiit.delhi" >
+                  <img className='hover:scale-125' src={insta}/> 
+                </a>
+                <a href="https://twitter.com/IIITDelhi">
+                  <img className='hover:scale-125' src={tweet}/> 
+                </a>
               </span>
           </div>
         </div>
