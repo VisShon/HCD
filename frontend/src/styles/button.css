@@ -4,8 +4,9 @@
     border-radius: 6px; 
     padding: 0.5vw 0vw 0.5vw ;
     margin-top: 2vw;
-    box-shadow: 8.5px 10.5px 27px 1px #CECECE, -12px -6px 14px 1px #ffffff;
+    box-shadow: 8.5px 10.5px 13px 1px #CECECE, -12px -6px 13px 1px #ffffff;
 }
-#btn:hover{
+/* #btn:hover{
     background-color: #f1f1f1;
-}
+    box-shadow: inset 8px 10px 13px #69696927, inset -12px -8px 7px #c6c6c619;
+} */
