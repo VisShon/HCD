@@ -3,25 +3,25 @@
         "id": 1,
         "image": "Jainendra.png",
         "name": "Dr. Jainendra Shukla",
-        "description": "DPhil, University of Oxford"
+        "description": "PhD, Universitat Rovira i Virgil(URV)"
     },
     {
         "id": 2,
-        "image": "ratna-suri.png",
-        "name": "Dr. Ratnadeep Suri",
-        "description": "DPhil, University of Oxford"
+        "image": "aman.png",
+        "name": "Mr. Aman Samuel",
+        "description": "MBA, University of Madras"
     },
     {
         "id": 3,
         "image": "richagupta.png",
         "name": "Dr. Richa Gupta",
-        "description": "DPhil, University of Oxford"
+        "description": "PhD, IIT Delhi"
     },
     {
         "id": 4,
         "image": "amanparnami.png",
         "name": "Dr. Aman Parnami",
-        "description": "DPhil, University of Oxford"
+        "description": "Georgia Institute of Technology"
     },
     {
         "id": 5,
@@ -33,6 +33,12 @@
         "id": 6,
         "image": "ratn.png",
         "name": "Dr. Rajiv R Shah",
-        "description": "DPhil, University of Oxford"
+        "description": "PhD, National University of Singapore"
+    },
+    {
+        "id": 7,
+        "image": "anoop.png",
+        "name": "Mr. Anoop Ratna",
+        "description": "MFA, Teerthankar Mahaveer University"
     }
 ]

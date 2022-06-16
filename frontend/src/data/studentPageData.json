@@ -1,0 +1,13 @@
+[
+    {
+        "year":"2021",
+        "students":[
+            {
+                "id": 1,
+                "name":"John Smith",
+                "email":"john@smith.com",
+                "rollno":"2020414" 
+            }
+        ]
+    }
+]

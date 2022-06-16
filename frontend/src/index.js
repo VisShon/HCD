@@ -14,6 +14,7 @@ import ResearchProj from './pages/ResearchProj';
 import ResearchPub from './pages/ResearchPub';
 import Contact from './pages/Contactus';
 import StudentConduct from './pages/studentConductPolicy';
+import Student from './pages/students';
 import PHD from './pages/phd';
 import Staff from './pages/Staff'
 
@@ -24,6 +25,7 @@ root.render(
     <Routes>
       <Route path="/" element={<Landing/>} />
       <Route path="/ComingSoon" element={<ComingSoon/>}/>
+      <Route path="/People" element={<Student/>}/>
 
 
       <Route path="/Faculty" element={<Faculty/>}/>

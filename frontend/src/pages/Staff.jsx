@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/faculty.css';
 import NavBar from '../components/navbar';
 import FacultyCard  from '../components/facultyCard';
+import data from '../data/staffPageData.json'
 function Staff() {
   return (
     <>
@@ -12,9 +13,7 @@ function Staff() {
             </div>
             <div className="flex justify-evenly w-[60%]">
                 <div id="profCardContainer" className='ml-10'>
-                    {/* <FacultyCard image={} Name={} Description={}/> */}
-                </div>
-                <div id="profCardContainer" >
+                    {data.map((items)=>(<FacultyCard image={items.image} Name={items.name} Description={items.description} key={items.id}/>))}
                 </div>
             </div>
         </div>
