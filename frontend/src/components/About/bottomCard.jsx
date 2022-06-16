@@ -14,9 +14,9 @@ export default function BottomCard(props){
         </div>
 
         <div id='cardCTA' className='flex flex-row'>
-          <div id='cardBtn'>
+          <button id='cardBtn' onClick={() => {document.getElementsByClassName('newsSectionContainer')[0].scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" })}}>
             <img src={dropN} width='25px'/>
-          </div>
+          </button>
           <div className='mx-3 text-[18px] font-Maven'>Read News</div>
         </div>
         
