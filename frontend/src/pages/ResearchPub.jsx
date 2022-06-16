@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../components/navbar';
 import ProfCard from '../components/Research/profCard'
-import ProjDescp from '../components/Research/projDescp';
+import PubDescp from '../components/Research/pubDescp';
 import data from "../data/researchPubData.json";
 import '../styles/research.css';
 import {useState} from 'react';
@@ -28,7 +28,7 @@ function ResearchPub() {
                             "Please select a professor to show publication"
                             ):(
                             displayProjects.map((publication, index) =>
-                                <ProjDescp data={publication} index={index} />
+                                <PubDescp data={publication} index={index} />
                             )
                         )
                     }
