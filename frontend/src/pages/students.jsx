@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from '../components/navbar'
+import '../styles/students.css'
 import data from '../data/studentPageData.json'
 function students() {
   return (
@@ -9,13 +10,18 @@ function students() {
           <span id="heading" className='font-Archivo font-[200] text-[10vw]'>STUDENTS</span>
       </div>
       <div className="studentBody">
-        <div className="scrollContainer"></div>
+        <div className="scrollContainer">
+          {data.map((items,index)=>(
+          <button key={index} className={"yearButton"}>
+                {items.year}
+            </button>))}
+        </div>
         <div className="studentsContainer">
-          <h>Btech 2021</h>
+          <h></h>
           <div>
             <div></div>
             <div id="studentInfo">
-              <span></span>
+              <span>safa</span>
               <span></span>
               <span></span>
             </div>
