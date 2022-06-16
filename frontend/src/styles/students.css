@@ -13,32 +13,18 @@
     padding: 4rem;
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    height: 60vh;
+    overflow: hidden;
+    justify-content: space-evenly;
 }
 .scrollContainer{
+    margin-right: 2rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction:column;
     align-items:center;
 }
 .yearButton{
-    background-color: #39AEA8;
-    box-shadow: 4px 5px 13px #CECECE, -6px -4px 7px #ffffff;
-    min-width: 10rem;
-    height: 2rem;
-    border-radius: 8px;
-    margin: 1rem 1rem;
-
-    font-family: Archivo;
-    color: #ffffff;
-}
-.yearButton:hover{
-    background-color: #278b86;
-}
-.yearButton:active{
-    box-shadow: inset 8px 10px 13px #21736f, inset -12px -8px 7px #39b0ab;
-}
-
-.yearButton .Selected{
     background-color: #f1f1f1;
     box-shadow: 4px 5px 13px #CECECE, -6px -4px 7px #ffffff;
     min-width: 10rem;
@@ -47,13 +33,45 @@
     margin: 1rem 1rem;
 
     font-family: Archivo;
-    color: #414141;
+    color: #39AEA8;
+}
+.yearButton:hover{
+    background-color: #39AEA8;
+    color: #f1f1f1;
+}
+.yearButton:active{
+    box-shadow: inset 8px 10px 13px #21736f, inset -12px -8px 7px #39b0ab;
+}
+
+.yearButton .Selected{
+    background-color: #39AEA8;
+    box-shadow: 4px 5px 13px #CECECE, -6px -4px 7px #ffffff;
+    min-width: 10rem;
+    height: 2rem;
+    border-radius: 8px;
+    margin: 1rem 1rem;
+
+    font-family: Archivo;
+    color: #f1f1f1;
 }
 
 .studentsContainer{
-    border: 2rem;
+    border-width: 0.3rem;
+    box-shadow: 4px 5px 13px #CECECE, -6px -4px 7px #ffffff;
+    padding: 1rem;
     border-color: #39AEA8;
-    width: 50vw;
-    height: 50vh;
-
+    border-radius: 2rem;
+    width: 70%;
+    height: 40vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.studentsContainer::-webkit-scrollbar{
+    display: none;
+}
+#studentInfo{
+    display:flex;
+    flex-direction: column;
 }

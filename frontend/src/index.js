@@ -25,12 +25,11 @@ root.render(
     <Routes>
       <Route path="/" element={<Landing/>} />
       <Route path="/ComingSoon" element={<ComingSoon/>}/>
-      <Route path="/People" element={<Student/>}/>
 
 
       <Route path="/Faculty" element={<Faculty/>}/>
       <Route path="/Staff" element={<Staff/>}/>
-      <Route path="/Students" element={<ComingSoon/>}/>
+      <Route path="/Students" element={<Student/>}/>
 
 
       <Route path="/ResearchLabs" element={<Research/>}/>

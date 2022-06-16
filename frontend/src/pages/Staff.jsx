@@ -12,7 +12,7 @@ function Staff() {
                 <span className='font-Archivo font-[600] text-[8vw] text-[#f1f1f1] '>STAFF</span>
             </div>
             <div className="flex justify-evenly w-[60%]">
-                <div id="profCardContainer" className='ml-10'>
+                <div id="staffCardContainer" className='ml-10'>
                     {data.map((items)=>(<FacultyCard image={items.image} Name={items.name} Description={items.description} key={items.id}/>))}
                 </div>
             </div>
