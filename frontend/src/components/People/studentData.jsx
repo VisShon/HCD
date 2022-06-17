@@ -1,7 +1,7 @@
 import React from 'react'
 import studentIcon from '../../assets/studentIcon.png'
 import '../../styles/students.css'
-function StudentData(student) {
+function StudentData({student}) {
   return (
     <div className="flex mb-10">
         <img src={studentIcon} className="mx-5 "/>

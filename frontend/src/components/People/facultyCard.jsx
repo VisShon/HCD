@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../styles/faculty.css';
-function FacultyCard(data) {
+function FacultyCard({data}) {
   return (
     <div className={"facultyCard"+(data.right?" rightAnimate":"")+(data.left?" leftAnimate":"")}>
         <img src={require("../../assets/profsImg/"+data.image)} className="rounded-full h-[5vw] w-[5vw] object-cover mb-[1rem]"/>
