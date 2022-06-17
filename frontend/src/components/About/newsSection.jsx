@@ -9,11 +9,11 @@ function newsSection() {
     <>
     <div className='newsSectionContainer'>
       <div className='flex items-center min-w-full justify-center my-4'>
-        <h className="font-Archivo font-[200] text-[#39AEA8] text-[6rem]  ml-[3rem]">NEWS</h>
+        <h2 className="font-Archivo font-[200] text-[#39AEA8] text-[6rem]  ml-[3rem]">NEWS</h2>
       </div>
       <div id="newsContainer">
         <div id='section'>
-            <h id="sectionHeading">Awards</h>
+            <h2 id="sectionHeading">Awards</h2>
             {awards.data.map((items, ind) =>(
               <div className="contentContainer flex my-5" key={items.id}>
                 <p className="mr-2">{ind+1}</p>
@@ -25,7 +25,7 @@ function newsSection() {
         <div className="Divider"></div>
 
         <div id='section'>
-            <h id="sectionHeading">Recents</h>
+            <h2 id="sectionHeading">Recents</h2>
             {recents.data.map((items, ind) =>(
               <div className="contentContainer flex my-5" key={items.id}>
                 <p className="mr-2">{ind+1}</p>
@@ -35,7 +35,7 @@ function newsSection() {
         </div>
         <div className="Divider"></div>
         <div id='section'>
-            <h id="sectionHeading">Conference</h>
+            <h2 id="sectionHeading">Conference</h2>
             {conferences.data.map((items, ind) =>(
               <div className="contentContainer flex my-5" key={items.id}>
                 <p className="mr-2">{ind+1}</p>

@@ -6,7 +6,7 @@ import Year from '../components/People/year'
 import StudentData from '../components/People/studentData'
 function Students() {
   const[yearSelected,setYearSelected]= useState("2021");
-  const[studentData, setStudentData]= useState([]);
+  const[studentData, setStudentData]= useState(data.find(d=>d.year==yearSelected).students);
   return (
     <>
       <NavBar logo={true}/>
@@ -18,7 +18,7 @@ function Students() {
           {data.map((items,index)=>(<Year year={items.year} yearSelected={yearSelected} setYearSelected={setYearSelected} setStudentsData={setStudentData} key={index}/>))}
         </div>
           <div className="studentsContainer">
-            <h className="font-Archivo text-center w-[100%] mb-10 text-[2rem]"><b>Btech {yearSelected}</b></h>
+            <p className="font-Archivo text-center w-[100%] mb-10 text-[2rem]"><b>Btech {yearSelected}</b></p>
               {studentData.map((items,index)=>(<StudentData student={items} key={index}/>))}
         </div>
       </div>
