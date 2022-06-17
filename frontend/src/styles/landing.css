@@ -49,7 +49,7 @@
   display: none;
 }
 .Divider{
-  background-color: #B8B8B8;
+  background-color: #7d8b8a;
   width: 0.2rem;
   height: 70vh;
   margin-left: 2rem;
@@ -65,8 +65,8 @@
 }   
 #sectionHeading{
   font-family: "Archivo",sans-serif;
-  font: 200;
-  color: #414141;
+  font: bold;
+  color: #717070;
   font-size: 2rem;
   text-align: center;
 }

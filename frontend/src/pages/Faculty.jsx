@@ -1,6 +1,6 @@
 import '../styles/faculty.css';
 import NavBar from '../components/navbar';
-import FacultyCard  from '../components/facultyCard';
+import FacultyCard  from '../components/People/facultyCard';
 import FacultyImg from '../assets/facultyImg.png';
 import data from "../data/facultyPageData.json"
 

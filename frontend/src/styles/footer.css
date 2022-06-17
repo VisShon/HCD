@@ -17,3 +17,17 @@
     bottom: 0;
     border-radius: 40px 40px 0px 0px;
 }
+#bcg{
+    background-image: url(../assets/clouds.png);
+    background-position: center;
+    background-size: 100%;
+    animation: cloudMovement 100s linear infinite;
+}
+@keyframes cloudMovement{
+    0%{
+        background-position: 0vw;
+    }
+    100%{
+        background-position: 100vw ;
+    }
+}

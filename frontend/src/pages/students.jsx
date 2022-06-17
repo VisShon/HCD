@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useState }from 'react'
 import NavBar from '../components/navbar'
 import '../styles/students.css'
 import data from '../data/studentPageData.json'
-import studentIcon from '../assets/studentIcon.png'
-function students() {
+import Year from '../components/People/year'
+import StudentData from '../components/People/studentData'
+function Students() {
+  const[yearSelected,setYearSelected]= useState("2021");
+  const[studentData, setStudentData]= useState([]);
   return (
     <>
       <NavBar logo={true}/>
@@ -12,25 +15,16 @@ function students() {
       </div>
       <div className="studentBody">
         <div className="scrollContainer">
-          {data.map((items,index)=>(
-          <button key={index} className={"yearButton"}>
-                {items.year}
-            </button>))}
+          {/* {data.map((items,index)=>(<Year year={items.year} yearSelected={yearSelected} setYearSelected={setYearSelected} setStudentsData={setStudentData} key={index}/>))} */}
+          {/* <Year year={"2017"} yearSelected={yearSelected} setYearSelected={setYearSelected} setStudentsData={setStudentData}/> */}
         </div>
           <div className="studentsContainer">
             <h className="font-Archivo text-center w-[100%] mb-10 text-[2rem]"><b>Btech 2021</b></h>
-              {data.map((items,index)=>(<div className="flex mb-10">
-                <img src={studentIcon} className="mx-5 "/>
-                <div id="studentInfo">
-                  <span><b>John Smith</b></span>
-                  <span>johnsmith@iiitd.ac.in</span>
-                  <span>2021346</span>
-                </div>
-              </div>))}
+              {/* {studentData.map((items,index)=>(<StudentData student={items} key={index}/>))} */}
         </div>
       </div>
     </>
   )
 }
 
-export default students
+export default Students

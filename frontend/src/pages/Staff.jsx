@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/faculty.css';
 import NavBar from '../components/navbar';
-import FacultyCard  from '../components/facultyCard';
+import FacultyCard  from '../components/People/facultyCard';
 import data from '../data/staffPageData.json'
 function Staff() {
   return (
