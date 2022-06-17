@@ -4,7 +4,7 @@ import '../../styles/students.css'
 function StudentData({student}) {
   return (
     <div className="flex mb-10">
-        <img src={studentIcon} className="mx-5 "/>
+        <img src={studentIcon} className="mx-5 h-[5rem] "/>
         <div id="studentInfo">
             <span><b>{student.name}</b></span>
             <span>{student.email}</span>
