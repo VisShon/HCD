@@ -19,9 +19,8 @@
 }
 #bcg{
     background-image: url(../assets/clouds.png);
-    background-position: center;
-    background-size: 100%;
-    animation: cloudMovement 100s linear infinite;
+    background-size: cover;
+    animation: cloudMovement 50s linear infinite alternate; 
 }
 @keyframes cloudMovement{
     0%{
