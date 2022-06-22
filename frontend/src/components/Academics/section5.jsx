@@ -9,9 +9,9 @@ export default function Section5({data}){
             <div className="section5Container">
                 <div className="subjects">
                     {
-                        data.subjects.map((subj) => {
+                        data.subjects.map((subj,index) => {
                              (
-                                <Subject subjCode={subj.code} subjName={subj.text} selectedSub={sub} setSelectedSub={setSub} courses={data.courseList} setCourses={setCourses}/>
+                                <Subject key={index} subjCode={subj.code} subjName={subj.text} selectedSub={sub} setSelectedSub={setSub} courses={data.courseList} setCourses={setCourses}/>
                             )
                         })
                     }
