@@ -1,11 +1,10 @@
-
-#logoImg{
+#logoImg {
     width: 80%;
-
     animation-duration: 2s;
     animation-name: fade-in;
 }
-#topCard{ 
+
+#topCard {
     display: flex;
     border-radius: 0px 0px 180px 0px;
     height: 50vh;
@@ -14,32 +13,40 @@
     align-items: center;
     padding-bottom: 10px;
     padding-right: 10px;
-  
     animation-duration: 1s;
     animation-name: diagPopTop;
 }
-  
+
 @keyframes diagPopTop {
-    from{
+    from {
         height: 0%;
         width: 0%;
-
     }
-    to{
+    to {
         height: 50vh;
         width: 25%;
     }
 }
-  
-  
-  @keyframes fade-in {
-    0%{
-      opacity: 0%;
+
+@keyframes fade-in {
+    0% {
+        opacity: 0%;
     }
-    50%{
-      opacity: 0%;
+    50% {
+        opacity: 0%;
     }
-    100%{
-      opacity: 100%
+    100% {
+        opacity: 100%
     }
-  }
+}
+
+@media (max-width: 800px) {
+    #logoImg {
+        width: 100%;
+    }
+    #topCard {
+        height: 30vh;
+        width: 40%;
+        border-radius: 0px 0px 90px 0px;
+    }
+}

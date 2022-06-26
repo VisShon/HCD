@@ -5,7 +5,7 @@ export default function TopCard(){
     return(
         <>
             <div id='topCard' className='card z-10 absolute'>
-                <img id='logoImg' src={logo}/>
+                <img id='logoImg'className="logoImg" src={logo}/>
             </div> 
         </>
     );
