@@ -3,6 +3,7 @@ import React,{useState} from 'react'
 import '../styles/navbar.css';
 import logoImg from '../assets/logo.png';
 
+
 export default function NavBar({logo, rel}){
 
 
@@ -44,22 +45,22 @@ export default function NavBar({logo, rel}){
                     )
                 }
                 <div id='navbar' className='font-Archivo text-[#444343] my-20'>
-                    <Link className="w-[20%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/'>ABOUT</Link>
+                    <Link className="w-[20%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem] nav_t" to='/'>ABOUT</Link>
 
-                    <div>|</div>
+                    <div className="nav_element">|</div>
 
-                    <div className={isAcadClicked?"Selected w-[20%] text-center mx-5":" w-[20%] text-center mx-5"} onMouseOver={acadClickHandler} onMouseOut={leaveHandler}>ACADEMICS
+                    <div className={isAcadClicked?"Selected w-[20%] text-center mx-5 nav_t":" w-[20%] text-center mx-5  nav_t"} onMouseOver={acadClickHandler} onMouseOut={leaveHandler}>ACADEMICS
                         {isAcadClicked&&<div hidden={true} className='SelectedContent'>
-                            <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
+                            <div  className='drop w-[80%] h-[0.1rem] bg-[#444343]'></div>
                             <Link id="subHeading" to='/academics'>B.Tech. in CSD </Link>
                             <Link id="subHeading" to='/phd'>Ph.D.</Link>
                             <Link id="subHeading" to='/StudentConduct'>Student Conduct Policy</Link>
                         </div>}
                     </div>
 
-                    <div>|</div>
+                    <div className="nav_element">|</div>
 
-                    <div className={isPeoplesClicked?"Selected w-[20%] text-center mx-5":" w-[20%] text-center mx-5"} onMouseOver={peepClickHandler} onMouseOut={leaveHandler}>PEOPLE
+                    <div className={isPeoplesClicked?"Selected w-[20%] text-center mx-5 nav_t":"w-[20%] text-center mx-5 nav_t"} onMouseOver={peepClickHandler} onMouseOut={leaveHandler}>PEOPLE
                         {isPeoplesClicked&&<div className='SelectedContent'>
                             <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
                             <Link id="subHeading" to='/faculty'>Faculty</Link>
@@ -68,9 +69,9 @@ export default function NavBar({logo, rel}){
                         </div>}
                     </div>
 
-                    <div>|</div>
+                    <div className="nav_element">|</div>
 
-                    <div  className={isResearchClicked?"Selected w-[20%] text-center mx-5":" w-[20%] text-center mx-5"} onMouseOver={resClickHandler} onMouseOut={leaveHandler}>RESEARCH
+                    <div  className={isResearchClicked?"Selected w-[20%] text-center mx-5 nav_t":" w-[20%] text-center mx-5 nav_t"} onMouseOver={resClickHandler} onMouseOut={leaveHandler}>RESEARCH
                         {isResearchClicked&&
                         <div className='SelectedContent'>
                             <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
@@ -82,9 +83,9 @@ export default function NavBar({logo, rel}){
                         }                       
                     </div>
 
-                    <div>|</div>
+                    <div className="nav_element">|</div>
 
-                    <Link  className="w-[20%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/contactUs'>CONTACT US</Link>
+                    <Link  className="w-[20%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem] nav_t" to='/contactUs'>CONTACT US</Link>
                 </div>
             </div>
         </>

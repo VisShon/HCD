@@ -1,50 +1,83 @@
-#navbarContainer{
-  position: absolute;
-  z-index: 100;
-
-  display: flex;
-  min-width: 100%;
-}
-#navbarContainer2{
-  position: relative;
-  z-index: 100;
-
-  display: flex;
-  min-width: 100%;
-}
-#navbar{
-  display: flex;
-  justify-content: space-evenly;
-  min-width: 62%;
-  right: 0;
-  /* color: #444343; */
-  font-size: 1.1rem;
-  font-weight: 500;
-  position: absolute;
-  z-index: 100;
+#navbarContainer {
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    min-width: 100%;
 }
 
-.Selected{
-  transition: linear 0.5s;
-  background-color: #f1f1f165;
-  padding-left: 0.1rem;
-  padding-bottom: 2rem;
-  padding-right: 0.1rem;
-  border-radius: 0.5rem;
+#navbarContainer2 {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    min-width: 100%;
 }
-.SelectedContent{
-  width: 100%;
-  height: 90%;
-  display:flex; 
-  flex-direction: column; 
-  align-items: center;
-  justify-content: space-between;
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 62%;
+    right: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: absolute;
+    z-index: 100;
 }
-#subHeading{
-  text-align: left;
-  width: 95%;
-  padding-left: 0.5rem;
-  margin-top: 0.5rem;
-  top: 1rem;
-  font-size: 0.8rem;
+
+.Selected {
+    transition: linear 0.5s;
+    background-color: #f1f1f165;
+    padding-left: 0.1rem;
+    padding-bottom: 2rem;
+    padding-right: 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.SelectedContent {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#subHeading {
+    text-align: left;
+    width: 95%;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    top: 1rem;
+    font-size: 0.8rem;
+}
+
+
+/* file 26 06 22 */
+
+@media (max-width: 800px) {
+    #navbar {
+        border-radius: 5% 0% 0% 5%;
+        padding: 2.2%;
+        margin: 10% 0% 10% 10%;
+        background: rgba(255, 255, 255, 0.478);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 0%;
+    }
+    .nav_element {
+        display: none;
+    }
+    .nav_t {
+        margin-top: 4%;
+        margin-bottom: 4%;
+        width: 100%;
+    }
+    .drop {
+        background: #000;
+    }
+    .Selected {
+        width: 100%;
+        transition: linear 0.5;
+        padding: 5%;
+    }
 }
