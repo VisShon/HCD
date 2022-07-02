@@ -58,6 +58,7 @@
 .projectContainer .projectDescription{
     text-align: justify;
     margin-right: 3rem;
+    max-width: 0.2rem;
 }
 .projectContainer .projectIndex{
     font-family: Archivo;
@@ -69,4 +70,11 @@
 
     display: flex;
     align-items: top;
+}
+
+@media screen and (max-width: 500px) {
+    .projectContainer{
+        display: block;
+        
+    }
 }

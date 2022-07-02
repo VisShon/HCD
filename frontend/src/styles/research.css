@@ -233,4 +233,5 @@
 .pubDOI{
     text-decoration: none;
     color: #39AEA8;
+    word-wrap: break-word;
 }
