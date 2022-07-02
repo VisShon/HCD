@@ -3,7 +3,7 @@ import NavBar from "../components/navbar";
 import data from "../data/academicsPageData.json";
 import "../styles/academics.css";
 
-const PageData =data.section7
+const PageData = data.section7
 export default function StudentConduct(){
     return(
         <>

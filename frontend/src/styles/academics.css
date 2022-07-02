@@ -330,6 +330,14 @@
 
     margin: 0rem 3rem;
 }
+
+@media only screen and (max-width: 320px) {
+    .section6Container{
+        grid-template-columns: none;
+        grid-template-row: 1fr 1fr;
+    }
+}
+
 .section6Container .infoContainer h1{
     font-family: Archivo;
     font-size: 4rem;
@@ -373,6 +381,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .section7Container h1{
     font-family: Archivo;
     font-size: 3.5rem;
@@ -383,6 +392,15 @@
 
     /* margin-bottom: 2rem; */
 }
+
+@media only screen and (max-width: 320px) {
+    .section7Container h1{
+        font-size: 2rem;
+        text-align: center;
+        /* margin-bottom: 2rem; */
+    }
+}
+
 .section7Container .cardsContainer{
     animation-name: fadeIn;
     animation-duration: 1s;
@@ -393,6 +411,7 @@
     flex-flow: wrap;
     margin-bottom: 3rem;
 }
+
 .section7Container .cardsContainer button{
     height: 15rem;
     width: 15rem;
@@ -424,11 +443,6 @@
     margin-top: 4.54rem;
     margin-left: 3rem;
 }
-
-
-
-
-
 
 ::-webkit-scrollbar {
     width: 10px;
