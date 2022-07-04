@@ -258,6 +258,14 @@
     animation-duration: 0.2s;
     animation-fill-mode: forwards;
 }
+@media only screen and (max-width:600px){
+    #backBtn{
+        top: 35vh;
+    }
+}
+
+
+
 @keyframes logoUp {
     0%{
         transform: translateY(0vw)
