@@ -17,6 +17,7 @@ function TeachingLabs() {
 
     const[isLogo,setIsLogo] = useState(true);
     const [panelID, setPanelID] = useState('0');
+    var wind = window.matchMedia("(max-width: 600px)");
     
     function clicked(id){
         setIsLogo(false)
@@ -28,9 +29,13 @@ function TeachingLabs() {
         }
         setPanelID(id);
         var panel = document.getElementById(id);
-        
         // var body = document.getElementById('body-section');
-        panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(20*(parseInt(id)-1) + 40)+'vw);pointer-events: none;';
+        if(wind.matches){
+            panel.style='transition: transform ease-out 0.5s;transform: translateY(-'+(40*(parseInt(id)-1)+15)+'vh);pointer-events: none;';
+        }
+        else{
+            panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(20*(parseInt(id)-1) + 40)+'vw);pointer-events: none;';
+        }
         // body.style="transform: translateX(0);"
 
         const x = document.getElementById('backBtn');
@@ -45,11 +50,11 @@ function TeachingLabs() {
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>
-            <div className="panelBody  ">
+            <div className="panelBody">
                 <div id="banner" className="font-Maven font-semibold text-[#39AEA8] text-[4vw] w-[40%] p-[5%] relative"> Teaching Labs
-                    <p className='font-Maven text-[1.2vw] text-[#555555] mt-10'>
+                    {!(wind.matches)&&<p className='font-Maven text-[1.2vw] text-[#555555] mt-10'>
                         The purpose of Teaching Labs is to learn together about practice and develop shared, collaborative practices. In this spirit, all participants engage in the learning and planning. The lab is organized around the learning cycle.
-                    </p>
+                    </p>}
                 </div>
                 {data.map((labs)=>(<div id={labs.id} onClick={()=>clicked(labs.id)} key={labs.id}>
                     <Panel color={labs.color} logo={labs.logo} image={labs.Panelimage}/>

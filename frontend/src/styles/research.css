@@ -120,8 +120,10 @@
 }
 @media only screen and (max-width:600px){
     .body{      
-        top:60vh;
+        top:40vh;
         width:100%;
+        height:200%;
+        justify-content:center;
     }
 }
 
@@ -154,10 +156,10 @@
 @media only screen and (max-width:600px){
     #body-section{      
         transform: none;
-        width: 100%;
         margin-right: 0%;
         text-align: center;
-
+        width: 70%;
+        overflow-y: scroll;
     }
 }
 
@@ -166,6 +168,8 @@
     margin-right: 2rem;
     right: 0;
     padding-left: 30%;
+    font-size: 2.2rem;
+    line-height: normal;
 
 }
 @media only screen and (max-width: 600px){
@@ -182,6 +186,10 @@
 @media only screen and (max-width: 600px){
     #info{
         margin-right: 0;
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        line-height:normal;
+        padding: 1rem;
     }
 }
 
@@ -202,15 +210,17 @@
 
 
 #description{
-     align-self: flex-end;
-     margin-top: 3em;
-
+    align-self: flex-end;
+    margin-top: 3em;
     margin-right: 2rem;
 }
 @media only screen and (max-width: 600px){
     #description{
+        margin-top: 0;
         margin-right: 0;
         align-self: center;
+        font-size:1.2rem;
+        width: 100%;
     }
 }
 
@@ -229,6 +239,8 @@
     #btn{
         margin-right: 0;
         align-self: center;
+        font-size: 1rem;
+        width: 60%;
     }
 }
 
@@ -274,7 +286,15 @@
         z-index: 50;
     }
 }
-
+@media only screen and (max-width:600px) {
+    #banner{
+        width: 100%;
+        height: 15vh;
+        font-size:3rem;
+        text-align:center;
+    }
+    
+}
 
 
 
