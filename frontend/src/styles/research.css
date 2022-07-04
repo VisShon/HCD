@@ -1,3 +1,98 @@
+
+
+.panelBody{
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+    .panelBody{
+        flex-direction: column;
+        padding-top: 60%;
+    }
+    
+}
+
+#panel{
+    position: relative;
+    height: 100vh;
+    width: 20vw;
+    
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+    transform: scale(1);
+}
+@media only screen and (max-width: 600px){
+    #panel{
+        height: 40vh;
+        width: 100vw;
+        align-items:flex-start
+    }
+}
+
+#panel:hover{
+    transition: transform 0.3s ease-out;
+    transform: scale(1.025);
+}
+
+#panelImage{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    margin-top:10vw;
+    animation-name: imgDown;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@media only screen and (max-width: 600px){
+    #panelImage{
+        width: 50%;
+    }
+}
+#logoSec{
+    position: absolute;
+    z-index: 10;
+    padding: 1vw;
+    top:20vw;
+
+    
+    animation-name: logoUp;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#logo{
+    object-fit: cover;
+    background-color: #EEEEEE;
+    border-radius: 20em;
+    padding: 0.5rem;
+    width: 10vw;
+    height: 10vw;
+    box-shadow: 2px 2px 45px 1px #6161615b;
+}
+@media only screen and (max-width: 600px){
+    #logoSec{
+        right: 5vh;
+        padding: 0;
+    }
+    #logo{
+        padding: 0.1rem;
+        width: 15vh;
+        height: 15vh;
+    }
+}
+
+
+/* body  */
+
 .body{
     display: flex;
     width: 100vw;
@@ -23,6 +118,14 @@
         z-index: 40;
     }
 }
+@media only screen and (max-width:600px){
+    .body{      
+        top:60vh;
+        width:100%;
+    }
+}
+
+
 
 #body-section{
     transform: translateX(100%);
@@ -48,66 +151,14 @@
         z-index: 40;
     }
 }
+@media only screen and (max-width:600px){
+    #body-section{      
+        transform: none;
+        width: 100%;
+        margin-right: 0%;
+        text-align: center;
 
-
-.panelBody{
-    display: flex;
-    align-items: center;
-    z-index: 10;
-    overflow: hidden;
-}
-#panel{
-    position: relative;
-    height: 100vh;
-    width: 20vw;
-    
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: center;
-    
-    overflow: hidden;
-    transition: transform 0.3s ease-out;
-    transform: scale(1);
-}
-
-#panel:hover{
-    transition: transform 0.3s ease-out;
-    transform: scale(1.025);
-}
-
-#panelImage{
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-    margin-top:10vw;
-    animation-name: imgDown;
-    animation-delay: 0.3s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
-
-#logoSec{
-    position: absolute;
-    z-index: 10;
-    padding: 1vw;
-    top:20vw;
-
-    
-    animation-name: logoUp;
-    animation-delay: 0.3s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
-#logo{
-    object-fit: cover;
-    background-color: #EEEEEE;
-    border-radius: 20em;
-    padding: 0.5rem;
-    width: 10vw;
-    height: 10vw;
-    box-shadow: 2px 2px 45px 1px #6161615b;
+    }
 }
 
 
@@ -117,24 +168,54 @@
     padding-left: 30%;
 
 }
+@media only screen and (max-width: 600px){
+    #title{
+        margin-right: 0;
+        padding-left: 0;
+    }
+}
+
+
 #info{
     margin-right: 2rem;
 }
+@media only screen and (max-width: 600px){
+    #info{
+        margin-right: 0;
+    }
+}
+
+
 #contentSpace{
     display: flex;
     position: absolute;
     flex-direction: column;
     top:20%;
     margin-right: 2rem;
-
-    
 }
+@media only screen and (max-width: 600px){
+    #contentSpace{
+        margin-right: 0;
+        align-items:center;
+    }
+}
+
+
 #description{
      align-self: flex-end;
      margin-top: 3em;
 
     margin-right: 2rem;
 }
+@media only screen and (max-width: 600px){
+    #description{
+        margin-right: 0;
+        align-self: center;
+    }
+}
+
+
+
 #btn{
     text-align: center;
     margin-top:2.5em;
@@ -143,6 +224,16 @@
 
     margin-right: 2rem;
 }
+
+@media only screen and (max-width: 600px){
+    #btn{
+        margin-right: 0;
+        align-self: center;
+    }
+}
+
+
+
 #backBtn{
     margin: 1.5em;
     transform: scale(1.5);

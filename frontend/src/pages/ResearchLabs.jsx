@@ -39,9 +39,9 @@ function Research(){
             <div className="panelBody">
                 {data.map((labs)=>(<div id={labs.id} onClick={()=>clicked(labs.id)} key={labs.id}>
                     <Panel color={labs.color} logo={labs.logo} image={labs.Panelimage}/>
-                </div> ))}
-                <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>
+                </div> ))} 
             </div>
+            <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>
         </>
     )
 };
