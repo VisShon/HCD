@@ -2,7 +2,6 @@ import NavBar from '../components/navbar';
 import Footer from '../components/footer';
 import pup from '../assets/pup.png';
 import coding from '../assets/coding.png';
-import {ScrollContainer, ScrollPage} from "react-scroll-motion";
 
 function ComingSoon(){
     return(
