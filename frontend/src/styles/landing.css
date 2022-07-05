@@ -82,4 +82,35 @@
     .text-\[7rem\] {
         font-size: 3rem;
     }
+    #section {
+        flex-direction: column;
+        height: 25vh;
+        margin: 0%;
+        padding: 2%;
+        border-color: #B4DBD9;
+        border-width: 1em;
+        margin-bottom: 3em;
+    }
+    .Divider {
+        display: none;
+    }
+    #newsContainer {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+    #newsSectionContainer {
+        padding: 0%;
+        border-width: 1em;
+    }
+    .headi {
+        margin: 0;
+    }
+    #sectionHeading {
+        position: absolute;
+        background-color: #b4dbd9df;
+        padding: 18%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
