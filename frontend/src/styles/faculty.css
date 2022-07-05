@@ -1,4 +1,4 @@
-.facultyCard{
+.facultyCard {
     background-color: #f1f1f1;
     width: 20vw;
     height: 22vw;
@@ -7,24 +7,27 @@
     margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     position: relative;
 }
-.facultyCard.leftAnimate{
+
+.facultyCard.leftAnimate {
     animation: autoScroll 50s alternate forwards infinite;
 }
-.facultyCard.rightAnimate{
+
+.facultyCard.rightAnimate {
     animation: autoScroll2 50s alternate forwards infinite;
 }
 
-.facultyContainer{
+.facultyContainer {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     display: flex;
 }
-#headingSection{
+
+#headingSection {
     background-color: #39AEA8;
     position: relative;
     display: flex;
@@ -32,49 +35,53 @@
     align-items: center;
     justify-content: center;
     width: 40%;
-    height:100%;
+    height: 100%;
 }
-#profCardContainer{
+
+#profCardContainer {
     height: 100%;
     width: 50%;
     padding-left: 2rem;
     margin-top: 13%;
     overflow-y: scroll;
 }
+
 #profCardContainer::-webkit-scrollbar {
     display: none;
-  }
+}
+
 @keyframes autoScroll {
-    0%{
+    0% {
         top: 0;
     }
-    100%{
+    100% {
         top: -98vw;
     }
 }
+
 @keyframes autoScroll2 {
-    0%{
+    0% {
         bottom: 100vw;
     }
-    100%{
+    100% {
         bottom: 0;
     }
 }
 
-
-.facultyImage{
+.facultyImage {
     animation: moveIn 1s forwards;
 }
+
 @keyframes moveIn {
-    0%{
+    0% {
         bottom: -5rem;
     }
-    100%{
+    100% {
         bottom: 0;
     }
 }
 
-#staffCardContainer{
+#staffCardContainer {
     padding-left: 2rem;
     padding-top: 15vh;
     align-items: center;
@@ -84,6 +91,65 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-#staffCardContainer::-webkit-scrollbar{
+
+#staffCardContainer::-webkit-scrollbar {
     display: none;
+}
+
+@media (max-width: 800px) {
+    .hereis2 {
+        padding-top: 40%;
+        padding-left: 10%;
+        justify-content: left!important;
+        height: 35vh !important;
+        z-index: 0;
+    }
+    .facultyContainer {
+        flex-direction: row;
+    }
+    #headingSection {
+        flex-direction: row;
+        height: 55vh;
+        width: 100vw;
+        z-index: 10;
+    }
+    .datai {
+        position: fixed;
+        top: 20em;
+        width: 100%;
+    }
+    #profCardContainer {
+        overflow-y: scroll;
+        margin: 0%;
+        padding: 0% 1% 0% 4%;
+        background-color: transparent;
+    }
+    .facultyCard {
+        width: 80%;
+        height: 80%;
+        border-radius: 10%;
+        padding: 10%;
+        box-shadow: 2px 2px 15px 1px #ffffff6c, -1px -1px 10px 1px #ffffff;
+    }
+    .facultyImage {
+        left: 0em;
+        width: auto;
+        background: rgba(255, 255, 255, 0.674);
+        box-shadow: 1px 2px 50px 1px #d2d2d36c, 0px -10px 20px 1px #ffffff;
+    }
+    .imi {
+        width: 60%;
+        height: 100%;
+    }
+    .texti {
+        font-size: x-small;
+    }
+    #staffCardContainer {
+        overflow-y: scroll;
+        margin: 0%;
+        padding: 0% 6% 60% 4%;
+        height: 60vh;
+        background-color: transparent;
+        z-index: 10;
+    }
 }

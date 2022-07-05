@@ -16,7 +16,7 @@ function Contactus() {
 
 
         <div id="Content" className="font-Maven text-[#39AEA8] text-[1rem] ">
-          <div className="h-[20vw] w-[20vw] rounded-[2rem] m-[1em] overflow-hidden">
+          <div className="h-[20vw] w-[20vw] rounded-[2rem] m-[1em] overflow-hidden Mapi">
             <Map  defaultCenter={[28.5459, 77.2732]} defaultZoom={14}>
               <Marker width={30} anchor={[28.5459, 77.2732]} />
             </Map>

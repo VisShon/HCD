@@ -8,10 +8,10 @@ function Staff() {
     <>
         <NavBar logo={true}/>
         <div className="facultyContainer">
-            <div id="headingSection">
+            <div id="headingSection" className="hereis2">
                 <span className='font-Archivo font-[600] text-[8vw] text-[#f1f1f1] '>STAFF</span>
             </div>
-            <div className="flex justify-evenly w-[60%]">
+            <div className="flex justify-evenly w-[60%] datai">
                 <div id="staffCardContainer" className='ml-10'>
                     {data.map((items)=>(<FacultyCard image={items.image} Name={items.name} Description={items.description} key={items.id}/>))}
                 </div>
