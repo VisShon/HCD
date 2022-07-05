@@ -16,7 +16,7 @@ export default function Section1({data}){
                     </p>
                 </span>
                 <div className="sec1ImgContainer">
-                    <img src={sec1Img} className="sec1Img" />
+                    <img rel="preload" src={sec1Img} className="sec1Img" />
                 </div>
             </div>
         </>
