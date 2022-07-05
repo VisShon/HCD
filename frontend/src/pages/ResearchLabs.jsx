@@ -42,7 +42,7 @@ function Research(){
                 <img src={backBtn}/>
             </button>
             <div className="panelBody">
-                {(wind.matches)&&<div id="banner" className="font-Maven font-semibold text-[#39AEA8] text-[4vw] w-[40%] p-[5%] relative"> Research Labs</div>}
+                {(wind.matches)&&<div id="banner" className="font-Archivo font-semibold text-[#39AEA8] text-[4vw] w-[40%] p-[5%] relative"> Research Labs</div>}
                 {data.map((labs)=>(<div id={labs.id} onClick={()=>clicked(labs.id)} key={labs.id}>
                     <Panel color={labs.color} logo={labs.logo} image={labs.Panelimage}/>
                 </div> ))} 

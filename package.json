@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd frontend && npm run build && cd ../ && cd backend && npm run start",
-    "build": "cd frontend && npm run build && cd ../ && cd backend && npm run start"
+    "start": "npm start --prefix backend",
+    "build": "npm build --prefix frontend"
   },
   "author": "",
   "license": "ISC"
