@@ -1,3 +1,98 @@
+
+
+.panelBody{
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+    .panelBody{
+        flex-direction: column;
+        padding-top: 60%;
+    }
+    
+}
+
+#panel{
+    position: relative;
+    height: 100vh;
+    width: 20vw;
+    
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+    transform: scale(1);
+}
+@media only screen and (max-width: 600px){
+    #panel{
+        height: 40vh;
+        width: 100vw;
+        align-items:flex-start
+    }
+}
+
+#panel:hover{
+    transition: transform 0.3s ease-out;
+    transform: scale(1.025);
+}
+
+#panelImage{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    margin-top:10vw;
+    animation-name: imgDown;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@media only screen and (max-width: 600px){
+    #panelImage{
+        width: 50%;
+    }
+}
+#logoSec{
+    position: absolute;
+    z-index: 10;
+    padding: 1vw;
+    top:20vw;
+
+    
+    animation-name: logoUp;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#logo{
+    object-fit: cover;
+    background-color: #EEEEEE;
+    border-radius: 20em;
+    padding: 0.5rem;
+    width: 10vw;
+    height: 10vw;
+    box-shadow: 2px 2px 45px 1px #6161615b;
+}
+@media only screen and (max-width: 600px){
+    #logoSec{
+        right: 5vh;
+        padding: 0;
+    }
+    #logo{
+        padding: 0.1rem;
+        width: 15vh;
+        height: 15vh;
+    }
+}
+
+
+/* body  */
+
 .body{
     display: flex;
     width: 100vw;
@@ -23,6 +118,16 @@
         z-index: 40;
     }
 }
+@media only screen and (max-width:600px){
+    .body{      
+        top:40vh;
+        width:100%;
+        height:200%;
+        justify-content:center;
+    }
+}
+
+
 
 #body-section{
     transform: translateX(100%);
@@ -48,66 +153,14 @@
         z-index: 40;
     }
 }
-
-
-.panelBody{
-    display: flex;
-    align-items: center;
-    z-index: 10;
-    overflow: hidden;
-}
-#panel{
-    position: relative;
-    height: 100vh;
-    width: 20vw;
-    
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: center;
-    
-    overflow: hidden;
-    transition: transform 0.3s ease-out;
-    transform: scale(1);
-}
-
-#panel:hover{
-    transition: transform 0.3s ease-out;
-    transform: scale(1.025);
-}
-
-#panelImage{
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-    margin-top:10vw;
-    animation-name: imgDown;
-    animation-delay: 0.3s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
-
-#logoSec{
-    position: absolute;
-    z-index: 10;
-    padding: 1vw;
-    top:20vw;
-
-    
-    animation-name: logoUp;
-    animation-delay: 0.3s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
-#logo{
-    object-fit: cover;
-    background-color: #EEEEEE;
-    border-radius: 20em;
-    padding: 0.5rem;
-    width: 10vw;
-    height: 10vw;
-    box-shadow: 2px 2px 45px 1px #6161615b;
+@media only screen and (max-width:600px){
+    #body-section{      
+        transform: none;
+        margin-right: 0%;
+        text-align: center;
+        width: 80%;
+        overflow-y: scroll;
+    }
 }
 
 
@@ -115,26 +168,68 @@
     margin-right: 2rem;
     right: 0;
     padding-left: 30%;
+    font-size: 2.2rem;
+    line-height: normal;
 
 }
+@media only screen and (max-width: 600px){
+    #title{
+        text-align: left;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 3rem;
+    }
+}
+
+
 #info{
     margin-right: 2rem;
 }
+@media only screen and (max-width: 600px){
+    #info{
+        text-align:left;
+        margin-right: 0;
+        font-size: 1.8rem;
+        margin-top: 3rem;
+        line-height:normal;
+        padding-right: 5rem;
+    }
+}
+
+
 #contentSpace{
     display: flex;
     position: absolute;
     flex-direction: column;
     top:20%;
     margin-right: 2rem;
-
-    
 }
-#description{
-     align-self: flex-end;
-     margin-top: 3em;
+@media only screen and (max-width: 600px){
+    #contentSpace{
+        margin-right: 0;
+        align-items:center;
+    }
+}
 
+
+#description{
+    align-self: flex-end;
+    margin-top: 3em;
     margin-right: 2rem;
 }
+@media only screen and (max-width: 600px){
+    #description{
+        text-align: left;
+        margin-top: 1rem;
+        margin-right: 0;
+        align-self: center;
+        font-size:1.2rem;
+        width: 100%;
+    }
+}
+
+
+
 #btn{
     text-align: center;
     margin-top:2.5em;
@@ -143,6 +238,18 @@
 
     margin-right: 2rem;
 }
+
+@media only screen and (max-width: 600px){
+    #btn{
+        margin-right: 0;
+        align-self: center;
+        font-size: 1rem;
+        width: 60%;
+    }
+}
+
+
+
 #backBtn{
     margin: 1.5em;
     transform: scale(1.5);
@@ -155,6 +262,14 @@
     animation-duration: 0.2s;
     animation-fill-mode: forwards;
 }
+@media only screen and (max-width:600px){
+    #backBtn{
+        top: 35vh;
+    }
+}
+
+
+
 @keyframes logoUp {
     0%{
         transform: translateY(0vw)
@@ -183,7 +298,15 @@
         z-index: 50;
     }
 }
-
+@media only screen and (max-width:600px) {
+    #banner{
+        width: 100%;
+        height: 15vh;
+        font-size:3rem;
+        text-align:center;
+    }
+    
+}
 
 
 
@@ -233,4 +356,5 @@
 .pubDOI{
     text-decoration: none;
     color: #39AEA8;
+    word-wrap: break-word;
 }

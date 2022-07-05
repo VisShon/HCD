@@ -9,10 +9,10 @@ function newsSection() {
     <>
     <div className='newsSectionContainer'>
       <div className='flex items-center min-w-full justify-center my-4'>
-        <h2 className="font-Archivo font-[200] text-[#39AEA8] text-[6rem]  ml-[3rem]">NEWS</h2>
+        <h2 className="font-Archivo font-[200] text-[#39AEA8] text-[6rem]  ml-[3rem] headi">NEWS</h2>
       </div>
       <div id="newsContainer">
-        <div id='section'>
+        <div id='section' >
             <h2 id="sectionHeading">Awards</h2>
             {awards.data.map((items, ind) =>(
               <div className="contentContainer flex my-5" key={items.id}>

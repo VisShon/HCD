@@ -10,9 +10,9 @@ function back(){
     window.location.reload(false);
 }
 const arr = ['1','2','3','4','5']
-
 function Research(){
     const [panelID, setPanelID] = useState('0');
+    var wind = window.matchMedia("(max-width: 600px)")
     
     function clicked(id){
         for(var i = 0; i < arr.length; i++){
@@ -23,7 +23,12 @@ function Research(){
         }
         setPanelID(id);
         var panel = document.getElementById(id);
-        panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(20*(parseInt(id)-1))+'vw);pointer-events: none;';
+        if(wind.matches){
+            panel.style='transition: transform ease-out 0.5s;transform: translateY(-'+(40*(parseInt(id)-1)+15)+'vh);pointer-events: none;'
+        }
+        else{
+            panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(20*(parseInt(id)-1))+'vw);pointer-events: none;'
+        }
         const x = document.getElementById('backBtn');
         const y = document.getElementById('title');
         x.hidden=false;
@@ -37,11 +42,12 @@ function Research(){
                 <img src={backBtn}/>
             </button>
             <div className="panelBody">
+                {(wind.matches)&&<div id="banner" className="font-Archivo font-semibold text-[#39AEA8] text-[4vw] w-[40%] p-[5%] relative"> Research Labs</div>}
                 {data.map((labs)=>(<div id={labs.id} onClick={()=>clicked(labs.id)} key={labs.id}>
                     <Panel color={labs.color} logo={labs.logo} image={labs.Panelimage}/>
-                </div> ))}
-                <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>
+                </div> ))} 
             </div>
+            <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>
         </>
     )
 };
