@@ -48,7 +48,7 @@ export default function NavBar({logo, rel}){
 
                     <div className="navSep">|</div>
 
-                    <div className={isAcadClicked?"Selected w-[90%] text-center mx-5":" w-[90%] text-center mx-5"} onMouseOver={acadClickHandler} onMouseOut={leaveHandler}>ACADEMICS
+                    <div className={isAcadClicked?"Selected w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" :" w-[90%] text-center mx-5"} onMouseOver={acadClickHandler} onMouseOut={leaveHandler}>ACADEMICS
                         {isAcadClicked&&<div hidden={true} className='SelectedContent'>
                             <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
                             <Link id="subHeading" to='/academics'>B.Tech. in CSD </Link>
@@ -59,7 +59,7 @@ export default function NavBar({logo, rel}){
 
                     <div className="navSep">|</div>
 
-                    <div className={isPeoplesClicked?"Selected w-[90%] text-center mx-5":" w-[90%] text-center mx-5"} onMouseOver={peepClickHandler} onMouseOut={leaveHandler}>PEOPLE
+                    <div className={isPeoplesClicked?"Selected w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]":" w-[90%] text-center mx-5"} onMouseOver={peepClickHandler} onMouseOut={leaveHandler}>PEOPLE
                         {isPeoplesClicked&&<div className='SelectedContent'>
                             <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
                             <Link id="subHeading" to='/faculty'>Faculty</Link>
@@ -70,7 +70,7 @@ export default function NavBar({logo, rel}){
 
                     <div className="navSep">|</div>
 
-                    <div  className={isResearchClicked?"Selected w-[90%] text-center mx-5":" w-[90%] text-center mx-5"} onMouseOver={resClickHandler} onMouseOut={leaveHandler}>RESEARCH
+                    <div  className={isResearchClicked?"Selected w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]":" w-[90%] text-center mx-5"} onMouseOver={resClickHandler} onMouseOut={leaveHandler}>RESEARCH
                         {isResearchClicked&&
                         <div className='SelectedContent'>
                             <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>

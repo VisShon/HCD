@@ -51,17 +51,15 @@
 
 @media (max-width: 800px) {
   #navbar {
+    z-index: 60;
     border-radius: 5% 0% 0% 5%;
     padding: 2.2%;
     margin: 0% 0% 10% 0%;
     background: rgba(255, 255, 255, 0.478);
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     min-width: 0%;
-  }
-  .nav_element {
-      display: none;
   }
   .nav_t {
       margin-top: 4%;

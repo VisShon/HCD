@@ -353,6 +353,10 @@
     animation-duration: 1s;
     animation-direction: forwards;
 }
+#heading{
+    padding: 0rem;
+    margin: 0rem;
+}
 .pubDOI{
     text-decoration: none;
     color: #39AEA8;
