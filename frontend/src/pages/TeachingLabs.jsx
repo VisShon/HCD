@@ -31,10 +31,10 @@ function TeachingLabs() {
         var panel = document.getElementById(id);
         // var body = document.getElementById('body-section');
         if(wind.matches){
-            panel.style='transition: transform ease-out 0.5s;transform: translateY(-'+(40*(parseInt(id)-1)+15)+'vh);pointer-events: none;';
+            panel.style='transition: transform ease-out 0.5s;transform: translateY(-'+(40*(parseInt(id)-1))+'vh);pointer-events: none;';
         }
         else{
-            panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(20*(parseInt(id)-1) + 40)+'vw);pointer-events: none;';
+            panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(20*(parseInt(id)-1)+40)+'vw);pointer-events: none;';
         }
         // body.style="transform: translateX(0);"
 
@@ -45,13 +45,13 @@ function TeachingLabs() {
     }
 
     return (
-        <div className="bg-[#39AEA8]">
+        <div className="bg-[#f1f1f1]">
             <NavBar logo={isLogo} rel={false} />
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>
             <div className="panelBody">
-                <div id="banner" className="font-Archivo  text-[#f1f1f1] text-[3vw] w-[40%]  bottom-[-10vw] relative"> TEACHING LABS
+                <div id="banner" className="font-Archivo  text-[#39AEA8] text-[3vw] w-[40%]  bottom-[-5vw] relative p-10 small:bottom-0 small:p-0 small:text-[3vh] small:w-[100%] small:text-center"> TEACHING LABS
                     {!(wind.matches)&&<p className='font-Maven  text-[1.2vw] text-[#555555] mt-10'>
                         The purpose of Teaching Labs is to learn together about practice and develop shared, collaborative practices. In this spirit, all participants engage in the learning and planning. The lab is organized around the learning cycle.
                     </p>}
