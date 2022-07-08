@@ -477,10 +477,22 @@
     margin: 0rem 3rem;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 800px) {
     .section6Container{
-        grid-template-columns: none;
-        grid-template-row: 1fr 1fr;
+        display: flex;
+        height: auto;
+        flex-flow: column-reverse;
+    }
+    .section6Container .infoContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        margin: 0rem 3rem;
+    }
+    .section6Container .imgContainer{
+        height: 50vh;
+        padding-top: 10rem;
     }
 }
 

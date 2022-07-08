@@ -45,13 +45,13 @@ function TeachingLabs() {
     }
 
     return (
-        <>
+        <div className="bg-[#39AEA8]">
             <NavBar logo={isLogo} rel={false} />
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>
             <div className="panelBody">
-                <div id="banner" className="font-Archivo  text-[#39AEA8] text-[3vw] w-[40%] p-[4%]  relative"> TEACHING LABS
+                <div id="banner" className="font-Archivo  text-[#f1f1f1] text-[3vw] w-[40%]  bottom-[-10vw] relative"> TEACHING LABS
                     {!(wind.matches)&&<p className='font-Maven  text-[1.2vw] text-[#555555] mt-10'>
                         The purpose of Teaching Labs is to learn together about practice and develop shared, collaborative practices. In this spirit, all participants engage in the learning and planning. The lab is organized around the learning cycle.
                     </p>}
@@ -61,7 +61,7 @@ function TeachingLabs() {
                 </div> ))}
                 <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>
             </div>
-        </>
+        </div>
     )
 }
 

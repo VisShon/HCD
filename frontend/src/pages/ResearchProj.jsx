@@ -13,7 +13,7 @@ function ResearchProj(){
         <>
             <NavBar logo={true} rel={false} />
             <div id="topSection">    
-                <span className='heading font-Archivo font-[200] text-[15vw] sm:text-[10vw] text-[#f1f1f1]'>PROJECTS</span>
+                <span id="heading" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>PROJECTS</span>
             </div>
             <div className="projBody"> 
                 <div className="profScroll">

@@ -11,18 +11,18 @@ function Contactus() {
     <>
         <NavBar logo={true} rel={false}/>
         <div id="topSection">
-          <span id="heading" className='font-Archivo font-[200] text-[10vw]'>CONTACT US</span>
+          <span id="heading" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>CONTACT US</span>
         </div>
 
 
-        <div id="Content" className="font-Maven text-[#39AEA8] text-[1rem] ">
-          <div className="h-[20vw] w-[20vw] rounded-[2rem] m-[1em] overflow-hidden Mapi">
+        <div id="Content" className="font-Maven text-[#39AEA8] text-[1rem]">
+          <div className="h-[20vw] w-[20vw] rounded-[2rem] m-[1em] overflow-hidden small:w-[90vw] small:h-[25vh] small:rounded-[1rem]">
             <Map  defaultCenter={[28.5459, 77.2732]} defaultZoom={14}>
               <Marker width={30} anchor={[28.5459, 77.2732]} />
             </Map>
           </div>
 
-          <div id="Address" className="Card">
+          <div id="Address" className="Card ">
               <p><b>Address</b></p>
               <p className="text-[#414141]">Okhla Industrial Estate, Phase III, near Govind Puri Metro Station, New Delhi, Delhi 110020</p>
           </div>

@@ -82,10 +82,7 @@
     flex-direction: column;
 }
 
-@media (max-width: 800px) {
-    #topSection {
-        justify-content: left;
-    }
+@media (max-width: 600px) {
     #heading {
         padding: 10%;
     }

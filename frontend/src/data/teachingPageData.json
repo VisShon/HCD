@@ -1,16 +1,5 @@
 [
     {
-        "id":"1",
-        "title": "Design and  Innovation Lab",
-        "subtitle": "B-004, Research & Development Block, IIITD",
-        "description": "Design & Innovation Lab offers a unique opportunity for students for prototyping of their ideas and thereby inculcate the habit of innovation, which can be useful for society, community, research so as to improve quality of life human beings live and promoting Do-It-Yourself attitude.",
-        "buttonText": "Visit Website",
-        "link":"https://dilab.iiitd.ac.in/",
-        "color": "#39AEA8",
-        "logo": "di.png",
-        "Panelimage": "robo.png"
-    },
-    {
         "id":"2",
         "title": "Audio & Video Studio",
         "subtitle": "B4, Research & Development Block, IIITD",
@@ -20,6 +9,17 @@
         "color": "#1799C2",
         "logo": "logo.png",
         "Panelimage": "cdnmImg.png"
+    },
+    {
+        "id":"1",
+        "title": "Design and  Innovation Lab",
+        "subtitle": "B-004, Research & Development Block, IIITD",
+        "description": "Design & Innovation Lab offers a unique opportunity for students for prototyping of their ideas and thereby inculcate the habit of innovation, which can be useful for society, community, research so as to improve quality of life human beings live and promoting Do-It-Yourself attitude.",
+        "buttonText": "Visit Website",
+        "link":"https://dilab.iiitd.ac.in/",
+        "color": "#39AEA8",
+        "logo": "di.png",
+        "Panelimage": "robo.png"
     },
     {
         "id":"3",

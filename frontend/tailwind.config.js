@@ -8,6 +8,9 @@ module.exports = {
         Maven: ['Maven Pro','sans-serif'],
       },
     },
+    screens: {
+      'small': {'max': '600px'}
+    },
   },
   plugins: [],
 }

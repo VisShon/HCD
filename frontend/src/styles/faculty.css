@@ -80,6 +80,14 @@
         bottom: 0;
     }
 }
+@keyframes moveInSm {
+    0% {
+        left: 5rem;
+    }
+    100% {
+        left: 0;
+    }
+}
 
 #staffCardContainer {
     padding-left: 2rem;
@@ -98,19 +106,19 @@
 
 @media (max-width: 800px) {
     .hereis2 {
-        padding-top: 40%;
-        padding-left: 10%;
-        justify-content: left!important;
+        
         height: 35vh !important;
-        z-index: 0;
+        
     }
     .facultyContainer {
         flex-direction: row;
     }
     #headingSection {
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: flex-end;
         height: 55vh;
         width: 100vw;
+        font-size:10vw;
         z-index: 10;
     }
     .datai {
@@ -129,13 +137,11 @@
         height: 80%;
         border-radius: 10%;
         padding: 10%;
-        box-shadow: 2px 2px 15px 1px #ffffff6c, -1px -1px 10px 1px #ffffff;
     }
     .facultyImage {
         left: 0em;
         width: auto;
-        background: rgba(255, 255, 255, 0.674);
-        box-shadow: 1px 2px 50px 1px #d2d2d36c, 0px -10px 20px 1px #ffffff;
+        animation: moveInSm 0.5s ease-in forwards;
     }
     .imi {
         width: 60%;

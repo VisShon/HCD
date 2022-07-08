@@ -298,15 +298,6 @@
         z-index: 50;
     }
 }
-@media only screen and (max-width:600px) {
-    #banner{
-        width: 100%;
-        height: 15vh;
-        font-size:2.8rem;
-        text-align:center;
-    }
-    
-}
 
 
 
@@ -346,19 +337,36 @@
     background: #39AEA8;
     width: 100%;
     height: 40vh;
-    display : flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     align-items: flex-end;
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-direction: forwards;
 }
-#heading{
-    padding: 0rem;
-    margin: 0rem;
+#heading {
+    color: #f1f1f1;
+    position: relative;
+    bottom: -4.5vw;
 }
 .pubDOI{
     text-decoration: none;
     color: #39AEA8;
     word-wrap: break-word;
+}
+
+@media only screen and (max-width: 600px){
+    #heading{
+        bottom: -9vw;
+        font-size:3rem;
+        text-align:center;
+    }
+    .profScroll::-webkit-scrollbar{
+        display: flex;
+    }
+    .profScroll{
+        margin-bottom: 3rem;
+        min-height: auto;
+        padding: 1rem 1rem;
+    }
 }

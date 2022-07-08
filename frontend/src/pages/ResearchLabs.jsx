@@ -13,7 +13,7 @@ const arr = ['1','2','3','4','5']
 function Research(){
     const [panelID, setPanelID] = useState('0');
     var wind = window.matchMedia("(max-width: 600px)")
-    
+
     function clicked(id){
         for(var i = 0; i < arr.length; i++){
             if(arr[i]!= id){
@@ -36,19 +36,19 @@ function Research(){
     }
 
     return (
-        <>
+        <div className="bg-[#39AEA8]">
             <NavBar logo={wind.matches} rel={!wind.matches}/>
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>
             <div className="panelBody">
-                {(wind.matches)&&<div id="banner" className="font-Archivo text-[#39AEA8] text-[3vw] w-[40%]  relative">RESEARCH LABS</div>}
+                {(wind.matches)&&<div id="banner" className="font-Archivo text-[#f1f1f1] text-[3vw] w-[40%] bottom-[-10vw] relative">RESEARCH LABS</div>}
                 {data.map((labs)=>(<div id={labs.id} onClick={()=>clicked(labs.id)} key={labs.id}>
                     <Panel color={labs.color} logo={labs.logo} image={labs.Panelimage}/>
                 </div> ))} 
             </div>
             <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>
-        </>
+        </div>
     )
 };
 

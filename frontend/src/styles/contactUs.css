@@ -22,6 +22,7 @@
     display: flex;
     justify-content: center;
     padding: 4%;
+    align-items: center;
 }
 
 .Card {
@@ -36,30 +37,28 @@
     padding: 2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     #Content {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        overflow-y: scroll;
         font-size: x-small;
         padding: 0%;
         overflow-y: visible;
+        height: 65vh;
         margin: 0%;
     }
+    
     .Card {
-        width: 95%;
+        width: 90vw;
+        height: 15vh;
         align-items: center;
         justify-items: center;
         justify-content: center;
         padding-bottom: 10%;
+        border-radius: 1rem;
     }
-    .Mapi {
-        width: 95%;
-        height: 40%;
-        margin-right: 1%;
-        align-items: center;
-        border-width: 0.5em;
-        border-radius: 2em;
+    #heading{
+        bottom: -9vw;
+        font-size:3rem;
     }
 }
