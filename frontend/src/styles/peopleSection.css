@@ -32,9 +32,8 @@
         z-index: 10;
         display: flex;
         flex-direction: column;
-        margin: 5%;
-        padding: 1%;
         width: 100%;
+        height: 50%;
     }
     .imgi {
         width: 100%;
@@ -43,9 +42,10 @@
     }
     .SectionHeading {
         writing-mode: horizontal-tb;
-        right: 4em;
-        top: 8em;
-        background-color: #9afbf668;
+        top: 10em;
+        left:0;
+        margin-left:1rem;
         padding: 5%;
+        justify-content: flex-start;
     }
 }

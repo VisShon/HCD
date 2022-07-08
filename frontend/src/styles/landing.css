@@ -107,10 +107,10 @@
         margin: 0;
     }
     #sectionHeading {
-        position: absolute;
-        background-color: #b4dbd9df;
+        position: relative;
         padding: 18%;
         padding-top: 0;
         padding-bottom: 0;
+        top: 10px;
     }
 }

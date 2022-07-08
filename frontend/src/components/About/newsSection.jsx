@@ -37,7 +37,7 @@ function newsSection() {
         <div id='section'>
             <h2 id="sectionHeading">Conference</h2>
             {conferences.data.map((items, ind) =>(
-              <div className="contentContainer flex my-5" key={items.id}>
+              <div className="contentContainer flex my-5 " key={items.id}>
                 <p className="mr-2">{ind+1}</p>
                 <a href={items.link}>{items.decp}</a>
               </div>

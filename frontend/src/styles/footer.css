@@ -30,3 +30,14 @@
         background-position: 100vw ;
     }
 }
+
+
+@media only screen and (max-width: 600px){
+    #footer{
+        height: 120vh;
+        text-align: center;
+    }
+    .footerContainer{
+        border-radius:20px 20px 0px 0px;
+    }
+}
