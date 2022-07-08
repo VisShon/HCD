@@ -477,11 +477,19 @@
     margin: 0rem 3rem;
 }
 
-@media only screen and (max-width: 320px) {
+@media (max-width: 800px) {
     .section6Container{
-        grid-template-columns: none;
-        grid-template-row: 1fr 1fr;
+        display: flex;
+        height: fit-content;
+
+        flex-direction: column;
+        justify-content: flex-end;
     }
+    .section6Container .infoContainer{
+        margin-bottom: 1rem;
+        margin-top: 10rem;
+    }
+
 }
 
 .section6Container .infoContainer h1{
