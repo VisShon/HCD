@@ -37,12 +37,12 @@ function Research(){
 
     return (
         <>
-            <NavBar/>
+            <NavBar logo={wind.matches} rel={!wind.matches}/>
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>
             <div className="panelBody">
-                {(wind.matches)&&<div id="banner" className="font-Archivo font-semibold text-[#39AEA8] text-[4vw] w-[40%] p-[5%] relative"> Research Labs</div>}
+                {(wind.matches)&&<div id="banner" className="font-Archivo text-[#39AEA8] text-[3vw] w-[40%]  relative">RESEARCH LABS</div>}
                 {data.map((labs)=>(<div id={labs.id} onClick={()=>clicked(labs.id)} key={labs.id}>
                     <Panel color={labs.color} logo={labs.logo} image={labs.Panelimage}/>
                 </div> ))} 

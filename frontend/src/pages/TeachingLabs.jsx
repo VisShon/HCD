@@ -51,8 +51,8 @@ function TeachingLabs() {
                 <img src={backBtn}/>
             </button>
             <div className="panelBody">
-                <div id="banner" className="font-Archivo font-semibold text-[#39AEA8] text-[4vw] w-[40%] p-[5%] relative"> Teaching Labs
-                    {!(wind.matches)&&<p className='font-Maven text-[1.2vw] text-[#555555] mt-10'>
+                <div id="banner" className="font-Archivo  text-[#39AEA8] text-[3vw] w-[40%] p-[4%]  relative"> TEACHING LABS
+                    {!(wind.matches)&&<p className='font-Maven  text-[1.2vw] text-[#555555] mt-10'>
                         The purpose of Teaching Labs is to learn together about practice and develop shared, collaborative practices. In this spirit, all participants engage in the learning and planning. The lab is organized around the learning cycle.
                     </p>}
                 </div>
