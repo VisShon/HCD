@@ -5,6 +5,7 @@ import data from '../data/studentPageData.json'
 import Year from '../components/People/year'
 import StudentData from '../components/People/studentData'
 function Students() {
+
   const[yearSelected,setYearSelected]= useState("2021");
   const[studentData, setStudentData]= useState(data.find(d=>d.year==yearSelected).students);
   return (
@@ -15,7 +16,7 @@ function Students() {
       </div>
       <div className="studentBody">
         <div className="scrollContainer">
-          {data.map((items,index)=>(<Year year={items.year} yearSelected={yearSelected} setYearSelected={setYearSelected} setStudentsData={setStudentData} key={index}/>))}
+          {data.map((items,index)=>(<Year year={items.year} setYearSelected={setYearSelected} setStudentsData={setStudentData} key={index}/>))}
         </div>
           <div className="studentsContainer">
             <p className="font-Archivo text-center w-[100%] mb-10 text-[2rem]"><b>Btech {yearSelected}</b></p>

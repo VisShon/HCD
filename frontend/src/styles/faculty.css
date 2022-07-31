@@ -12,14 +12,6 @@
     position: relative;
 }
 
-.facultyCard.leftAnimate {
-    animation: autoScroll 50s alternate forwards infinite;
-}
-
-.facultyCard.rightAnimate {
-    animation: autoScroll2 50s alternate forwards infinite;
-}
-
 .facultyContainer {
     width: 100vw;
     height: 100vh;

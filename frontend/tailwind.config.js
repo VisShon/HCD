@@ -9,7 +9,7 @@ module.exports = {
       },
     },
     screens: {
-      'small': {'max': '600px'}
+      'small': {'max': '800px'}
     },
   },
   plugins: [],

@@ -10,8 +10,8 @@ function Faculty(){
             <NavBar logo={true}/>
             <div className="facultyContainer">
                 <div id="headingSection">
-                    <div className="facultyImage absolute bottom-0 w-[47vw] left-0">
-                        <img src={FacultyImg} className=" object-fill"/>
+                    <div className="facultyImage absolute bottom-0 w-[40vw] left-0">
+                        <img src={FacultyImg} className="object-fill"/>
                     </div>
                     <span className='font-Archivo font-[600] text-[8vw] text-[#f1f1f1] z-10'>FACULTY</span>
                 </div>
@@ -22,7 +22,7 @@ function Faculty(){
                         ))}
                     </div>
                     <div id="profCardContainer">
-                        {data.map((items)=>(
+                        {data.slice(0).reverse().map((items)=>(
                             (<FacultyCard right={true} image={items.image} Name={items.name} Description={items.description} key={items.id}/>)
                         ))}
                     </div>
