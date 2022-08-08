@@ -3,7 +3,6 @@ import Footer from '../components/footer';
 import sad from '../assets/sad.svg';
 import coding from '../assets/coding.png';
 import {Link} from "react-router-dom";
-import ProjCard from '../components/Research/projCard';
 
 function NotFound(){
     return(
@@ -22,6 +21,7 @@ function NotFound(){
                     </div>
                     <div className='absolute right-0 top-0 my-[20%] mx-[5vw] '>
                         <img src={sad} className="w-[40vw]" />
+                        
                     </div>
             </div>
         </>

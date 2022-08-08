@@ -1,32 +1,44 @@
 import '../styles/faculty.css';
 import NavBar from '../components/navbar';
-import FacultyCard  from '../components/People/facultyCard';
 import FacultyImg from '../assets/facultyImg.png';
+import HCD from '../assets/hcdFaculty.png';
 import data from "../data/facultyPageData.json"
+import { Planet } from 'react-planet';
+import FacultyBlobs from '../components/People/facultyBlobs'
+
 
 function Faculty(){
+
+
+    var wind = window.matchMedia("(max-width: 600px)")
+    
     return(
         <>
             <NavBar logo={true} bg={false}/>
-            <div className="facultyContainer">
-                <div id="headingSection">
-                    <div className="facultyImage absolute bottom-0 w-[40vw] left-0">
+            <div id={wind.matches?("topSection"):("topSectionFaculty")} className="relative" >    
+                <span id="heading" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>FACULTY</span>
+                {!wind.matches&&<div className="facultyImage bottom-[-12rem] w-[40vw]">
                         <img src={FacultyImg} className="object-fill"/>
-                    </div>
-                    <span className='font-Archivo font-[600] text-[8vw] text-[#f1f1f1] z-10'>FACULTY</span>
+                </div>}
+            </div>
+            <div id="ContentFaculty" className="font-Maven text-[#000000] text-[1rem]">
+
+
+                <div className="absolute bottom-0 left-[35%]">
+                    <Planet orbitStyle={(defaultStyle) => ({
+                        ...defaultStyle,
+                    })}
+                    centerContent={<div className="w-[30vw]">
+                        <img src={HCD} className="object-fill"/>
+                    </div>}
+                    orbitRadius={300}
+                    hideOrbit
+                    autoClose>
+                        {data.map((prof, index)=>(<FacultyBlobs image={prof.image} name={prof.name} education={prof.description} key={index}/>))}
+                    </Planet>
                 </div>
-                <div className="flex justify-between w-[60%] datai">
-                    <div id="profCardContainer" className='ml-10'>
-                        {data.map((items)=>(
-                            (<FacultyCard left={true} image={items.image} Name={items.name} Description={items.description} key={items.id}/>)
-                        ))}
-                    </div>
-                    <div id="profCardContainer">
-                        {data.slice(0).reverse().map((items)=>(
-                            (<FacultyCard right={true} image={items.image} Name={items.name} Description={items.description} key={items.id}/>)
-                        ))}
-                    </div>
-                </div>
+
+
             </div>
         </>
     );

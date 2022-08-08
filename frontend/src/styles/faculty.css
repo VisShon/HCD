@@ -12,6 +12,32 @@
     position: relative;
 }
 
+#topSectionFaculty {
+    position: relative;
+    background: #39AEA8;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-direction: forwards;
+}
+#headingFaculty {
+    color: #f1f1f1;
+    bottom: -4.5vw;
+    position: relative;
+}
+#ContentFaculty {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    align-items: flex-end;
+    margin-bottom: 20vh;
+}
 .facultyContainer {
     width: 100vw;
     height: 100vh;
@@ -61,6 +87,8 @@
 }
 
 .facultyImage {
+
+    width: 60%;
     animation: moveIn 1s forwards;
 }
 
@@ -131,7 +159,6 @@
         padding: 10%;
     }
     .facultyImage {
-        left: 0em;
         width: auto;
         animation: moveInSm 0.5s ease-in forwards;
     }
@@ -150,4 +177,9 @@
         background-color: transparent;
         z-index: 10;
     }
+    #headingFaculty{
+        bottom: -9vw;
+        font-size:3rem;
+    }
 }
+

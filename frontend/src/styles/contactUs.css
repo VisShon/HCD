@@ -10,11 +10,14 @@
     animation-direction: forwards;
 }
 
+
+
 #heading {
     color: #f1f1f1;
     position: relative;
     bottom: -4.5vw;
 }
+
 
 #Content {
     width: 100vw;
@@ -24,6 +27,7 @@
     padding: 4%;
     align-items: center;
 }
+
 
 .Card {
     background: #ffffff;
@@ -58,6 +62,10 @@
         border-radius: 1rem;
     }
     #heading{
+        bottom: -9vw;
+        font-size:3rem;
+    }
+    #headingFaculty{
         bottom: -9vw;
         font-size:3rem;
     }
