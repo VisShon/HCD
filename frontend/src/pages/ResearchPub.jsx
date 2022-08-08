@@ -12,7 +12,7 @@ function ResearchPub() {
     const [displayProjects, setDisplayProjects] = useState([]);
     return (
         <>
-            <NavBar logo={true} rel={false} />
+            <NavBar logo={true} rel={false} bg={false}/>
             <div id="topSection">    
                 <span id="heading" className='font-Archivo font-[200] text-[10vw]'>PUBLICATION</span>
             </div>

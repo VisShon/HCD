@@ -11,7 +11,7 @@ function ResearchProj(){
     const [displayProjects, setDisplayProjects] = useState([]);
     return (
         <>
-            <NavBar logo={true} rel={false} />
+            <NavBar logo={true} rel={false} bg={false}/>
             <div id="topSection">    
                 <span id="heading" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>PROJECTS</span>
             </div>

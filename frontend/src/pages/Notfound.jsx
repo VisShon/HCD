@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 function NotFound(){
     return(
         <>
-            <NavBar logo={true} rel={false} />
+            <NavBar logo={true} rel={false} bg={false}/>
             <div className="flex content-center relative h-screen w-screen  bg-[#f1f1f1]">
                     <div className="flex flex-col mx-[10vw] my-[15vw]">
                         <p className="font-Archivo font-bold text-[#39AEA8] text-[7vw]"> Error 404</p>

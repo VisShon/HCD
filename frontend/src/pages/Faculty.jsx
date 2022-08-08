@@ -7,7 +7,7 @@ import data from "../data/facultyPageData.json"
 function Faculty(){
     return(
         <>
-            <NavBar logo={true}/>
+            <NavBar logo={true} bg={false}/>
             <div className="facultyContainer">
                 <div id="headingSection">
                     <div className="facultyImage absolute bottom-0 w-[40vw] left-0">

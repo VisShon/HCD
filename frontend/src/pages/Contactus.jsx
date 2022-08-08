@@ -9,7 +9,7 @@ import { Map, Marker } from "pigeon-maps"
 function Contactus() {
   return (
     <>
-        <NavBar logo={true} rel={false}/>
+        <NavBar logo={true} rel={false} bg={false}/>
         <div id="topSection">
           <span id="heading" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>CONTACT US</span>
         </div>

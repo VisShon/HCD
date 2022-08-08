@@ -6,7 +6,7 @@ import data from '../data/staffPageData.json'
 function Staff() {
   return (
     <>
-        <NavBar logo={true}/>
+        <NavBar logo={true} bg={false}/>
         <div className="facultyContainer">
             <div id="headingSection" className="hereis2">
                 <span className='font-Archivo font-[600] text-[8vw] text-[#f1f1f1] '>STAFF</span>

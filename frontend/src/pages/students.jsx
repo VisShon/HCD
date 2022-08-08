@@ -10,7 +10,7 @@ function Students() {
   const[studentData, setStudentData]= useState(data.find(d=>d.year==yearSelected).students);
   return (
     <>
-      <NavBar logo={true}/>
+      <NavBar logo={true} bg={false}/>
       <div id="topSection">    
             <span id="heading" className='font-Archivo font-[200] text-[10vw]'>STUDENTS</span>
       </div>

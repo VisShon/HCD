@@ -10,7 +10,7 @@ import Section5 from "../components/Academics/section5";
 export default function Academics(){
     return(
         <>
-            <NavBar logo={true} rel={false} />
+            <NavBar logo={true} rel={false} bg={false} />
             <Section1 data={data.section1} />
             <Section2 data={data.section2}/>
             <Section3 data={data.section3} />

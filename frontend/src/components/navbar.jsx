@@ -3,7 +3,7 @@ import React,{useState} from 'react'
 import '../styles/navbar.css';
 import logoImg from '../assets/logo.png';
 
-export default function NavBar({logo, rel}){
+export default function NavBar({logo, rel, bg=true}){
 
 
     const[isAcadClicked, setAcadClicked] = useState(false);
@@ -86,7 +86,7 @@ export default function NavBar({logo, rel}){
 
                     <Link  className="w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/contactUs'>CONTACT US</Link>
                 </div>
-                <div className="w-[60.5%] h-[1.6rem] absolute top-[5rem] right-0 rounded-l-lg bg-[#f1f1f165] small:hidden"></div>
+                {bg&&<div className="w-[60.5%] h-[1.6rem] absolute top-[5rem] right-0 rounded-l-lg bg-[#f1f1f165] small:hidden"></div>}
             </div>
         </>
     )

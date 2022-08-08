@@ -46,7 +46,7 @@ function TeachingLabs() {
 
     return (
         <div className="bg-[#f1f1f1]">
-            <NavBar logo={isLogo} rel={false} />
+            <NavBar logo={isLogo} rel={false} bg={false}/>
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>
@@ -57,7 +57,7 @@ function TeachingLabs() {
                     </p>}
                 </div>
                 {data.map((labs)=>(<div id={labs.id} onClick={()=>clicked(labs.id)} key={labs.id}>
-                    <Panel color={labs.color} logo={labs.logo} image={labs.Panelimage}/>
+                    <Panel color={labs.color} logo={labs.logo} image={labs.Panelimage} title={labs.title} subtitle={labs.subtitle} txtColor = {"#ffffff"}/>
                 </div> ))}
                 <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>
             </div>
