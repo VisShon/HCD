@@ -1,50 +1,30 @@
 [
     {
-        "profInfo": {
-            "image": "Jainendra.png",
-            "name": "Dr. Jainendra Shukla"
-        },
-        "projects": [
-            {
-                "title": "AI Empowered Attention Evaluation among Children with ADHD",
-                "fundedBy": "TIH-Anubhuti",
-                "year": "September 2021 - August 2024",
-                "description": "Specific Learning Disabilities (SLDs) conditions manifest as a deficit in processing language, spoken or written, that may manifest itself as a difficulty to comprehend, speak, read, write, spell, or to do mathematical calculations and includes such conditions as perceptual disabilities, dyslexia, dysgraphia, dyscalculia, dyspraxia, and developmental aphasia. The cognitive flexibility associated with SLDs can manifest itself in noteworthy talents, which include a multi-sensory lens for creative and lateral thinking, resulting in out-of-the-box solutions for problems. The untapped potential of SLDs causes a high opportunity cost for the Nation’s progress. However, children with SLDs experience repeated failures and poor performance despite their continuous efforts and practice in learning. At the same time, worldwide, the condition will SLDs has been exacerbated due to the COVID-19 pandemic when education delivery shifted online. Thus, strengthening online education delivery will be important and impacting. However, research has indicated that educators might not always be aware of their students’ attentional focus, and this may be particularly true for novice teachers. The aim of this project is to develop an AI-empowered tool that will offer personalized, monitored, and evidence-based identification of attention levels among children with SLD. The project will first develop a multimodal dataset of audio-visual and physiological signals among 150 children with SLD to understand the attention and engagement of children with SLD during digital learning. It will further perform a systematic comparison of physiological, audio-visual, and eye-dilation signals for the attention monitoring of children with SLD to identify the valid indicators of attention. Based on these, the project will develop an AI-empowered system for real-time continuous monitoring of attention among children with SLD. Finally, the project will deploy and evaluate the efficacy of the developed AI-empowered system among 50 children with SLD and 25 typically developing children in naturalistic settings. Once validated the findings of this project can improve and monitor the attention of children with SLDs and can play a significant role in their inclusion during digital learning."
-            },
-            {
-                "title": "Robot-Assisted Diagnosis for Children with Autism",
-                "fundedBy": "SERB, DST",
-                "year": "December 2020 - November 2022",
-                "description": "Early detection of Autism Spectrum Disorder (ASD) is crucial for deciding the appropriate educational and behavioral intervention at the most suitable time. However, there are no absolute biological markers for autism and an accurate diagnosis of ASD requires extensive training and experience acquired over the years and such expertise is limited to a few individuals centered in metropolitans and is beyond the reach of most of the affected population. robot-assisted interventions have found increasing acceptance as a support tool for therapy and education for children with autism (CwA). CwA prefers to interact with technological tools rather than human beings and hence, robot-assisted diagnosis systems can be employed to improve the early detection of ASD in an automated assessment manner making the ASD diagnosis more objective. The overarching goal of this project is to develop a robot-assisted system for the diagnosis of ASD suitable for children of Indian ethnicity. Upon validation, the benefits of this project can be made available to the unreachable children masses of India."
-            }
-        ]
+        "prof": "Dr. Jainendra Shukla",
+        "title": "AI Empowered Attention Evaluation among Children with ADHD",
+        "fundedBy": "TIH-Anubhuti",
+        "year": "September 2021 - August 2024",
+        "description": "Specific Learning Disabilities (SLDs) conditions manifest as a deficit in processing language, spoken or written, that may manifest itself as a difficulty to comprehend, speak, read, write, spell, or to do mathematical calculations and includes such conditions as perceptual disabilities, dyslexia, dysgraphia, dyscalculia, dyspraxia, and developmental aphasia. The cognitive flexibility associated with SLDs can manifest itself in noteworthy talents, which include a multi-sensory lens for creative and lateral thinking, resulting in out-of-the-box solutions for problems. The untapped potential of SLDs causes a high opportunity cost for the Nation’s progress. However, children with SLDs experience repeated failures and poor performance despite their continuous efforts and practice in learning. At the same time, worldwide, the condition will SLDs has been exacerbated due to the COVID-19 pandemic when education delivery shifted online. Thus, strengthening online education delivery will be important and impacting. However, research has indicated that educators might not always be aware of their students’ attentional focus, and this may be particularly true for novice teachers. The aim of this project is to develop an AI-empowered tool that will offer personalized, monitored, and evidence-based identification of attention levels among children with SLD. The project will first develop a multimodal dataset of audio-visual and physiological signals among 150 children with SLD to understand the attention and engagement of children with SLD during digital learning. It will further perform a systematic comparison of physiological, audio-visual, and eye-dilation signals for the attention monitoring of children with SLD to identify the valid indicators of attention. Based on these, the project will develop an AI-empowered system for real-time continuous monitoring of attention among children with SLD. Finally, the project will deploy and evaluate the efficacy of the developed AI-empowered system among 50 children with SLD and 25 typically developing children in naturalistic settings. Once validated the findings of this project can improve and monitor the attention of children with SLDs and can play a significant role in their inclusion during digital learning."
     },
     {
-        "profInfo": {
-            "image": "grace.png",
-            "name": "Dr. Grace Eden"
-        },
-        "projects": [
-            {
-                "title": "Towards Accessible and Inclusive Artificial Intelligence (AIAI): Building on Finnish and Indian Expertise, Experiences, and Diversity",
-                "fundedBy": "Finnish National Agency for Education (EDUFI)",
-                "year": "January 2021 – December 2022",
-                "description": "A consortium of experts and professional working technology for the digital transformation of society with a focus on marginalized and vulnerable communities and user groups, on topics of Accessibility, Inclusion, and innovative technologies such as AI."
-            }
-        ]
+        "prof": "Dr. Jainendra Shukla",
+        "title": "Robot-Assisted Diagnosis for Children with Autism",
+        "fundedBy": "SERB, DST",
+        "year": "December 2020 - November 2022",
+        "description": "Early detection of Autism Spectrum Disorder (ASD) is crucial for deciding the appropriate educational and behavioral intervention at the most suitable time. However, there are no absolute biological markers for autism and an accurate diagnosis of ASD requires extensive training and experience acquired over the years and such expertise is limited to a few individuals centered in metropolitans and is beyond the reach of most of the affected population. robot-assisted interventions have found increasing acceptance as a support tool for therapy and education for children with autism (CwA). CwA prefers to interact with technological tools rather than human beings and hence, robot-assisted diagnosis systems can be employed to improve the early detection of ASD in an automated assessment manner making the ASD diagnosis more objective. The overarching goal of this project is to develop a robot-assisted system for the diagnosis of ASD suitable for children of Indian ethnicity. Upon validation, the benefits of this project can be made available to the unreachable children masses of India."
     },
     {
-        "profInfo": {
-            "image": "ratn.png",
-            "name": "Dr. Rajiv R Shah"
-        },
-        "projects": [
-            {
-                "title": "Harnessing AI and Multimodal Data for Social Good",
-                "fundedBy": "SERB, DST",
-                "year": "April 2019 - December 2022",
-                "description": "In recent years, advances in artificial intelligence techniques have yielded immense success in computer vision, natural language processing, and speech processing. Healthcare is also one of the areas which got many benefits from this. Mining social media messages for health and drug-related information has received significant interest in pharmacovigilance research. For instance, an analysis of social media text (e.g., tweets, posts, and comments) using natural language processing and machine learning techniques helps in finding the adverse drug reactions, suicidal ideation, depression detection, medical information extraction, etc. Moreover, computer vision and machine learning techniques help the automatic detection of different diseases from tissue images. For instance, it has shown immense success in the detection of cancer, diabetes, kidney failure, etc. Furthermore, speech processing in conjunction with artificial intelligence has shown great success in the treatment of people. Moreover, artificial intelligence helps in building systems for people with different abilities. At MIDAS@IIITD, we focus on several such interesting research problems (e.g., kidney glomeruli classification, automatic kidney fibrosis assessment, adverse drug reactions, and suicidal ideation ) leveraging deep learning techniques. Our recent papers in this area are published in top-tier conferences and journals such as IEEE Intelligent Systems, NAACL, etc."
-            }
-        ]
+        "prof": "Dr. Grace Eden",
+        "title": "Towards Accessible and Inclusive Artificial Intelligence (AIAI): Building on Finnish and Indian Expertise, Experiences, and Diversity",
+        "fundedBy": "EDUFI",
+        "year": "January 2021 – December 2022",
+        "description": "A consortium of experts and professional working technology for the digital transformation of society with a focus on marginalized and vulnerable communities and user groups, on topics of Accessibility, Inclusion, and innovative technologies such as AI."
+    },
+    {
+        "prof": "Dr. Rajiv R Shah",
+        "title": "Harnessing AI and Multimodal Data for Social Good",
+        "fundedBy": "SERB, DST",
+        "year": "April 2019 - December 2022",
+        "description": "In recent years, advances in artificial intelligence techniques have yielded immense success in computer vision, natural language processing, and speech processing. Healthcare is also one of the areas which got many benefits from this. Mining social media messages for health and drug-related information has received significant interest in pharmacovigilance research. For instance, an analysis of social media text (e.g., tweets, posts, and comments) using natural language processing and machine learning techniques helps in finding the adverse drug reactions, suicidal ideation, depression detection, medical information extraction, etc. Moreover, computer vision and machine learning techniques help the automatic detection of different diseases from tissue images. For instance, it has shown immense success in the detection of cancer, diabetes, kidney failure, etc. Furthermore, speech processing in conjunction with artificial intelligence has shown great success in the treatment of people. Moreover, artificial intelligence helps in building systems for people with different abilities. At MIDAS@IIITD, we focus on several such interesting research problems (e.g., kidney glomeruli classification, automatic kidney fibrosis assessment, adverse drug reactions, and suicidal ideation ) leveraging deep learning techniques. Our recent papers in this area are published in top-tier conferences and journals such as IEEE Intelligent Systems, NAACL, etc."
     }
 ]

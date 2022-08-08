@@ -4,9 +4,6 @@ function projDescp({data, index, }) {
 	return(
 		<>
 			<div className='projectContainer'>
-				<span className='projectIndex'>
-					{index+1}
-				</span>
 				<span className='projectInfo'>
 					<div className='projectTitle'>
 						<b>Project Title: </b>{data.title}
