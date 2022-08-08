@@ -11,10 +11,10 @@ function FacultyBlobs({image,name,education}) {
     }
 
   return (
-    <div className="rounded-full overflow-hidden w-[10rem] h-[10rem] flex flex-col relative text-center" onMouseOver={onMouseOver} onMouseOut={onMouseOut}>
-        <img src={require("../../assets/profsImg/"+image)} className="w-[10rem] z-[0] "/>
+    <div className="rounded-full overflow-hidden w-[12rem] h-[12rem] flex flex-col relative text-center" onMouseOver={onMouseOver} onMouseOut={onMouseOut}>
+        <img src={require("../../assets/profsImg/"+image)} className="w-[12rem] z-[0] "/>
         {isSelected&&<>
-            <div className="absolute bottom-5 self-center w-[80%] z-[10] ">
+            <div className="absolute bottom-5 self-center w-[90%] z-[10] ">
                 <h1 className="font-[600] text-[0.75rem]">{name}</h1>
                 <span className="text-[0.5rem]">{education}</span>
             </div>

@@ -16,12 +16,12 @@ function Faculty(){
         <>
             <NavBar logo={true} bg={false}/>
             <div id={wind.matches?("topSection"):("topSectionFaculty")} className="relative" >    
-                <span id="heading" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>FACULTY</span>
-                {!wind.matches&&<div className="facultyImage bottom-[-12rem] w-[40vw]">
+                <span id="headingFaculty" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>FACULTY</span>
+                {!wind.matches&&<div className="facultyImage bottom-[-12rem] w-[3vw]">
                         <img src={FacultyImg} className="object-fill"/>
                 </div>}
             </div>
-            <div id="ContentFaculty" className="font-Maven text-[#000000] text-[1rem]">
+            <div id="ContentFaculty" className="font-Maven text-[#000000] text-[1rem] flex justify-center">
 
 
                 <div className="absolute bottom-0 left-[35%]">
