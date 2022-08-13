@@ -114,3 +114,142 @@
         top: 10px;
     }
 }
+
+
+
+
+.MissionVisionContainer{
+    height: 100vh; 
+
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+.MissionVisionContainer .headingContainer{
+    grid-row: 1/3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+    margin-top: 4rem;
+}
+.MissionVisionContainer .headingContainer h1{
+    font-family: Archivo;
+    color: #39AEA8;
+    font-size: 3.5rem;
+    
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    top: 10vh;
+
+    word-wrap: normal;
+    word-break: keep-all;
+
+}
+.MissionVisionContainer .headingContainer p{
+    margin: 0rem 6.9rem;
+}
+
+.MissionVisionContainer .headingContainer img{
+    position: absolute;
+    top:20vh;
+}
+.MissionVisionContainer .listContainer{
+    grid-column: 2/3;
+    grid-row: 1/3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.MissionVisionContainer .listContainer .listObj{
+    margin: 0.5rem 4rem;
+
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+.MissionVisionContainer .listContainer .listObjNum{
+    font-family: Archivo;
+    font-size: 4rem;
+    color: #39AEA8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MissionVisionContainer .listContainer .listObjBody{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 800px) {
+    .MissionVisionContainer{
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .MissionVisionContainer .headingContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        margin-top: 1rem;
+    }
+    .MissionVisionContainer .headingContainer h1{
+        font-family: Archivo;
+        color: #39AEA8;
+        font-size: 3rem;
+        line-height: 3rem;
+
+        display: flex;
+        justify-content: center;
+        margin: 1rem 2rem 1rem 2rem;
+    
+        word-wrap: normal;
+        word-break: keep-all;
+    
+    }
+    .MissionVisionContainer .headingContainer p{
+        margin: 0rem 2rem;
+        /* font-size: 0.8rem; */
+    }
+    .MissionVisionContainer .imgContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .MissionVisionContainer .imgContainer img{
+        margin-top: 1rem;
+        width: 40%;
+        display: none;
+    }
+    .MissionVisionContainer .listContainer{
+        margin-top: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .MissionVisionContainer .listContainer .listObj{
+        margin: 0.2rem 2rem;
+    
+        display: grid;
+        grid-template-columns: 1fr 9fr;
+    }
+    .MissionVisionContainer .listContainer .listObjNum{
+        font-family: Archivo;
+        font-size: 2.5rem;
+        color: #39AEA8;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .MissionVisionContainer .listContainer .listObjBody{
+        display: flex;
+        align-items: center;
+    }
+}

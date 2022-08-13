@@ -1,30 +1,29 @@
+import React, {useState }from 'react'
 import '../styles/faculty.css';
 import NavBar from '../components/navbar';
-import FacultyImg from '../assets/facultyImg.png';
-import HCD from '../assets/hcdFaculty.png';
 import data from "../data/facultyPageData.json"
-import { Planet } from 'react-planet';
-import FacultyBlobs from '../components/People/facultyBlobs'
-
-
+import Button from '../components/People/facultyButton'
+import FacultyCard from '../components/People/facultyCard';
 function Faculty(){
 
+    const[buttonSelected,setButtonSelected] = useState("Faculty");
+    const[facultyData,setFacultyData] = useState(data.find(d=>d.title=="Faculty").data);
 
     var wind = window.matchMedia("(max-width: 600px)")
     
     return(
         <>
             <NavBar logo={true} bg={false}/>
-            <div id={wind.matches?("topSection"):("topSectionFaculty")} className="relative" >    
+            <div id="topSection" className="relative" >    
                 <span id="headingFaculty" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>FACULTY</span>
-                {!wind.matches&&<div className="facultyImage bottom-[-12rem] w-[3vw]">
+                {/* {!wind.matches&&<div className="facultyImage bottom-[-12rem] w-[3vw]">
                         <img src={FacultyImg} className="object-fill"/>
-                </div>}
+                </div>} */}
             </div>
             <div id="ContentFaculty" className="font-Maven text-[#000000] text-[1rem] flex justify-center">
 
 
-                <div className="absolute bottom-0 left-[35%]">
+                {/* <div className="absolute bottom-0 left-[35%]">
                     <Planet orbitStyle={(defaultStyle) => ({
                         ...defaultStyle,
                     })}
@@ -36,8 +35,16 @@ function Faculty(){
                     autoClose>
                         {data.map((prof, index)=>(<FacultyBlobs image={prof.image} name={prof.name} education={prof.description} key={index}/>))}
                     </Planet>
+                </div> */}
+                <div className="scrollContainer">
+                    {data.map((items,index)=>(<Button Data={data} Content={items.title} setFacultySelected={setButtonSelected} setFacultyData={setFacultyData} key={index}/>))}
                 </div>
 
+                <div className="facultyContainer">
+                     {facultyData.map((prof,index)=>(
+                        <FacultyCard image={prof.image} name={prof.name} description={prof.description}/>
+                     ))}
+                </div>
 
             </div>
         </>

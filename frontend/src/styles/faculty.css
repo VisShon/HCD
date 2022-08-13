@@ -28,21 +28,23 @@
 
 #headingFaculty {
     color: #f1f1f1;
-    bottom: -5vw;
+    bottom: -4.5vw;
     position: relative;
 }
 #ContentFaculty {
-    height: 120vh;
+    height: 60vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 4%;
-    margin-bottom: 20vh;
 }
 .facultyContainer {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    border-radius: 2rem;
+    height: 100%;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    
 }
 
 #headingSection {

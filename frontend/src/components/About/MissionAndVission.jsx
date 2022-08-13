@@ -1,20 +1,18 @@
 import React from "react";
-import speaker from "../../assets/speeker.png";
-
+import speaker from "../../assets/speaker.png";
+import '../../styles/landing.css'
 
 
 export default function MissionAndVission({data}){
     return(
         <>
-        <div className="section4Container">
+        <div className="MissionVisionContainer">
             <div className="headingContainer">
                 <h1>{data.heading}</h1>
-                <p>{data.body}</p>
+                <p className="small:hidden">{data.body}</p>
+                <img src={speaker}/>
             </div>
-            <div className="imgContainer">
-                <img src={speaker}></img>
-            </div>
-            <div className="listContainer">
+            <div className="listContainer ">
                 {
                     data.programObjectives.map((obj) => {
                         return (

@@ -1,44 +1,104 @@
-[
-    {
+[{
+    "title": "Faculty",
+    "data":[{
         "id": 1,
-        "image": "Jainendra.png",
+        "image": "parnamiPodium.png",
         "name": "Dr. Jainendra Shukla",
         "description": "PhD, Universitat Rovira i Virgil(URV)"
     },
     {
         "id": 2,
-        "image": "aman.png",
+        "image": "parnamiPodium.png",
         "name": "Mr. Aman Samuel",
         "description": "MBA, University of Madras"
     },
     {
         "id": 3,
-        "image": "richagupta.png",
+        "image": "parnamiPodium.png",
         "name": "Dr. Richa Gupta",
         "description": "PhD, IIT Delhi"
     },
     {
         "id": 4,
-        "image": "amanparnami.png",
+        "image": "parnamiPodium.png",
         "name": "Dr. Aman Parnami",
         "description": "Georgia Institute of Technology"
     },
     {
         "id": 5,
-        "image": "grace.png",
+        "image": "parnamiPodium.png",
         "name": "Dr. Grace Eden",
         "description": "DPhil, University of Oxford"
     },
     {
         "id": 6,
-        "image": "ratn.png",
+        "image": "parnamiPodium.png",
         "name": "Dr. Rajiv R Shah",
         "description": "PhD, National University of Singapore"
     },
     {
         "id": 7,
-        "image": "anoop.png",
+        "image": "parnamiPodium.png",
         "name": "Mr. Anoop Ratna",
         "description": "MFA, Teerthankar Mahaveer University"
-    }
+    }]},
+{
+    "title": "Placement Cell",
+    "data":[{
+        "id": 1,
+        "image": "parnamiPodium.png",
+        "name": "Dr. Jainendra Shukla",
+        "description": "PhD, Universitat Rovira i Virgil(URV)"
+    },
+    {
+        "id": 2,
+        "image": "parnamiPodium.png",
+        "name": "Mr. Aman Samuel",
+        "description": "MBA, University of Madras"
+    },
+    {
+        "id": 3,
+        "image": "parnamiPodium.png",
+        "name": "Dr. Richa Gupta",
+        "description": "PhD, IIT Delhi"
+    },
+    {
+        "id": 4,
+        "image": "parnamiPodium.png",
+        "name": "Dr. Aman Parnami",
+        "description": "Georgia Institute of Technology"
+    }]},
+    
+    {
+        "title": "Advisory Committee",
+        "data":[{
+            "id": 1,
+            "image": "parnamiPodium.png",
+            "name": "Dr. Jainendra Shukla",
+            "description": "PhD, Universitat Rovira i Virgil(URV)"
+        },
+        {
+            "id": 2,
+            "image": "parnamiPodium.png",
+            "name": "Mr. Aman Samuel",
+            "description": "MBA, University of Madras"
+        },
+        {
+            "id": 3,
+            "image": "parnamiPodium.png",
+            "name": "Dr. Richa Gupta",
+            "description": "PhD, IIT Delhi"
+        },
+        {
+            "id": 4,
+            "image": "parnamiPodium.png",
+            "name": "Dr. Aman Parnami",
+            "description": "Georgia Institute of Technology"
+        },
+        {
+            "id": 5,
+            "image": "parnamiPodium.png",
+            "name": "Dr. Grace Eden",
+            "description": "DPhil, University of Oxford"
+        }]}
 ]
