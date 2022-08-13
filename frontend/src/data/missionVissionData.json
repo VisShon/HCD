@@ -1,0 +1,29 @@
+{
+    "section4": {
+    "heading": "Programme Structure",
+    "body": "India has already established itself as the software hub of the world due to the large number of engineers that it produces. There is now an increasing and persistent demand of having engineers who can develop and design. Design thinking is now increasingly being used to create innovative solutions. Within design as a discipline, human-centered design emphasizes the involvement of human perspective in all steps of problem-solving. The human-centered design process leverages technology and enables the development of new technological solutions to address people's needs along with issues of sustainability.",
+    "programObjectives": [
+        {
+            "id": 1,
+            "body": "To promote design thinking approach to aid problem-solving besides helping develop design solutions that address complex and everyday socio-technical problems."
+        },
+        {
+            "id": 2,
+            "body": "To develop a world-class research program in design-related areas, including Human-Computer Interaction, Wearable, Ubiquitous Computing, Media and Interactions, etc."
+        },
+        {
+            "id": 3,
+            "body": "To lead and advocate interdisciplinary research which is inclusive and supportive of strengths of other research areas at IIIT such as CSE, ECE, Maths, CB, and SSH."
+            
+        },
+        {
+            "id": 4,
+            "body": "To engage actively with civic, industrial, and government partners in collaborative research and in identifying and solving problems of relevance to industry and society."
+        },
+        {
+            "id": 5,
+            "body": "To produce the next-generation researchers with robust skills related to Computer Animation, Game Design, Digital Media Design and Editing, VR/AR, to name a few."
+        }
+    ]
+    }
+}
