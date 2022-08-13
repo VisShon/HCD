@@ -8,6 +8,7 @@ import GallerySection from '../components/About/gallerySection';
 import NewsSection from '../components/About/newsSection';
 import WhatHappensSection from '../components/About/whatHappensSection';
 import LandingPageData from "../data/landingPageData.json";
+import MissionAndVission from "../components/About/MissionAndVission";
 
 function Landing() {
   return (
@@ -21,6 +22,8 @@ function Landing() {
           <PeopleSection content={LandingPageData.facultyData}/>
           {/* <WhatHappensSection/> */}
           <GallerySection />
+          <MissionAndVission data={LandingPageData.missionVission}/>
+          
           <NewsSection/>
           <Footer/>
     </div>
