@@ -11,20 +11,22 @@
 }
 
 .studentBody {
-    padding: 4rem;
+    flex-direction: column;
+    padding: 5%;
     display: flex;
-    width: 100%;
-    height: 60vh;
-    overflow: hidden;
-    justify-content: space-evenly;
+    width: 100%;  
+    align-items: center
 }
 
 .scrollContainer {
-    margin-right: 2rem;
-    margin-top: 2rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
     align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
 }
 
 .yearButton {
@@ -59,10 +61,8 @@
 }
 
 .studentsContainer {
-    border-width: 0.3rem;
     box-shadow: 4px 5px 13px #CECECE, -6px -4px 7px #ffffff;
     padding: 1rem;
-    border-color: #39AEA8;
     border-radius: 2rem;
     width: 70%;
     height: 40vh;
@@ -97,12 +97,15 @@
         height: 40vh;
         overflow-y: scroll;
     }
-    .scrollContainer {
-        margin-right: 0rem;
-        margin-top: 0rem;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        overflow-x: scroll;
-    }
+
+}
+.myBubbleUI {
+	width: 100%;
+	max-width: 90vw;
+    margin-top:2rem;
+	height: 70vh;
+	border-radius: 50px;
+    border-radius: 2rem;
+    box-shadow: 4px 5px 13px #CECECE, -6px -4px 7px #ffffff;
+    
 }

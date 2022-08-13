@@ -7,15 +7,17 @@ function Staff() {
   return (
     <>
         <NavBar logo={true} bg={false}/>
-        <div className="facultyContainer">
-            <div id="headingSection" className="hereis2">
-                <span className='font-Archivo font-[600] text-[8vw] text-[#f1f1f1] '>STAFF</span>
+        <div id="topSection" className="relative" >    
+            <span id="headingFaculty" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>STAFF</span>
+            
+        </div>
+        <div id="ContentFaculty" className="font-Maven text-[#000000] text-[1rem] flex justify-center">
+            <div className="facultyContainer">
+                    {data.map((prof,index)=>(
+                    <FacultyCard image={prof.image} name={prof.name} description={prof.description}/>
+                    ))}
             </div>
-            <div className="flex justify-evenly w-[60%] datai">
-                <div id="staffCardContainer" className='ml-10'>
-                    {data.map((items)=>(<FacultyCard image={items.image} Name={items.name} Description={items.description} key={items.id}/>))}
-                </div>
-            </div>
+
         </div>
     </>
 );
