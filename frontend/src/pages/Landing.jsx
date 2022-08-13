@@ -15,6 +15,7 @@ function Landing() {
     <div>
           <NavBar logo={false}/>
           <MainSection cardContent={LandingPageData.cardContent}/>
+          <MissionAndVission data={LandingPageData.missionVission}/>
           <WhyUsSection/>
           <PeopleSection content={LandingPageData.alumniData}/>
           <PeopleSection content={LandingPageData.studentData}/>
@@ -22,7 +23,7 @@ function Landing() {
           <PeopleSection content={LandingPageData.facultyData}/>
           {/* <WhatHappensSection/> */}
           <GallerySection />
-          <MissionAndVission data={LandingPageData.missionVission}/>
+          
           
           <NewsSection/>
           <Footer/>
