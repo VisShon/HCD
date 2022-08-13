@@ -14,7 +14,7 @@ function Faculty(){
     return(
         <>
             <NavBar logo={true} bg={false}/>
-            <div id="topSection" className="relative" >    
+            <div id="topSectionFaculty" >    
                 <span id="headingFaculty" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>FACULTY</span>
                 {/* {!wind.matches&&<div className="facultyImage bottom-[-12rem] w-[3vw]">
                         <img src={FacultyImg} className="object-fill"/>
@@ -36,7 +36,7 @@ function Faculty(){
                         {data.map((prof, index)=>(<FacultyBlobs image={prof.image} name={prof.name} education={prof.description} key={index}/>))}
                     </Planet>
                 </div> */}
-                <div className="scrollContainer">
+                <div className="flex flex-col small:flex-row small:overflow-x-scroll h-[6rem] small:overflow-y-hidden ">
                     {data.map((items,index)=>(<Button Data={data} Content={items.title} setFacultySelected={setButtonSelected} setFacultyData={setFacultyData} key={index}/>))}
                 </div>
 
