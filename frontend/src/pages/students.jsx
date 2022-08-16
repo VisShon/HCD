@@ -32,7 +32,7 @@ function Students() {
     <>
       <NavBar logo={true} bg={false}/>
       <div id="topSection">    
-            <span id="heading" className='font-Archivo font-[200] text-[10vw]'>STUDENTS</span>
+            <span id="heading" className='font-Archivo font-[400] text-[10vw]'>STUDENTS</span>
       </div>
       <div className="studentBody">
         <div className="scrollContainer">

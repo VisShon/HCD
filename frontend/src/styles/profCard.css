@@ -60,7 +60,7 @@
     margin-right: 3rem;
 }
 .projectContainer .projectIndex{
-    font-family: Archivo;
+    font-family: Archivo,sans-serif;
     font-weight: 700;
     font-size: 3rem;
     color: #39AEA8;
