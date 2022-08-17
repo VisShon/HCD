@@ -36,7 +36,7 @@ function Faculty(){
                         {data.map((prof, index)=>(<FacultyBlobs image={prof.image} name={prof.name} education={prof.description} key={index}/>))}
                     </Planet>
                 </div> */}
-                <div className="flex flex-col small:flex-row small:overflow-x-scroll h-[6rem] small:overflow-y-hidden ">
+                <div className="buttonsss">
                     {data.map((items,index)=>(<Button Data={data} Content={items.title} setFacultySelected={setButtonSelected} setFacultyData={setFacultyData} key={index}/>))}
                 </div>
 

@@ -125,8 +125,26 @@
 #staffCardContainer::-webkit-scrollbar {
     display: none;
 }
+.buttonsss{
+    display:flex ;
+    flex-direction:column;
+    height:6rem;
+
+}
 
 @media (max-width: 800px) {
+
+    #ContentFaculty{
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttonsss{
+        flex-direction: column;
+        align-items: center;
+        height: 12rem;
+        width: 90%;
+
+    }
     .hereis2 {
         
         height: 35vh !important;
@@ -136,12 +154,12 @@
         flex-direction: row;
     }
     #headingSection {
-        flex-direction: column;
-        justify-content: flex-end;
-        height: 55vh;
-        width: 100vw;
-        font-size:10vw;
-        z-index: 10;
+        bottom: -9vw;
+        font-size: 3rem;
+        position: absolute;
+        left: 50%;
+        top: 90%;
+        transform: translateX(-50%);
     }
     .datai {
         position: fixed;
@@ -183,5 +201,13 @@
         bottom: -9vw;
         font-size:3rem;
     }
+    #we{
+        height: 12rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+    }
+    
 }
 
