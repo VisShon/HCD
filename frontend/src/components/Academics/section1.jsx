@@ -1,6 +1,7 @@
 import sec1Img from "../../assets/academics/acadSec1Img.png";
+import sec1ImgMobile from "../../assets/academics/acadSec1Mobile.png";
 
-export default function Section1({data}){
+export default function Section1({data,wind}){
     return(
         <>
             <div className="section1Container">
@@ -16,7 +17,7 @@ export default function Section1({data}){
                     </p>
                 </span>
                 <div className="sec1ImgContainer">
-                    <img rel="preload" src={sec1Img} className="sec1Img" />
+                    <img rel="preload" src={!wind.matches?sec1Img:sec1ImgMobile} className="sec1Img" />
                 </div>
             </div>
         </>
