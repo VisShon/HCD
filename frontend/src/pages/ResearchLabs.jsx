@@ -24,7 +24,7 @@ function Research(){
         setPanelID(id);
         var panel = document.getElementById(id);
         if(wind.matches){
-            panel.style='transition: transform ease-out 0.5s;transform: translateY(-'+(40*(parseInt(id)-1)+15)+'vh);pointer-events: none;'
+            panel.style='transition: transform ease-out 0.5s;transform: translateY(-'+(40*(parseInt(id)-1))+'vh);pointer-events: none;'
         }
         else{
             panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(20*(parseInt(id)-1))+'vw);pointer-events: none;'
@@ -37,7 +37,7 @@ function Research(){
 
     return (
         <div className="bg-[#f1f1f1]">
-            <NavBar logo={wind.matches} rel={!wind.matches} bg={false}/>
+            <NavBar logo={true} rel={!wind.matches} bg={false}/>
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>
