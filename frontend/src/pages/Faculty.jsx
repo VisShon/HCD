@@ -15,10 +15,9 @@ function Faculty(){
         <>
             <NavBar logo={true} bg={false}/>
             <div id="topSectionFaculty" >    
-                <span id="headingFaculty" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>FACULTY</span>
-                {/* {!wind.matches&&<div className="facultyImage bottom-[-12rem] w-[3vw]">
-                        <img src={FacultyImg} className="object-fill"/>
-                </div>} */}
+            <div id="topSection">
+                <span id="heading" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>FACULTY</span>
+            </div>
             </div>
             <div id="ContentFaculty" className="font-Maven text-[#000000] text-[1rem] flex justify-center">
                 <div className="buttonsss">

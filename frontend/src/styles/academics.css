@@ -68,12 +68,15 @@
 @media (max-width: 800px) {
     .section1Container{
         width: 100%;
-        height: 100vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        background-color: #39AEA8;
+        padding-bottom: 3rem;
+        color: #f1f1f1
+
     }
     .sec1Info{
-        margin-top: 12rem;
+        margin-top: 1rem;
         margin-left: 2rem;
         margin-right: 2rem;
     }
@@ -85,8 +88,7 @@
         font-family: Archivo,sans-serif;
         font-size: 3rem;
         line-height: 3rem;
-    
-        color: #39AEA8;
+        color: #f1f1f1;
     }
     .sec1Info p{
         width: 100%;
@@ -97,8 +99,13 @@
         font-size: 1rem;
         line-height: 1.5rem;
     }
+    .sec1ImgContainer{
+        height: 70%;
+    }
     .sec1Img{
-        display: none;
+        z-index: 0;
+        height:80%;
+        margin-top: 20%;
     }
 }
 
@@ -112,6 +119,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden
 }
 .section2Container img{
     z-index: -5;
@@ -154,15 +162,19 @@
 .textContainer .bottom{
     width: 30%;
     text-align: center;
+    
     line-height: 2rem;
 }
 @media (max-width: 800px) {
-    .textContainer .flex1{
-        width: 100%;
-        height: 25rem;
-        display: flex;
-        justify-content: space-evenly;
 
+    .textContainer{
+        height: 70%;
+    }
+    .textContainer .flex1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:auto;
         padding-left: 1rem;
         padding-right: 1rem;
         margin: 3rem 0rem 0rem 0rem;
@@ -175,35 +187,33 @@
         margin-top: 12rem;
     }
     .textContainer .left{
-        width: 80%;
-        text-align: justify;
-        margin-right: 1rem;
+        width: 90%;
+        text-align: left;
+        margin-right: 0rem;
+        margin-top: 1rem;
         line-height: 1.5rem;
     }
     .textContainer .right{
-        width: 80%;
-        text-align: justify;
-        margin-left: 1rem;
+        width: 90%;
+        text-align: left;
+        margin-top: 1rem;
+        margin-left: 0rem;
         line-height: 1.5rem;
     }
     .textContainer .bottom{
-        width: 80%;
-        text-align: center;
+        width: 90%;
+        margin-top: 1rem;
+        text-align: left;
         line-height: 1.5rem;
     }
 }
-
-
-
 
 .section3Container{
     height: 100vh;
     display: grid;
     grid-template-columns: 4fr 7fr;
 }
-/* .section3Container .imgContainer{
-    height: 100vh;
-} */
+
 .section3Container img{
     height: 100vh;
     object-fit: cover;
@@ -225,13 +235,28 @@
 
 }
 @media (max-width: 800px) {
+    .section3Container img{
+        height: 100%
+    }
     .section3Container{
         display: flex;
+        flex-direction: column;
+        background-color: #39AEA8;
+        color: #f1f1f1;
         justify-content: center;
+    }
+    .section3Container .infoContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 3rem 0rem 0rem 0rem;
     }
     .section3Container .infoContainer h1{
         text-align: left;
-        color: #39AEA8;
+        color: #f1f1f1;
         font-size: 3.5rem;
         font-weight: 600;
     }
@@ -311,7 +336,6 @@
 }
 @media (max-width: 800px) {
     .section4Container{
-        height: 120vh;
         display: flex;
         flex-direction: column;
     }
@@ -341,9 +365,9 @@
         /* font-size: 0.8rem; */
     }
     .section4Container .imgContainer{
-        display: flex;
         justify-content: center;
         align-items: center;
+
     }
     .section4Container .imgContainer img{
         margin-top: 1rem;

@@ -7,9 +7,8 @@ function Staff() {
   return (
     <>
         <NavBar logo={true} bg={false}/>
-        <div id="topSection" className="relative" >    
-            <span id="headingFaculty" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>STAFF</span>
-            
+        <div id="topSection">
+                <span id="heading" className='font-Archivo font-[200] text-[10vw] small:w-[100%]'>STAFF</span>
         </div>
         <div id="ContentFaculty" className="font-Maven text-[#000000] text-[1rem] flex justify-center">
             <div className="facultyContainer">

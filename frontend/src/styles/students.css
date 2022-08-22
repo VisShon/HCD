@@ -97,6 +97,9 @@
         height: 40vh;
         overflow-y: scroll;
     }
+    .scrollContainer{
+        justify-content: start;
+    }
 
 }
 .myBubbleUI {
