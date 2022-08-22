@@ -21,21 +21,6 @@ function Faculty(){
                 </div>} */}
             </div>
             <div id="ContentFaculty" className="font-Maven text-[#000000] text-[1rem] flex justify-center">
-
-
-                {/* <div className="absolute bottom-0 left-[35%]">
-                    <Planet orbitStyle={(defaultStyle) => ({
-                        ...defaultStyle,
-                    })}
-                    centerContent={<div className="w-[30vw]">
-                        <img src={HCD} className="object-fill"/>
-                    </div>}
-                    orbitRadius={300}
-                    hideOrbit
-                    autoClose>
-                        {data.map((prof, index)=>(<FacultyBlobs image={prof.image} name={prof.name} education={prof.description} key={index}/>))}
-                    </Planet>
-                </div> */}
                 <div className="buttonsss">
                     {data.map((items,index)=>(<Button Data={data} Content={items.title} setFacultySelected={setButtonSelected} setFacultyData={setFacultyData} key={index}/>))}
                 </div>
