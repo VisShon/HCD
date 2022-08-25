@@ -8,7 +8,7 @@
         "link":"https://aidlab.iiitd.edu.in/",
         "color": "#47638A",
         "logo": "aid.png",
-        "Panelimage": "aidImg.png",
+        "Panelimage": "aidImg.svg",
         "txtColor":"#FFFFFF"
     },
     {
@@ -20,7 +20,7 @@
         "link":"https://livinglab.iiitd.edu.in/",
         "color": "#A4DAC3",
         "logo": "living.png",
-        "Panelimage": "hci.png",
+        "Panelimage": "hci.svg",
         "txtColor":"#6F6F6F"
     },
     {
@@ -32,7 +32,7 @@
         "link":"https://hmi.iiitd.edu.in/",
         "color": "#8AC5EE",
         "logo": "hmi.png",
-        "Panelimage": "hands.png",
+        "Panelimage": "hands.svg",
         "txtColor":"#FFFFFF"
     },
     
@@ -45,7 +45,7 @@
         "link":"https://weave.iiitd.edu.in/",
         "color": "#F4B950",
         "logo": "weave.png",
-        "Panelimage": "vr.png",
+        "Panelimage": "vr.svg",
         "txtColor":"#6F6F6F"
     },
     {
@@ -57,7 +57,7 @@
         "link":"https://midas.iiitd.edu.in/",
         "color": "#F28900",
         "logo": "midas.png",
-        "Panelimage": "midasImg.png",
+        "Panelimage": "midasImg.svg",
         "txtColor":"#FFFFFF"
     }
     

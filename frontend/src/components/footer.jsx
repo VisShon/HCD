@@ -14,17 +14,17 @@ export default function footer(){
 
                         <div className="flex flex-col font-Maven text-[#808080] text-[0.9em] small:my-2.5">
                             <span className="text-[#277773] text-[1.1em]">USEFUL LINKS</span>
-                            <a>CARRERS @HCD</a>
+                            <Link to="/Comingsoon">CAREERS @HCD</Link>
                             <Link to="/students">HCD AlUMNI</Link>
                             <Link to="/faculty">FACULTY</Link>
                             <Link to="/students">STUDENTS</Link>
-                            <a>RESEARCH PAPERS</a>
+                            <Link to="/researchPublication">RESEARCH PUBLICATIONS</Link>
                         </div>
 
                         <div className="flex flex-col font-Maven text-[#808080] text-[0.9em] small:my-2.5">
                             <a className="text-[#277773] text-[1.1em]">INITIATIVES</a>
-                            <a>WORKSHOPS</a>
-                            <a>PLACEMENT</a>
+                            <Link to="/Comingsoon">WORKSHOPS</Link>
+                            <Link to="/Comingsoon">PLACEMENT</Link>
                         </div>
 
                         <div className="flex flex-col font-Maven text-[#808080] text-[0.9em] small:my-2.5 small:items-center">
@@ -32,13 +32,13 @@ export default function footer(){
                             <a href="mailto:admin-hcd@iiitd.ac.in"> admin-hcd@iiitd.ac.in</a>
                             <a href="tel:+91-11-26907588">+91-11-26907588</a>
                             <span className='flex justify-between my-4 mx-2 small:w-[30%]'>
-                                <a href="https://www.facebook.com/IIITDelhi/">
+                                <a href="https://www.facebook.com/hcdiiitd">
                                     <img className='hover:scale-125' src={facebook}/>
                                 </a>
-                                <a href="https://www.instagram.com/iiit.delhi" >
+                                <a href="https://www.instagram.com/hcdiiitd/" >
                                     <img className='hover:scale-125' src={insta}/> 
                                 </a>
-                                <a href="https://twitter.com/IIITDelhi">
+                                <a href="https://twitter.com/hcdiiitd">
                                     <img className='hover:scale-125' src={tweet}/> 
                                 </a>
                             </span>
@@ -53,7 +53,7 @@ export default function footer(){
 
                             <span className='font-bold'>ALL RIGHTS RESERVED</span>
                             <span>Copyright © 2022 IIITD</span>
-                            <span>LAST UPDATED 26/05/2022</span>
+                            <span>LAST UPDATED 30/08/2022</span>
                         </div>
                         <div className='flex font-Maven text-[#808080] text-[0.9em] mr-5'>
                             <a>Terms and Conditions</a>

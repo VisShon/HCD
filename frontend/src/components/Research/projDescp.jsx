@@ -5,6 +5,9 @@ function projDescp({data, index, }) {
 		<>
 			<div className='projectContainer'>
 				<span className='projectInfo'>
+				<div className='projectTitle'>
+						<b>Faculty Name: </b>{data.prof}
+					</div>
 					<div className='projectTitle'>
 						<b>Project Title: </b>{data.title}
 					</div>
