@@ -16,6 +16,8 @@ function back(){
 
 function TeachingLabs() {
     const [panelID, setPanelID] = useState('0');
+    const [isLogo,setIsLogo] = useState(true);
+
     var wind = window.matchMedia("(max-width: 600px)");
     
     function clicked(id){
@@ -26,6 +28,7 @@ function TeachingLabs() {
             }
         }
         setPanelID(id);
+        setIsLogo(false || wind.matches);
         var panel = document.getElementById(id);
         // var body = document.getElementById('body-section');
         if(wind.matches){
@@ -44,7 +47,7 @@ function TeachingLabs() {
 
     return (
         <div className="bg-[#f1f1f1]">
-            <NavBar logo={true}  rel={false} bg={false}/>
+            <NavBar logo={isLogo}  rel={false} bg={false}/>
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>

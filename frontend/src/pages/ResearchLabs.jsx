@@ -38,7 +38,7 @@ function Research(){
 
     return (
         <div className="bg-[#f1f1f1]">
-            <NavBar logo={true} rel={false} bg={false}/>
+            <NavBar logo={wind.matches} rel={false} bg={false}/>
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>
