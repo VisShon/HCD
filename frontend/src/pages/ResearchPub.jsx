@@ -5,7 +5,7 @@ import PubDescp from '../components/Research/pubDescp';
 import data from "../data/researchPubData.json";
 import '../styles/research.css';
 import {useState} from 'react';
-
+import Footer from '../components/footer';
 function ResearchPub() {
 
     const [selectedProf, setSelectedProf] = useState(null);
@@ -34,6 +34,7 @@ function ResearchPub() {
                     }
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

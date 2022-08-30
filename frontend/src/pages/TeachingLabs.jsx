@@ -6,6 +6,7 @@ import Body from '../components/Research/researchbody';
 
 import backBtn from '../assets/bBtn.png'
 import data from '../data/teachingPageData.json';
+import Footer from '../components/footer';
 
 const arr = ['1','2','3']
 
@@ -57,7 +58,9 @@ function TeachingLabs() {
                     <Panel color={labs.color} logo={labs.logo} image={labs.Panelimage} title={labs.title} subtitle={labs.subtitle} txtColor = {"#ffffff"}/>
                 </div> ))}
                 <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>
+                
             </div>
+
         </div>
     )
 }

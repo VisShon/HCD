@@ -2,6 +2,7 @@ import arrow from "../assets/academics/arrow.svg";
 import NavBar from "../components/navbar";
 import data from "../data/academicsPageData.json";
 import "../styles/academics.css";
+import Footer from '../components/footer';
 
 const PageData = data.section7
 export default function StudentConduct(){
@@ -27,6 +28,7 @@ export default function StudentConduct(){
                     }
                 </div>
             </div>
+            <Footer/>
         </>
     );
 }

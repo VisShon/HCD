@@ -4,6 +4,7 @@ import NavBar from '../components/navbar';
 import data from "../data/facultyPageData.json"
 import Button from '../components/People/facultyButton'
 import FacultyCard from '../components/People/facultyCard';
+import Footer from '../components/footer';
 function Faculty(){
 
     const[buttonSelected,setButtonSelected] = useState("Faculty");
@@ -31,7 +32,9 @@ function Faculty(){
                 </div>
 
             </div>
+            
         </>
+        
     );
 }
 export default Faculty;

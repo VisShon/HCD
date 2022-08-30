@@ -3,6 +3,7 @@ import Footer from '../components/footer';
 import pup from '../assets/pup.png';
 import coding from '../assets/coding.png';
 
+
 function ComingSoon(){
     return(
         <>

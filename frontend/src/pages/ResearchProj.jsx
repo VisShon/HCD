@@ -6,6 +6,7 @@ import data from "../data/researchProjData.json";
 import '../styles/research.css'
 import { useState } from 'react';
 import ProjCard from '../components/Research/projCard';
+import Footer from '../components/footer';
 
 function ResearchProj(){
     const [selectedProj, setSelectedProj] = useState(null);
@@ -33,6 +34,7 @@ function ResearchProj(){
                     }
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

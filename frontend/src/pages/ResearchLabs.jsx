@@ -5,6 +5,7 @@ import Body from '../components/Research/researchbody';
 import NavBar from '../components/navbar';
 import backBtn from '../assets/bBtn.png';
 import data from '../data/researchPageData.json';
+import Footer from '../components/footer';
 
 function back(){
     window.location.reload(false);
@@ -49,6 +50,7 @@ function Research(){
             </div>
             <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>
         </div>
+        
     )
 };
 

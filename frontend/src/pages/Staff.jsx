@@ -3,6 +3,7 @@ import '../styles/faculty.css';
 import NavBar from '../components/navbar';
 import FacultyCard  from '../components/People/facultyCard';
 import data from '../data/staffPageData.json'
+import Footer from '../components/footer';
 function Staff() {
   return (
     <>

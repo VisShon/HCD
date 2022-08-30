@@ -2,6 +2,7 @@ import phdImg from "../assets/academics/PHDimg.svg";
 import NavBar from "../components/navbar";
 import data from "../data/academicsPageData.json";
 import "../styles/academics.css";
+import Footer from '../components/footer';
 const PageData = data.section6;
 export default function Section6(){
     return(
@@ -17,6 +18,7 @@ export default function Section6(){
                     <img src={phdImg}></img>
                 </span>
             </div>
+            <Footer/>
         </>
     );
 }

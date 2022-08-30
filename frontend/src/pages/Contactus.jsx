@@ -6,6 +6,7 @@ import insta from '../assets/insta.png';
 import facebook from '../assets/facebook.png'
 import { Map, Marker } from "pigeon-maps"
 import linkedin from '../assets/linkedin.png';
+import Footer from '../components/footer';
 
 function Contactus() {
   return (
@@ -51,6 +52,7 @@ function Contactus() {
               </span>
           </div>
         </div>
+        <Footer/>
     </>
   )
 }

@@ -6,6 +6,7 @@ import Year from '../components/People/year'
 import StudentBlobs from '../components/People/StudentBlobs'
 import BubbleUI from "react-bubble-ui";
 import "react-bubble-ui/dist/index.css";
+import Footer from '../components/footer';
 
 function Students() {
 
@@ -46,6 +47,7 @@ function Students() {
               {studentData.map((items,index)=>(<StudentBlobs className="child" name={items.name} details={items.rollno + ' ' + items.email} key={index}/>))}
         </BubbleUI>
       </div>
+      <Footer/>
     </>
   )
 }
