@@ -36,7 +36,9 @@ export default function NavBar({logo, rel, bg=true}){
                 {
                     (logo)?(
                         <div className="rounded-br-[90px] bg-[#F1F1F1] items-center ">
-                            <img src = {logoImg} className="h-[10em] mx-[2vw] my-[1vw]"/>
+                            <a href="iiitd.ac.in">
+                                <img src = {logoImg} className="h-[10em] mx-[2vw] my-[1vw]"/>
+                            </a>
                         </div>
                     ):(
                         <>
