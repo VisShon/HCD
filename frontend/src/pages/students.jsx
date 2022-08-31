@@ -44,7 +44,7 @@ function Students() {
             
         </div> */}
         <BubbleUI options={options} className="myBubbleUI">
-              {studentData.map((items,index)=>(<StudentBlobs className="child" name={items.name} details={items.rollno + ' ' + items.email} key={index}/>))}
+              {studentData.map((items,index)=>(<StudentBlobs className="child" name={items.name} details={items.email} key={index}/>))}
         </BubbleUI>
       </div>
       <Footer/>
