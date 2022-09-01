@@ -483,6 +483,24 @@
     font-family: Maven Pro;
 }
 
+.collabContainer{
+    margin-top:15rem;
+    display: grid;
+    grid-template-columns: repeat(5, 10fr);
+    grid-template-rows: repeat(4, 8vw);
+    gap: 30px;
+   
+
+}
+@media screen and (max-width: 800px) {
+    #collabContainer{
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+}
+
 
 
 

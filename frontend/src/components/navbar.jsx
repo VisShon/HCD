@@ -54,7 +54,8 @@ export default function NavBar({logo, rel, bg=true}){
                         {isAcadClicked&&<div hidden={true} className='SelectedContent'>
                             <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
                             <Link id="subHeading" to='/academics'>B.Tech. in CSD </Link>
-                            <Link id="subHeading" to='/phd'>Ph.D.</Link>
+                            <Link id="subHeading" to='/phd'>Ph.D</Link>
+                            <Link id="subHeading" to='/Collaborations'>Collaborations</Link>
                             <Link id="subHeading" to='/StudentConduct'>Student Conduct Policy</Link>
                         </div>}
                     </div>

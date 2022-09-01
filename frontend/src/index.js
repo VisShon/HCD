@@ -16,7 +16,8 @@ import Contact from './pages/Contactus';
 import StudentConduct from './pages/studentConductPolicy';
 import Student from './pages/students';
 import PHD from './pages/phd';
-import Staff from './pages/Staff'
+import Staff from './pages/Staff';
+import Collaborations from './pages/Collaborations'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -43,6 +44,7 @@ root.render(
       <Route path="/StudentConduct" element={<StudentConduct/>}/>
 
       <Route path="/Contactus" element={<Contact/>}/>
+      <Route path="/Collaborations" element={<Collaborations/>}/>
 
       <Route path="*" element={<NotFound/>}/>
     </Routes>
