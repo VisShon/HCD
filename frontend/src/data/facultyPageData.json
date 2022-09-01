@@ -3,70 +3,52 @@
     "data":[{
         "id": 1,
         "image": "parnamiPodium.png",
-        "name": "Dr. Jainendra Shukla",
-        "description": "PhD, Universitat Rovira i Virgil(URV)"
+        "name": "Mr. Aman Parnami",
+        "description": "PhD, Georgia Institute of Technology"
     },
     {
-        "id": 2,
-        "image": "parnamiPodium.png",
-        "name": "Mr. Aman Samuel",
-        "description": "MBA, University of Madras"
-    },
-    {
-        "id": 3,
-        "image": "parnamiPodium.png",
-        "name": "Dr. Richa Gupta",
-        "description": "PhD, IIT Delhi"
-    },
-    {
-        "id": 4,
-        "image": "parnamiPodium.png",
-        "name": "Dr. Aman Parnami",
-        "description": "Georgia Institute of Technology"
-    },
-    {
-        "id": 5,
+        "id": 1,
         "image": "parnamiPodium.png",
         "name": "Dr. Grace Eden",
         "description": "DPhil, University of Oxford"
     },
     {
-        "id": 6,
-        "image": "parnamiPodium.png",
-        "name": "Dr. Rajiv R Shah",
-        "description": "PhD, National University of Singapore"
-    },
-    {
-        "id": 7,
-        "image": "parnamiPodium.png",
-        "name": "Mr. Anoop Ratna",
-        "description": "MFA, Teerthankar Mahaveer University"
-    }]},
-{
-    "title": "Adjunct Faculty",
-    "data":[{
-        "id": 1,
-        "image": "parnamiPodium.png",
-        "name": "Dr. Jainendra Shukla",
-        "description": "PhD, Universitat Rovira i Virgil(URV)"
-    },
-    {
         "id": 2,
         "image": "parnamiPodium.png",
-        "name": "Mr. Aman Samuel",
-        "description": "MBA, University of Madras"
+        "name": "Dr. Jainendra Shukla",
+        "description": "PhD, Universitat Rovira i Virgili"
     },
     {
         "id": 3,
         "image": "parnamiPodium.png",
-        "name": "Dr. Richa Gupta",
+        "name": "Dr. Rajiv Ratn Shah",
         "description": "PhD, IIT Delhi"
     },
     {
         "id": 4,
         "image": "parnamiPodium.png",
-        "name": "Dr. Aman Parnami",
-        "description": "Georgia Institute of Technology"
+        "name": "Dr. Richa Gupta",
+        "description": "PhD, IIT Delhi, India"
+    }  ]},
+{
+    "title": "Visiting Faculty",
+    "data":[{
+        "id": 1,
+        "image": "parnamiPodium.png",
+        "name": "Mr. Aman Samuel",
+        "description": "MBA, University of Madras"
+    },
+    {
+        "id": 2,
+        "image": "parnamiPodium.png",
+        "name": "Mr. Amit Sabherwal",
+        "description": "M.Des, IIT Delhi"
+    },
+    {
+        "id": 3,
+        "image": "parnamiPodium.png",
+        "name": "Mr. Anoop Ratn",
+        "description": "MFA, Teerthanker Mahaveer University"
     }]},
     
     {
