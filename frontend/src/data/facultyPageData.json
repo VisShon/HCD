@@ -22,13 +22,13 @@
         "id": 3,
         "image": "parnamiPodium.png",
         "name": "Dr. Rajiv Ratn Shah",
-        "description": "PhD, IIT Delhi"
+        "description": "PhD, National University of Singapore"
     },
     {
         "id": 4,
         "image": "parnamiPodium.png",
         "name": "Dr. Richa Gupta",
-        "description": "PhD, IIT Delhi, India"
+        "description": "PhD, IIT Delhi"
     }  ]},
 {
     "title": "Visiting Faculty",
@@ -49,38 +49,5 @@
         "image": "parnamiPodium.png",
         "name": "Mr. Anoop Ratn",
         "description": "MFA, Teerthanker Mahaveer University"
-    }]},
-    
-    {
-        "title": "Advisory Committee",
-        "data":[{
-            "id": 1,
-            "image": "parnamiPodium.png",
-            "name": "Dr. Jainendra Shukla",
-            "description": "PhD, Universitat Rovira i Virgil(URV)"
-        },
-        {
-            "id": 2,
-            "image": "parnamiPodium.png",
-            "name": "Mr. Aman Samuel",
-            "description": "MBA, University of Madras"
-        },
-        {
-            "id": 3,
-            "image": "parnamiPodium.png",
-            "name": "Dr. Richa Gupta",
-            "description": "PhD, IIT Delhi"
-        },
-        {
-            "id": 4,
-            "image": "parnamiPodium.png",
-            "name": "Dr. Aman Parnami",
-            "description": "Georgia Institute of Technology"
-        },
-        {
-            "id": 5,
-            "image": "parnamiPodium.png",
-            "name": "Dr. Grace Eden",
-            "description": "DPhil, University of Oxford"
-        }]}
+    }]}
 ]
