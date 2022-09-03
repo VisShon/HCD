@@ -4,12 +4,28 @@
         "data":[
             {
                 "id":1,
-                "decp":"lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+                "decp":"Department Outstanding Researcher-Awarded to Dr. Jainendra Shukla",
                 "link":"http://example.com"
             },
             {
                 "id":2,
-                "decp":"lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+                "decp":"Winning Major Research Grants and Department Outstanding Researcher Awarded to Dr Rajiv Ratan Shah",
+                "link":"http://example.com"
+            },
+            {
+                "id":3,
+                "decp": "Dr Richa Gupta awarded for design and research contributions towards the empowerment of persons with disabilities.",
+                "link":"http://example.com"
+            },
+            {
+                "id":4,
+                "decp": "Tweek Labs: Dr.Aman Parnami, Anant Sharma Shwetank Shrey and Ayush Kushwaha for participating and winning in Shark Tank India and winning 60 lakhs for 10% equity share",
+                "link":"http://example.com"
+            }
+            ,
+            {
+                "id":6,
+                "decp": "Dr Richa Gupta awarded for design and research contributions towards the empowerment of persons with disabilities.",
                 "link":"http://example.com"
             }
 
@@ -20,13 +36,18 @@
         "data":[
             {
                 "id":1,
-                "decp":"lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
-                "link":"http://example.com"
+                "decp":"Keep those lips sealed! Technology Companies can now read the",
+                "link":"https://www.thehindu.com/sci-tech/technology/lipreading-tech-explained-privacy-surveillance-artificial-intelligence/article35604403.ece"
             },
             {
                 "id":2,
-                "decp":"lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
-                "link":"http://example.com"
+                "decp":"Media coverage of MOU with GS1 India to establish the DataKart Centre of Excellence.",
+                "link":"https://www.freepressjournal.in/business/gs1-india-signs-mou-with-midas-research-lab-to-develop-cutting-edge-technologies"
+            },
+            {
+                "id":5,
+                "decp": "IIT Delhi awards Dr Richa Gupta with Neilom Prize to recent graduates for contributions to the field of assistive technology",
+                "link":"https://indianexpress.com/article/education/iit-delhi-awards-neilom-prize-to-recent-graduates-for-their-work-in-assistive-technology-7635298/"
             }
         ]
     },
@@ -35,14 +56,21 @@
         "data":[
             {
                 "id":1,
-                "decp":"lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+                "decp":"Dr. Aman Parnami participated in Mobile HCI Conference September 2021",
                 "link":"http://example.com"
             },
             {
                 "id":2,
-                "decp":"lorem ipsum blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+                "decp":"Dr Grace Eden part of the Organising Committee of the India HCI Conference September 2021",
                 "link":"http://example.com"
             }
+            ,
+            {
+                "id":3,
+                "decp":"Dr Grace Eden was the invited panelist: Topic: AI Ethics and Responsible AI.",
+                "link":"http://example.com"
+            }
+
         ]
     }
 ]

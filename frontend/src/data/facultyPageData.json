@@ -30,24 +30,33 @@
         "name": "Dr. Richa Gupta",
         "description": "PhD, IIT Delhi"
     }  ]},
-{
-    "title": "Visiting Faculty",
-    "data":[{
-        "id": 1,
-        "image": "parnamiPodium.png",
-        "name": "Mr. Aman Samuel",
-        "description": "MBA, University of Madras"
-    },
     {
-        "id": 2,
-        "image": "parnamiPodium.png",
-        "name": "Mr. Amit Sabherwal",
-        "description": "M.Des, IIT Delhi"
-    },
-    {
-        "id": 3,
-        "image": "parnamiPodium.png",
-        "name": "Mr. Anoop Ratn",
-        "description": "MFA, Teerthanker Mahaveer University"
-    }]}
+        "title": "Professor of Practice",
+        "data":[{
+            "id": 1,
+            "image": "parnamiPodium.png",
+            "name": "Dr. Dhurjati Majumdar",
+            "description": "Ph.D., University of Calcutta"
+        }]},
+    {   
+        "title": "Visiting Faculty",
+        "data":[{
+            "id": 1,
+            "image": "parnamiPodium.png",
+            "name": "Mr. Aman Samuel",
+            "description": "MBA, University of Madras"
+        },
+        {
+            "id": 2,
+            "image": "parnamiPodium.png",
+            "name": "Mr. Amit Sabherwal",
+            "description": "M.Des, IIT Delhi"
+        },
+        {
+            "id": 3,
+            "image": "parnamiPodium.png",
+            "name": "Mr. Anoop Ratn",
+            "description": "MFA, Teerthanker Mahaveer University"
+        }]}
+
 ]
