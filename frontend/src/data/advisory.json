@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "image": "archan.jpg",
+        "name": "PROF. ARCHAN MISRA",
+        "description": "Professor, Singapore Management University"
+    },
+    {
+        "id": 2,
+        "image": "helen.jpg",
+        "name": "PROF. HELEN PETRIE",
+        "description": "Professor, University of York"
+    },
+    {
+        "id": 3,
+        "image": "mark.jpg",
+        "name": "PROF. MARK BILLINGHURST",
+        "description": "Professor, University of South Australia"
+    },
+    {
+        "id": 4,
+        "image": "ravi.jpg",
+        "name": "PROF. RAVI POOVAIAH",
+        "description": "Professor, IIT Bombay"
+    }
+
+]

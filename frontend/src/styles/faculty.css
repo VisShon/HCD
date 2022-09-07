@@ -131,6 +131,16 @@
     height:6rem;
 
 }
+.advisory {
+    border-radius: 2rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    align-items: center;
+
+}
 
 @media (max-width: 800px) {
 
