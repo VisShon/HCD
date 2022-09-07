@@ -65,9 +65,14 @@ export default function NavBar({logo, rel, bg=true}){
                     <div className={isPeoplesClicked?"Selected w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]":" w-[90%] text-center mx-5"} onMouseOver={peepClickHandler} onMouseOut={leaveHandler}>PEOPLE
                         {isPeoplesClicked&&<div className='SelectedContent'>
                             <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
+                            <Link id="subHeading" to='/Advisory'>Advisory</Link>
                             <Link id="subHeading" to='/faculty'>Faculty</Link>
                             <Link id="subHeading" to='/staff'>Staff</Link>
+                            <Link id="subHeading" to='/PhdStudent'>PHD</Link>
                             <Link id="subHeading" to='/students'>Students</Link>
+
+                            
+
                         </div>}
                     </div>
 

@@ -3,7 +3,7 @@ import NavBar from "../components/navbar";
 import data from "../data/academicsPageData.json";
 import "../styles/academics.css";
 import Footer from '../components/footer';
-const PageData = data.section6.redirect;
+const PageData = data.section6;
 export default function Section6(){
     return(
         <>
@@ -15,7 +15,7 @@ export default function Section6(){
                     <h4>For more details please visit <a href={PageData.redirect.link}>{PageData.redirect.text}</a></h4>
                 </span>
                 <span className="imgContainer">
-                    <img src={phdImg}></img>
+                    <img src={phdImg}alt=""></img>
                 </span>
             </div>
             <Footer/>

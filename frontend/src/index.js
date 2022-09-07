@@ -17,7 +17,9 @@ import StudentConduct from './pages/studentConductPolicy';
 import Student from './pages/students';
 import PHD from './pages/phd';
 import Staff from './pages/Staff';
-import Collaborations from './pages/Collaborations'
+import Collaborations from './pages/Collaborations';
+import Advisory from './pages/Advisory';
+import PhdStudent from './pages/PhdStudent'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -31,6 +33,8 @@ root.render(
       <Route path="/Faculty" element={<Faculty/>}/>
       <Route path="/Staff" element={<Staff/>}/>
       <Route path="/Students" element={<Student/>}/>
+      <Route path="/Advisory" element={<Advisory/>}/>
+      <Route path="/PhdStudent" element ={<PhdStudent/>}/>
 
 
       <Route path="/ResearchLabs" element={<Research/>}/>
