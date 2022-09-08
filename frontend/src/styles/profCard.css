@@ -70,6 +70,17 @@
     display: flex;
     align-items: top;
 }
+.phdContainer .projectDescription{
+    font-family: Archivo,sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #39AEA8;
+    margin-right: 1rem;
+    line-height: 3rem;
+
+    display: flex;
+    align-items: top;
+}
 
 @media screen and (max-width: 500px) {
     .projectContainer{

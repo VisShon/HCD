@@ -141,6 +141,10 @@
     align-items: center;
 
 }
+.PhdContainer{
+        align-self: start;
+
+}
 
 @media (max-width: 800px) {
 
