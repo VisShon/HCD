@@ -14,7 +14,7 @@ function ResearchPub() {
         <>
             <NavBar logo={true} rel={false} bg={false}/>
             <div id="topSection">    
-                <span id="heading" className='font-Archivo font-[200] text-[10vw]'>PHD</span>
+                <span id="heading" className='font-Archivo font-[200] text-[10vw]'>PhD</span>
             </div>
             <div className="projBody"> 
                 <div className="profScroll">
