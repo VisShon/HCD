@@ -68,7 +68,7 @@ export default function NavBar({logo, rel, bg=true}){
                             <Link id="subHeading" to='/Advisory'>Advisory</Link>
                             <Link id="subHeading" to='/faculty'>Faculty</Link>
                             <Link id="subHeading" to='/staff'>Staff</Link>
-                            <Link id="subHeading" to='/PhdStudent'>PHD</Link>
+                            <Link id="subHeading" to='/PhdStudent'>PhD</Link>
                             <Link id="subHeading" to='/students'>Students</Link>
 
                             
