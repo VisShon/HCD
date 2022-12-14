@@ -18,12 +18,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install --force && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
+    "extends": [npm install --force && r
       "react-app",
       "react-app/jest"
     ]
