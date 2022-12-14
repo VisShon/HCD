@@ -23,7 +23,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [npm install --force && r
+    "extends": [
       "react-app",
       "react-app/jest"
     ]
