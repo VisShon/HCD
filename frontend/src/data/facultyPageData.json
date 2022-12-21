@@ -7,26 +7,20 @@
         "description": "PhD, Georgia Institute of Technology"
     },
     {
-        "id": 1,
-        "image": "parnamiPodium.png",
-        "name": "Dr. Grace Eden",
-        "description": "DPhil, University of Oxford"
-    },
-    {
         "id": 2,
-        "image": "parnamiPodium.png",
+        "image": "jayPodium.png",
         "name": "Dr. Jainendra Shukla",
         "description": "PhD, Universitat Rovira i Virgili"
     },
     {
         "id": 3,
-        "image": "parnamiPodium.png",
+        "image": "rajivPodium.png",
         "name": "Dr. Rajiv Ratn Shah",
         "description": "PhD, National University of Singapore"
     },
     {
         "id": 4,
-        "image": "parnamiPodium.png",
+        "image": "richaPodium.png",
         "name": "Dr. Richa Gupta",
         "description": "PhD, IIT Delhi"
     }  ]},
@@ -34,7 +28,7 @@
         "title": "Professor of Practice",
         "data":[{
             "id": 1,
-            "image": "parnamiPodium.png",
+            "image": "podium.png",
             "name": "Dr. Dhurjati Majumdar",
             "description": "Ph.D., University of Calcutta"
         }]},
@@ -42,19 +36,19 @@
         "title": "Visiting Faculty",
         "data":[{
             "id": 1,
-            "image": "parnamiPodium.png",
+            "image": "amanPodium.png",
             "name": "Mr. Aman Samuel",
             "description": "MBA, University of Madras"
         },
         {
             "id": 2,
-            "image": "parnamiPodium.png",
+            "image": "amitPodium.png",
             "name": "Mr. Amit Sabherwal",
             "description": "M.Des, IIT Delhi"
         },
         {
             "id": 3,
-            "image": "parnamiPodium.png",
+            "image": "anoopPodium.png",
             "name": "Mr. Anoop Ratn",
             "description": "MFA, Teerthanker Mahaveer University"
         }]},
