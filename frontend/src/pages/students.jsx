@@ -11,7 +11,7 @@ import Footer from '../components/footer';
 function Students() {
 
   const[yearSelected,setYearSelected]= useState("2021");
-  const[studentData, setStudentData]= useState(data.find(d=>d.year==yearSelected).students);
+  const[studentData, setStudentData]= useState(data.find(d=>d.year===yearSelected).students);
 
   const options = {
 		size: 156,

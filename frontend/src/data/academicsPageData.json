@@ -56,24 +56,24 @@
         ],
         "courseList": [
             {
-                "code": "DES130",
-                "name": "Introduction to Engineering Design",
-                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+                "code": "DES101",
+                "name": "Desing Drawing & Visualization",
+                "description": "Based on the premise that drawing is central to the design process this course focuses on drawing as a medium for observing, representing, conceptualizing, visualizing and communicating design ideas."
             },
             {
-                "code": "DES130",
-                "name": "Introduction to Engineering Design",
-                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+                "code": "DES102",
+                "name": "Introduction to HCI",
+                "description": "This course will provide a theoretical and practical understanding of human-computer interaction (HCI) design including concepts of user centered and design thinking, usability, interfaces, rapid prototyping, and evaluation."
             },
             {
-                "code": "DES130",
-                "name": "Introduction to Engineering Design",
-                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+                "code": "DES201",
+                "name": "Design Processes and Perspectives",
+                "description": " The course presents the varied palette of design from design of physical objects, to design of human-computer interactions, to design of services, to design of micro systems and connected/complex systems."
             },
             {
-                "code": "DES130",
-                "name": "Introduction to Engineering Design",
-                "description": "Design tomorrow's information technology products, services and systems which combine emerging technologies with rigorous design methods & practices."
+                "code": "DES202",
+                "name": "Visual Design & Communication",
+                "description": "Visual Design is a discipline of design that applies the principles of visual language for better analysis and understanding of design problem and solution, this course focuses on the elements and principles of the visual language."
             },
             {
                 "code": "DES130",
