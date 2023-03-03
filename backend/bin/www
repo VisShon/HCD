@@ -10,34 +10,36 @@ var http = require('http');
 var https = require('https');
 
 
-// const privateKey = fs.readFileSync('/etc/letsencrypt/live/staybook.in/privkey.pem', 'utf8');
-// const certificate = fs.readFileSync('/etc/letsencrypt/live/staybook.in/fullchain.pem', 'utf8');
-// const credentials = {
-//   key: privateKey,
-//   cert: certificate,
-// };
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/hcd.iiitd.ac.in/fullchain.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/hcd.iiitd.ac.in/privkey.pem', 'utf8');
+const credentials = {
+  key: privateKey,
+  cert: certificate,
+};
 
 /**
  * Get port from environment and store in Express.
  */
 
 var port = normalizePort(process.env.PORT || '80');
+var httpsport = normalizePort(process.env.PORT || '443');
 app.set('port', port);
 
 /**
  * Create HTTP server.
  */
-// var httpsserver = https.createServer(credentials,app);
-// const redirector = express();
-// redirector.get('*', (req, res) => res.redirect("https://" + req.headers.host + req.url));
-// const httpServer = require('http').createServer(redirector);
+var httpsserver = https.createServer(credentials,app);
+const redirector = express();
+redirector.get('*', (req, res) => res.redirect("https://" + req.headers.host + req.url));
+const httpServer = require('http').createServer(redirector);
 var server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
  */
-// httpsserver.listen(port)
-// 
+httpsserver.listen(httpsport)
+httpsserver.on('error', onError);
+httpsserver.on('listening', onListening);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
