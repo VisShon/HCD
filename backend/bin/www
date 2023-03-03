@@ -28,21 +28,21 @@ app.set('port', port);
 /**
  * Create HTTP server.
  */
-var httpsserver = https.createServer(credentials,app);
+var httpsServer = https.createServer(credentials,app);
+
 const redirector = express();
 redirector.get('*', (req, res) => res.redirect("https://" + req.headers.host + req.url));
-const httpServer = require('http').createServer(redirector);
-var server = http.createServer(app);
-
+const httpServer = http.createServer(redirector);
 /**
  * Listen on provided port, on all network interfaces.
  */
-httpsserver.listen(httpsport)
-httpsserver.on('error', onError);
-httpsserver.on('listening', onListening);
-server.listen(port);
-server.on('error', onError);
-server.on('listening', onListening);
+httpsServer.listen(httpsport)
+httpsServer.on('error', onError);
+httpsServer.on('listening', onListening);
+
+httpServer.listen(port);
+httpServer.on('error', onError);
+httpServer.on('listening', onListening);
 
 /**
  * Normalize a port into a number, string, or false.
