@@ -10,11 +10,13 @@ var http = require('http');
 var https = require('https');
 
 
-const privateKey = fs.readFileSync('/etc/letsencrypt/live/hcd.iiitd.ac.in/fullchain.pem', 'utf8');
-const certificate = fs.readFileSync('/etc/letsencrypt/live/hcd.iiitd.ac.in/privkey.pem', 'utf8');
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/hcd.iiitd.ac.in/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/hcd.iiitd.ac.in/cert.pem', 'utf8');
+const chain = fs.readFileSync('/etc/letsencrypt/live/hcd.iiitd.ac.in/chain.pem', 'utf8');
 const credentials = {
   key: privateKey,
   cert: certificate,
+  ca:chain,
 };
 
 /**
