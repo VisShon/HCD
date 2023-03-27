@@ -53,7 +53,7 @@ export default function footer(){
 
                             <span className='font-bold'>ALL RIGHTS RESERVED</span>
                             <span>Copyright © 2022 IIITD</span>
-                            <span>LAST UPDATED 30/08/2022</span>
+                            <span>LAST UPDATED 28/02/2023</span>
                         </div>
                         <div className='flex font-Maven text-[#808080] text-[0.9em] mr-5'>
                             <a>Terms and Conditions</a>

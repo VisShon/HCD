@@ -1,4 +1,5 @@
 [
+
     {
         "id":"1",
         "title": "Accessibility and Inclusive Design Lab",
@@ -13,15 +14,15 @@
     },
     {
         "id":"2",
-        "title": "Living Lab",
-        "subtitle": "Dr. Grace Eden, A - 418",
-        "description": "Understanding people’s attitudes towards and uses of technology is an essential aspect of successful design. Living Lab specializes in research that explores the interrelationships between people, society and technology. We conduct empirical research using a variety of qualitative methods to identify requirements, improve usefulness and usability and identify implications for how new technologies transform social life.",
+        "title": "Creative Interfaces Lab",
+        "subtitle": "Dr. Anmol Srivastava, A-416",
+        "description": "We are a design research group working at the intersection of HCI and various disciplines. Our aim is to design, craft and evaluate interactive tools and experiences that augment  human capabilities and imagination.",
         "buttonText": "Visit Website",
-        "link":"https://livinglab.iiitd.edu.in/",
+        "link":"https://cilab.iiitd.edu.in/index.html",
         "color": "#A4DAC3",
-        "logo": "living.png",
+        "logo": "creative.png",
         "Panelimage": "hci.svg",
-        "txtColor":"#6F6F6F"
+        "txtColor":"#2A3832"
     },
     {
         "id":"3",
@@ -46,7 +47,7 @@
         "color": "#F4B950",
         "logo": "weave.png",
         "Panelimage": "vr.svg",
-        "txtColor":"#6F6F6F"
+        "txtColor":"#2A3832"
     },
     {
         "id":"5",

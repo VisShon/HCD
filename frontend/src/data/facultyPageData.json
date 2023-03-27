@@ -3,23 +3,29 @@
     "data":[{
         "id": 1,
         "image": "parnamiPodium.png",
-        "name": "Mr. Aman Parnami",
+        "name": "Dr. Aman Parnami",
         "description": "PhD, Georgia Institute of Technology"
     },
     {
         "id": 2,
+        "image": "anmol.png",
+        "name": "Dr. Anmol Srivastava",
+        "description": "PhD, IIT Guwahati"
+    },
+    {
+        "id": 3,
         "image": "jayPodium.png",
         "name": "Dr. Jainendra Shukla",
         "description": "PhD, Universitat Rovira i Virgili"
     },
     {
-        "id": 3,
+        "id": 4,
         "image": "rajivPodium.png",
         "name": "Dr. Rajiv Ratn Shah",
         "description": "PhD, National University of Singapore"
     },
     {
-        "id": 4,
+        "id": 5,
         "image": "richaPodium.png",
         "name": "Dr. Richa Gupta",
         "description": "PhD, IIT Delhi"
@@ -28,10 +34,18 @@
         "title": "Professor of Practice",
         "data":[{
             "id": 1,
+            "image": "angsu.png",
+            "name": "Mr Angsu Das",
+            "description": "BTech IIT Kanpur"
+        },
+        {
+            "id": 2,
             "image": "podium.png",
             "name": "Dr. Dhurjati Majumdar",
             "description": "Ph.D., University of Calcutta"
-        }]},
+        }
+        
+        ]},
     {   
         "title": "Visiting Faculty",
         "data":[{
