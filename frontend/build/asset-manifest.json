@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd8ca780.css",
-    "main.js": "/static/js/main.3e9f5d0c.js",
+    "main.css": "/static/css/main.3a271e66.css",
+    "main.js": "/static/js/main.bf00d030.js",
     "static/media/final.mp4": "/static/media/final.178ec605b8fa9eb8f82e.mp4",
     "static/media/bcgStill.png": "/static/media/bcgStill.2fc46250f3397e7ad36a.png",
     "static/media/alumini.png": "/static/media/alumini.82fca43934cd11dfd829.png",
@@ -13,25 +13,25 @@
     "static/media/Anu.jpg": "/static/media/Anu.aca1aa0b258fcaf48992.jpg",
     "static/media/facultyImg.png": "/static/media/facultyImg.5aead01c675a0b8522b1.png",
     "static/media/anoop.png": "/static/media/anoop.bf3b99c3dfe466a2cf49.png",
-    "static/media/PHDimg.svg": "/static/media/PHDimg.eb495b1abb5f27ff4af2518fc7b3aa2a.svg",
+    "static/media/PHDimg.svg": "/static/media/PHDimg.cd64b62fda5c04e7b50d0da4511c9ff7.svg",
     "static/media/aman.png": "/static/media/aman.cfa85bdf981971dea686.png",
     "static/media/kapil.png": "/static/media/kapil.f5438e98b65acee61d6e.png",
     "static/media/bcg.png": "/static/media/bcg.dfe08ac0f39e7be3d59a.png",
     "static/media/acadSec1Img.png": "/static/media/acadSec1Img.f8996ef320ef4e451164.png",
-    "static/media/admissions.svg": "/static/media/admissions.9dac7dd4121fe5bd8afaccef92792b77.svg",
+    "static/media/admissions.svg": "/static/media/admissions.22888405b404bda4b3060a2b043fef77.svg",
     "static/media/collab3.png": "/static/media/collab3.8872fb100c03243e3306.png",
     "static/media/collab10.png": "/static/media/collab10.f2cce0d8d1d9b917a001.png",
     "static/media/speaker.png": "/static/media/speaker.c82ba69a68048899bde0.png",
     "static/media/collab14.png": "/static/media/collab14.0cf024322f7a9512bc77.png",
     "static/media/midasImg.svg": "/static/media/midasImg.140401504f585c68b7da.svg",
     "static/media/collab16.png": "/static/media/collab16.783fa97663e705b4b620.png",
-    "static/media/tree1.svg": "/static/media/tree1.ea1d1e96214c32580cd958ac6808acf7.svg",
+    "static/media/tree1.svg": "/static/media/tree1.b94e625baf7935f1bcecc96c9291c0dd.svg",
     "static/media/abhijeet.png": "/static/media/abhijeet.9622f0d393abccc831e2.png",
     "static/media/collab5.png": "/static/media/collab5.fe5bc92beb346b6fe756.png",
     "static/media/pup.png": "/static/media/pup.b9d751bddaab008b58ba.png",
     "static/media/hci.svg": "/static/media/hci.e892e896ec14e71aad41.svg",
     "static/media/aidImg.svg": "/static/media/aidImg.c6869268049a1ed2198d.svg",
-    "static/media/sad.svg": "/static/media/sad.0b4c759eaed17e448c498742f880562d.svg",
+    "static/media/sad.svg": "/static/media/sad.6545098674d737ab8e716009ee57379c.svg",
     "static/media/hands.svg": "/static/media/hands.ae89b00c0751c44148d0.svg",
     "static/media/collab1.png": "/static/media/collab1.3b6df2af56a52fb5e5ad.png",
     "static/media/binu.png": "/static/media/binu.94d39d0bbaa0cc06193a.png",
@@ -83,15 +83,15 @@
     "static/media/shadow.png": "/static/media/shadow.85f8639828c444c7febb.png",
     "static/media/coding.png": "/static/media/coding.d91e785aa915417809e2.png",
     "static/media/collab7.png": "/static/media/collab7.d48d2b15a3b6e3529a59.png",
-    "static/media/butterflyBGR.svg": "/static/media/butterflyBGR.18f70ca9298cd4511429ff75cfad5278.svg",
+    "static/media/butterflyBGR.svg": "/static/media/butterflyBGR.16e69c3937d5369a2319c2930c89921d.svg",
     "index.html": "/index.html",
-    "static/media/arrow.svg": "/static/media/arrow.2ab9e1c051196754267f72586b996340.svg",
-    "static/media/dropN.svg": "/static/media/dropN.0626ab082c7517e0533f5282577bba47.svg",
-    "main.cd8ca780.css.map": "/static/css/main.cd8ca780.css.map",
-    "main.3e9f5d0c.js.map": "/static/js/main.3e9f5d0c.js.map"
+    "static/media/arrow.svg": "/static/media/arrow.d708e9fbd48a79c0117529fc37ff6764.svg",
+    "static/media/dropN.svg": "/static/media/dropN.5f785d4e80c58519abae996debd0f176.svg",
+    "main.3a271e66.css.map": "/static/css/main.3a271e66.css.map",
+    "main.bf00d030.js.map": "/static/js/main.bf00d030.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd8ca780.css",
-    "static/js/main.3e9f5d0c.js"
+    "static/css/main.3a271e66.css",
+    "static/js/main.bf00d030.js"
   ]
 }

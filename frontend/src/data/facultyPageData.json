@@ -55,12 +55,6 @@
             "description": "MBA, University of Madras"
         },
         {
-            "id": 2,
-            "image": "amitPodium.png",
-            "name": "Mr. Amit Sabherwal",
-            "description": "M.Des, IIT Delhi"
-        },
-        {
             "id": 3,
             "image": "anoopPodium.png",
             "name": "Mr. Anoop Ratn",
