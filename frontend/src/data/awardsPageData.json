@@ -1,0 +1,27 @@
+[
+
+    {
+        "prof": "Dr. Jainendra Shukla",
+        "title": "Department Outstanding Researcher",
+        "awarded": "awarded to",
+        "image" : "Jainendra-removebg.png"
+    },
+    {
+        "prof": "Dr Rajiv Ratan Shah",
+        "title": "Winning Major Research Grants and Dept. Outstanding Researcher",
+        "awarded": "awarded to",
+        "image" : "Jainendra-removebg.png"
+    },
+    {
+        "prof": "Dr Richa Gupta",
+        "title": "Design and research contributions towards the empowerment of people with disabilities",
+        "awarded": "awarded to",
+        "image" : "richagupta.png"
+    },
+    {
+        "prof": "Dr.Aman Parnami",
+        "title": "Tweek Labs for participating winning 60 lakhs for 10% equity share in Shark Tank India",
+        "awarded": "awarded to",
+        "image" : "amanparnami.png"
+    }
+]

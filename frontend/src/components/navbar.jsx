@@ -70,9 +70,7 @@ export default function NavBar({logo, rel, bg=true}){
                             <Link id="subHeading" to='/staff'>Staff</Link>
                             <Link id="subHeading" to='/PhdStudent'>PhD</Link>
                             <Link id="subHeading" to='/students'>Students</Link>
-
-                            
-
+                            <Link id="subHeading" to='/Awards'>Awards</Link>
                         </div>}
                     </div>
 

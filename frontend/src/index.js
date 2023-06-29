@@ -20,6 +20,7 @@ import Staff from './pages/Staff';
 import Collaborations from './pages/Collaborations';
 import Advisory from './pages/Advisory';
 import PhdStudent from './pages/PhdStudent'
+import Awards from './pages/Awards'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -35,7 +36,7 @@ root.render(
       <Route path="/Students" element={<Student/>}/>
       <Route path="/Advisory" element={<Advisory/>}/>
       <Route path="/PhdStudent" element ={<PhdStudent/>}/>
-
+      <Route path="/Awards" element ={<Awards/>}/>
 
       <Route path="/ResearchLabs" element={<Research/>}/>
       <Route path="/TeachingLabs" element={<Teaching/>}/>
@@ -53,6 +54,5 @@ root.render(
       <Route path="*" element={<NotFound/>}/>
     </Routes>
   </BrowserRouter>
-  // check
 );
 
