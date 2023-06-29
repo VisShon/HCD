@@ -12,9 +12,6 @@ function ProjCard({data,title,awarded,profName,setSelectedProj, setDescription, 
         }</h1>
         <p className="italic absolute left-5 bottom-10 z-[2]">Awarded to{awarded}</p>
         <h2 className="absolute left-5 bottom-5 z-[2]">{profName}</h2>
-				{/* <img className="relative float-right object-contain"src={require("../../assets/profsImg/"+data.image)}/> */}
-      
-        {/* <h2 className="absolute z-[0] right-[-2rem] bottom-[-7rem] font-[800] text-[15rem] text-[#40ada775]">{profName.substring(4,5).toUpperCase()}</h2> */}
     </div>
   )
 }
