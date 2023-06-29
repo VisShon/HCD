@@ -25,7 +25,7 @@ function ResearchPub() {
                 <div className="publicationsSection p-[2%]">
                     {
                         (selectedProf==null)?(
-                            "Please select a student to see thier bio"
+                            "Please select a student to see their bio"
                             ):(
                             displayProjects.map((publication, index) =>
                                 <PubDescp data={publication} index={index} />
