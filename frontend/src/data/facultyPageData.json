@@ -37,12 +37,6 @@
             "image": "angsu.png",
             "name": "Mr Angsu Das",
             "description": "BTech IIT Kanpur"
-        },
-        {
-            "id": 2,
-            "image": "podium.png",
-            "name": "Dr. Dhurjati Majumdar",
-            "description": "Ph.D., University of Calcutta"
         }
         
         ]},
@@ -55,7 +49,7 @@
             "description": "MBA, University of Madras"
         },
         {
-            "id": 3,
+            "id": 2,
             "image": "anoopPodium.png",
             "name": "Mr. Anoop Ratn",
             "description": "MFA, Teerthanker Mahaveer University"
