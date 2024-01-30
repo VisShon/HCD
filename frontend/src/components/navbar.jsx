@@ -36,7 +36,7 @@ export default function NavBar({logo, rel, bg=true}){
                 {
                     (logo)?(
                         <div className="rounded-br-[90px] bg-[#F1F1F1] items-center ">
-                            <a href="iiitd.ac.in">
+                            <a href="/">
                                 <img src = {logoImg} className="h-[10em] mx-[2vw] my-[1vw]"/>
                             </a>
                         </div>
@@ -46,7 +46,9 @@ export default function NavBar({logo, rel, bg=true}){
                     )
                 }
                 <div id='navbar' className='font-Archivo text-[#444343] my-20'>
-                    <Link className="w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/'>ABOUT</Link>
+                    {/* 
+                    // ABOUT US PAGE IS NOT THERE
+                    <Link className="w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/'>ABOUT</Link> */}
 
                     <div className="navSep">|</div>
 

@@ -44,9 +44,11 @@ export default function footer(){
                             </span>
                         </div>
 
+                        {/* 
+                        //TODO: Add the link to the collaborations page here but deleted for now 
                         <div className="flex flex-col">
                             <div className="font-Maven text-[#277773] text-[1.1em]">COLLABORATIONS</div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="flex justify-between mx-[13vw] small:flex-col small:mx-0 small:items-center">
                         <div className='flex flex-col font-Maven text-[#808080] text-[0.9em]'>
