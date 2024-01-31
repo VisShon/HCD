@@ -1,5 +1,8 @@
 Readme
 
+
+not to touch build folder..as no need
+
 Changes Did :
 - navbar logo error done 
                             <a href="iiitd.ac.in">
@@ -14,6 +17,7 @@ Changes to do
 {/* 
                     // ABOUT US PAGE IS NOT THERE
                     <Link className="w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/'>ABOUT</Link> */}
+                    {/* <div className="navSep">|</div> */}
 - footer.jsx
 {/* 
                         //TODO: Add the link to the collaborations page here but deleted for now 

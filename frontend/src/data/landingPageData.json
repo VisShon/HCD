@@ -7,28 +7,28 @@
     "alumniData": {
         "heading": "ALUMNI",
         "Picture": "alumini.png",
-        "description": "We at HCD@IIITD, focus on finding innovative solutions to challenges one faces every time a new technology is adopted by the masses. ",
+        "description": "Join a network of over 2000 professionals who have excelled in finding creative solutions to technological challenges.",
         "stat": "2000+",
         "CSSclassName": "alumniSection"
     },
     "studentData": {
         "heading": "STUDENTS",
         "Picture": "students.png",
-        "description": "We at HCD@IIITD, focus on finding innovative solutions to challenges one faces every time a new technology is adopted by the masses. ",
+        "description": "With a focus on innovation, our student body of over 2000 is committed to tackling challenges posed by the rapid adoption of new technologies.",
         "stat": "2000+",
         "CSSclassName": "studentsSection"
     },
     "paperData": {
         "heading": "PAPERS",
         "Picture": "Research.png",
-        "description": "We at HCD@IIITD, focus on finding innovative solutions to challenges one faces every time a new technology is adopted by the masses. ",
+        "description": "Explore over 20 papers that showcase our commitment to finding cutting-edge solutions for challenges accompanying the widespread adoption of new technologies.",
         "stat": "20+",
         "CSSclassName": "papersSection"
     },
     "facultyData": {
         "heading": "FACULTY",
         "Picture": "faculty.jpg",
-        "description": "We at HCD@IIITD, focus on finding innovative solutions to challenges one faces every time a new technology is adopted by the masses. ",
+        "description": "Our faculty, numbering over 200, is dedicated to pioneering innovative solutions for challenges that arise with each advancement in technology adopted by the masses.",
         "stat": "200+",
         "CSSclassName": "facultySection"
     },

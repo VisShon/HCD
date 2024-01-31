@@ -50,7 +50,7 @@ export default function NavBar({logo, rel, bg=true}){
                     // ABOUT US PAGE IS NOT THERE
                     <Link className="w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/'>ABOUT</Link> */}
 
-                    <div className="navSep">|</div>
+                    {/* <div className="navSep">|</div> */}
 
                     <div className={isAcadClicked?"Selected w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" :" w-[90%] text-center mx-5"} onMouseOver={acadClickHandler} onMouseOut={leaveHandler}>ACADEMICS
                         {isAcadClicked&&<div hidden={true} className='SelectedContent'>
