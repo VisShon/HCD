@@ -29,6 +29,13 @@
         "image": "richaPodium.png",
         "name": "Dr. Richa Gupta",
         "description": "PhD, IIT Delhi"
+    }
+    ,
+    {
+        "id": 6,
+        "image": "Kalpana_podium.png",
+        "name": "Dr. Kalpana Shankhwar",
+        "description": "PhD, National Taiwan University"
     }  ]},
     {
         "title": "Professor of Practice",

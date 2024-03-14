@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.cd8ca780.css",
-    "main.js": "/static/js/main.45865dde.js",
+    "main.js": "/static/js/main.605031d8.js",
     "static/media/final.mp4": "/static/media/final.178ec605b8fa9eb8f82e.mp4",
+    "static/media/Kalpana_1.png": "/static/media/Kalpana_1.2bf2588e490e768b6a6b.png",
     "static/media/bcgStill.png": "/static/media/bcgStill.2fc46250f3397e7ad36a.png",
     "static/media/alumini.png": "/static/media/alumini.82fca43934cd11dfd829.png",
     "static/media/Research.png": "/static/media/Research.034c8a0df36984d38247.png",
@@ -46,6 +47,7 @@
     "static/media/amanparnami.png": "/static/media/amanparnami.73f02ee9d92462b5e8f4.png",
     "static/media/richaPodium.png": "/static/media/richaPodium.129c47d6363fddce9ca5.png",
     "static/media/ratn.png": "/static/media/ratn.db5cdfb701dc98403e54.png",
+    "static/media/Kalpana_podium.png": "/static/media/Kalpana_podium.a42981c4b8bc6c368f00.png",
     "static/media/cdnmImg.png": "/static/media/cdnmImg.e7c420571fce61103dba.png",
     "static/media/acadSec1Mobile.png": "/static/media/acadSec1Mobile.a2281de27daca005e791.png",
     "static/media/parnamiPodium.png": "/static/media/parnamiPodium.3d38daf8a5f276c1bfd6.png",
@@ -88,10 +90,10 @@
     "static/media/arrow.svg": "/static/media/arrow.2ab9e1c051196754267f72586b996340.svg",
     "static/media/dropN.svg": "/static/media/dropN.0626ab082c7517e0533f5282577bba47.svg",
     "main.cd8ca780.css.map": "/static/css/main.cd8ca780.css.map",
-    "main.45865dde.js.map": "/static/js/main.45865dde.js.map"
+    "main.605031d8.js.map": "/static/js/main.605031d8.js.map"
   },
   "entrypoints": [
     "static/css/main.cd8ca780.css",
-    "static/js/main.45865dde.js"
+    "static/js/main.605031d8.js"
   ]
 }
