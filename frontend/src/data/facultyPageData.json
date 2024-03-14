@@ -42,7 +42,7 @@
         "data":[{
             "id": 1,
             "image": "angsu.png",
-            "name": "Mr Angsu Das",
+            "name": "Mr. Angsu Das",
             "description": "BTech IIT Kanpur"
         }
         
@@ -60,6 +60,18 @@
             "image": "anoopPodium.png",
             "name": "Mr. Anoop Ratn",
             "description": "MFA, Teerthanker Mahaveer University"
+        },
+        {
+            "id": 3,
+            "image": "sonal.png",
+            "name": "Dr. Sonal Keshwani",
+            "description": "Ph.D. (2018), Indian Institute of Science, Bangalore."
+        },
+        {
+            "id": 4,
+            "image": "vinish.png",
+            "name": "Dr. Vinish Kathuria",
+            "description": "Ph.D. (2023), IIM Lucknow"
         }]},
         {   
         "title": "Adjunct Faculty",

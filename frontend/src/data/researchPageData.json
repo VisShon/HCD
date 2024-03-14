@@ -60,6 +60,18 @@
         "logo": "midas.png",
         "Panelimage": "midasImg.svg",
         "txtColor":"#FFFFFF"
+    },
+    {
+        "id":"6",
+        "title": "The Emerging Technology Integrated Design & Manufacturing lab (ETiDM)",
+        "subtitle": "Dr. Kalpana Shankhwar, A - 403",
+        "description": "The Emerging Technology Integrated Design & Manufacturing lab (ETiDM) at HCD focuses on exploring and investigating emerging technologies including Extended reality (XR)/ (AR, VR, MR), Artificial Intelligence (AI), Digital Twin, Internet Of Things (IoT) and Haptic Technology. The ongoing research projects employ emerging technologies to develop smart training, tutorial and evaluation systems in the context of Industry 4.0 and Education 4.0. The lab aims to explore emerging technologies and conduct interdisciplinary research to overcome existing challenges in diverse fields for example, education, healthcare, manufacturing, teleoperation, guidance for safety and so forth.",
+        "buttonText": "Visit Website",
+        "link":"https://etidm.iiitd.edu.in",
+        "color": "#47638A",
+        "logo": "etdm.png",
+        "Panelimage": "aidImg.svg",
+        "txtColor":"#FFFFFF"
     }
     
 ]

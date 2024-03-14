@@ -10,7 +10,7 @@ import Footer from '../components/footer';
 function back(){
     window.location.reload(false);
 }
-const arr = ['1','2','3','4','5']
+const arr = ['1','2','3','4','5','6'] 
 function Research(){
     const [panelID, setPanelID] = useState('0');
     var wind = window.matchMedia("(max-width: 600px)")
