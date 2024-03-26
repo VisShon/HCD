@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd8ca780.css",
-    "main.js": "/static/js/main.605031d8.js",
+    "main.js": "/static/js/main.2193a921.js",
     "static/media/final.mp4": "/static/media/final.178ec605b8fa9eb8f82e.mp4",
     "static/media/Kalpana_1.png": "/static/media/Kalpana_1.2bf2588e490e768b6a6b.png",
     "static/media/bcgStill.png": "/static/media/bcgStill.2fc46250f3397e7ad36a.png",
@@ -30,10 +30,12 @@
     "static/media/abhijeet.png": "/static/media/abhijeet.9622f0d393abccc831e2.png",
     "static/media/collab5.png": "/static/media/collab5.fe5bc92beb346b6fe756.png",
     "static/media/pup.png": "/static/media/pup.b9d751bddaab008b58ba.png",
+    "static/media/vinish.png": "/static/media/vinish.ed4cb528d4333399110c.png",
     "static/media/hci.svg": "/static/media/hci.e892e896ec14e71aad41.svg",
     "static/media/aidImg.svg": "/static/media/aidImg.c6869268049a1ed2198d.svg",
     "static/media/sad.svg": "/static/media/sad.0b4c759eaed17e448c498742f880562d.svg",
     "static/media/hands.svg": "/static/media/hands.ae89b00c0751c44148d0.svg",
+    "static/media/sonal.png": "/static/media/sonal.69d2ffcfea3b8b2a8d05.png",
     "static/media/collab1.png": "/static/media/collab1.3b6df2af56a52fb5e5ad.png",
     "static/media/binu.png": "/static/media/binu.94d39d0bbaa0cc06193a.png",
     "static/media/anmol.png": "/static/media/anmol.9b4f0dfc997ed850e3e7.png",
@@ -80,6 +82,7 @@
     "static/media/hmi.png": "/static/media/hmi.fa56747272d2ce688c6a.png",
     "static/media/collab4.png": "/static/media/collab4.8e7aa96e93931d4fc3c6.png",
     "static/media/weave.png": "/static/media/weave.745098326ab7a3015718.png",
+    "static/media/etdm.png": "/static/media/etdm.6904b911c302f905d504.png",
     "static/media/aid.png": "/static/media/aid.8c51594e907be003b655.png",
     "static/media/midas.png": "/static/media/midas.db575620b5b84ded464b.png",
     "static/media/shadow.png": "/static/media/shadow.85f8639828c444c7febb.png",
@@ -90,10 +93,10 @@
     "static/media/arrow.svg": "/static/media/arrow.2ab9e1c051196754267f72586b996340.svg",
     "static/media/dropN.svg": "/static/media/dropN.0626ab082c7517e0533f5282577bba47.svg",
     "main.cd8ca780.css.map": "/static/css/main.cd8ca780.css.map",
-    "main.605031d8.js.map": "/static/js/main.605031d8.js.map"
+    "main.2193a921.js.map": "/static/js/main.2193a921.js.map"
   },
   "entrypoints": [
     "static/css/main.cd8ca780.css",
-    "static/js/main.605031d8.js"
+    "static/js/main.2193a921.js"
   ]
 }
