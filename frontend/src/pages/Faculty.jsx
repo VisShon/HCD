@@ -27,7 +27,7 @@ function Faculty(){
 
                 <div className="facultyContainer">
                      {facultyData.map((prof,index)=>(
-                        <FacultyCard image={prof.image} name={prof.name} description={prof.description}/>
+                        <FacultyCard image={prof.image} name={prof.name} description={prof.description} iiitd={prof.iiitd} gs={prof.gs}/>
                      ))}
                 </div>
 

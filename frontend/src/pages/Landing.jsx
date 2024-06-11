@@ -24,9 +24,9 @@ function Landing() {
           <GallerySection />
           <MissionAndVission data={LandingPageData.missionVission}/>
           
-          
-          <NewsSection/>
           <Footer/>
+          
+          
     </div>
   );
 }

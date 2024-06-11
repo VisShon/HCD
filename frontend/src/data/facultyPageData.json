@@ -5,37 +5,48 @@
         "image": "parnamiPodium.png",
         "name": "Dr. Aman Parnami",
         "description": "PhD, Georgia Institute of Technology"
+        ,"gs":"https://scholar.google.com/citations?user=PI30hN8AAAAJ&hl=en&oi=ao",
+        "iiitd":"https://www.iiitd.ac.in/people/adjunct-faculty"
     },
     {
         "id": 2,
         "image": "anmol.png",
         "name": "Dr. Anmol Srivastava",
         "description": "PhD, IIT Guwahati"
+        ,"gs":"https://scholar.google.com/citations?user=keKK7wgAAAAJ&hl=en&oi=ao",
+        "iiitd":"https://iiitd.ac.in/anmol"
     },
     {
         "id": 3,
         "image": "jayPodium.png",
         "name": "Dr. Jainendra Shukla",
         "description": "PhD, Universitat Rovira i Virgili"
+        ,"gs":"https://scholar.google.com/citations?hl=en&user=QCZleNQAAAAJ",
+        "iiitd":"https://iiitd.ac.in/jainendra"
     },
     {
         "id": 4,
         "image": "rajivPodium.png",
         "name": "Dr. Rajiv Ratn Shah",
         "description": "PhD, National University of Singapore"
+        ,"gs":"https://scholar.google.com/citations?hl=en&user=WAChZv4AAAAJ",
+        "iiitd":"https://iiitd.ac.in/rajivratn"
     },
     {
         "id": 5,
         "image": "richaPodium.png",
         "name": "Dr. Richa Gupta",
         "description": "PhD, IIT Delhi"
-    }
-    ,
+        ,"gs":"https://scholar.google.co.in/citations?user=myadDvcAAAAJ&hl=en",
+        "iiitd":"https://iiitd.ac.in/richagupta"
+    },
     {
         "id": 6,
         "image": "Kalpana_podium.png",
         "name": "Dr. Kalpana Shankhwar",
         "description": "PhD, National Taiwan University"
+        ,"gs":"https://scholar.google.com/citations?hl=en&user=ulG3U1MAAAAJ",
+        "iiitd":"https://iiitd.ac.in/kalpana"
     }  ]},
     {
         "title": "Professor of Practice",
@@ -44,6 +55,8 @@
             "image": "angsu.png",
             "name": "Mr. Angsu Das",
             "description": "BTech IIT Kanpur"
+            ,"gs":"https://iiitd.irins.org/profile/185757",
+            "iiitd":"https://www.iiitd.ac.in/people/pop-faculty"
         }
         
         ]},
@@ -54,24 +67,32 @@
             "image": "amanPodium.png",
             "name": "Mr. Aman Samuel",
             "description": "MBA, University of Madras"
+            ,"gs":"https://iiitd.irins.org/profile/280145",
+            "iiitd":"https://www.iiitd.ac.in/people/visiting-faculty"
         },
         {
             "id": 2,
             "image": "anoopPodium.png",
             "name": "Mr. Anoop Ratn",
             "description": "MFA, Teerthanker Mahaveer University"
+            ,"gs":"https://iiitd.irins.org/profile/185766",
+            "iiitd":"https://www.iiitd.ac.in/people/visiting-faculty"
         },
         {
             "id": 3,
             "image": "sonal.png",
             "name": "Dr. Sonal Keshwani",
             "description": "Ph.D. (2018), Indian Institute of Science, Bangalore."
+            ,"gs":"https://scholar.google.com/citations?user=NLPFhkMAAAAJ&hl=en&oi=ao",
+            "iiitd":"https://www.iiitd.ac.in/people/visiting-faculty"
         },
         {
             "id": 4,
             "image": "vinish.png",
             "name": "Dr. Vinish Kathuria",
             "description": "Ph.D. (2023), IIM Lucknow"
+            ,"gs":"https://iiitd.irins.org/profile/516461",
+            "iiitd":"https://www.iiitd.ac.in/people/visiting-faculty"
         }]},
         {   
         "title": "Adjunct Faculty",
@@ -80,6 +101,8 @@
             "image": "abhinavd.jpg",
             "name": "Mr. Abhinav Dhall",
             "description": "PhD, Australian National University,"
+            ,"gs":"https://scholar.google.com/citations?user=ypusncAAAAAJ&hl=en&oi=ao",
+            "iiitd":"https://www.iiitd.ac.in/people/adjunct-faculty"
         }]}
 
 ]

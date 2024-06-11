@@ -10,7 +10,9 @@ export default function MissionAndVission({data}){
             <div className="headingContainer">
                 <h1>{data.heading}</h1>
                 <p className="small:hidden">{data.body}</p>
-                <img src={speaker}/>
+                
+                <img src={speaker}  width="400" alt="Speaker"/>
+
             </div>
             <div className="listContainer ">
                 {

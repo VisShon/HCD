@@ -11,6 +11,7 @@ import Academics from './pages/Academics';
 import Research from './pages/ResearchLabs';
 import Teaching from './pages/TeachingLabs';
 import ResearchProj from './pages/ResearchProj';
+import Announcements from './pages/Announcements';
 import ResearchPub from './pages/ResearchPub';
 import Contact from './pages/Contactus';
 import StudentConduct from './pages/studentConductPolicy';
@@ -48,6 +49,8 @@ root.render(
       <Route path="/StudentConduct" element={<StudentConduct/>}/>
 
       <Route path="/Contactus" element={<Contact/>}/>
+      <Route path="/Announcements" element={<Announcements/>}/>
+      Announcements
       <Route path="/Collaborations" element={<Collaborations/>}/>
 
       <Route path="*" element={<NotFound/>}/>
