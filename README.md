@@ -79,7 +79,8 @@ it would contain : frontend,backend,other files
 
 ### Download Server Files
 #download server files scp [options] [source] [destination]
-```scp -r iiitd@<address>:/home/iiitd/HCD-main ~/Documents/server
+```
+scp -r iiitd@<address>:/home/iiitd/HCD-main ~/Documents/server
 ```
 
 ### Install Node.js and npm
