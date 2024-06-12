@@ -63,7 +63,7 @@ Notable Patterns
 12. [File and Directory Operations](#file-and-directory-operations)
 13. [Node.js Server Configuration](#nodejs-server-configuration)
 14. [Steps to Run the Application](#steps-to-run-the-application)
-15. [Progress](#progress)
+
 
 ## Local Machine Setup
 both of them at contentwise is updated as of June 12 2024.
@@ -75,11 +75,14 @@ backend-old is of machine ,not server
 it would contain : frontend,backend,other files
 
 ### Enter SSH
-```ssh iiitd@<address>```
+```
+ssh iiitd@<address>
+```
 
 ### Download Server Files
 #download server files scp [options] [source] [destination]
-```scp -r iiitd@<address>:/home/iiitd/HCD-main ~/Documents/server
+```
+scp -r iiitd@<address>:/home/iiitd/HCD-main ~/Documents/server
 ```
 
 ### Install Node.js and npm
@@ -173,11 +176,13 @@ sudo yarn start
 ```
 #!/bin/bash
 cd /home/iiitd/HCD-main/backend/bin
-sudo node www```
+sudo node www
+```
 
 ### File and Directory Operations
 ## ls
 ```
+
 iiitd@hcd:~$ pwd
 /home/iiitd
 iiitd@hcd:~$ ls
@@ -215,13 +220,13 @@ iiitd@hcd:~$
 ```
 
 #Rename
-```bash
+```
 mv old_filename new_filename
 mv old_foldername new_foldername
 ```
 
 #copy
-```bash
+```
 cp -r /home/iiitd/HCD/backend /home/iiitd/HCD-main/
 ```
 
@@ -435,56 +440,3 @@ By following these steps, you should be able to run your Node.js application wit
 ### Steps to Run the Application
 - Local Machine : Run at Frontend till Changes Procedure done [Local Machine Setup](#local-machine-setup) & 6. [Procedure of Changes](#procedure-of-changes)
 - Server : Run at Backend 9. [Running the Server](#running-the-server)
-
-# Progress
-// Announcements.jsx
-// As of now, the components of frontend/src/pages/ResearchProj.jsx is being used so to avoid space we ahve used all its components in it too. It was created to display announcements on the website.
-
-frontend/src/data/newsData.json & frontend/src/components/About/newsSection.jsx is waste file
-
-not to touch build folder..as no need
-
-### Done
-- 
-- Footer Changed & Animated with css frontend/src/components/footer.jsx
-- NEWS Navbar Section frontend/src/components/navbar.jsx
-- Navbar New Links added frontend/src/components/navbar.jsx
-- 
-- Announcements Page with Card,Description,and json file [text](frontend/src/pages/Announcements.jsx)
-- Google Scholar or https://iiitd.irins.org/ Data collect IIITD Web Faculty link frontend/src/data/facultyPageData.json
-- Link to IIITD Web Faculty link at Faculty Page frontend/src/components/People/facultyCard.jsx
-- Data collect IIITD Web Faculty link frontend/src/data/facultyPageData.json
-- Link to IIITD Web Faculty link at Faculty Page frontend/src/components/People/facultyCard.jsx
-- navbar logo error done <a href="iiitd.ac.in">to  <a href="/">
-
-- navbar.jsx 
-{/* 
-                    // ABOUT US PAGE IS NOT THERE
-                    <Link className="w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/'>ABOUT</Link> */}
-                    {/* <div className="navSep">|</div> */}
-- SLL Script update
-- Home error fixed
-- SSL error fixed
-- Faculties updated
-- Collabaration erroe fixed
-- Typos removed 
-- About error fixed 
-- Lorem ipsum fixed at Home page
-- All Updated
-- Video Changes
-- Detailed README.md
-- Study Nginx and apache2,specifically thier need and should we restart after restarting startup.services
-    - **Nginx and Apache2**: Both are web servers that can serve static content, reverse proxy requests, handle SSL/TLS encryption, and much more. If you restart your Node.js application with `startup.service`, restarting Nginx or Apache2 is generally not required unless you've made changes to their configurations or certificates.
-    
-    - **Nginx**: Commonly used for its performance and low resource usage. It's a popular choice for serving static files and as a reverse proxy.
-    
-    - **Apache2**: Known for its flexibility and module-based architecture. It can handle a variety of tasks beyond serving web pages, like URL rewriting, authentication, and more.
-
-    - **Should You Restart Nginx or Apache2 After Restarting `startup.service`**: Generally, it's not necessary unless changes are made to their configurations. For example, if you update SSL certificates, you might need to reload or restart Nginx or Apache2 to apply those changes.
-
-### Todo
-- footer.jsx
-- new lab
-- websites include
-- phd data
-
