@@ -75,11 +75,11 @@ backend-old is of machine ,not server
 it would contain : frontend,backend,other files
 
 ### Enter SSH
-```ssh iiitd@192.168.3.130```
+```ssh iiitd@<address>```
 
 ### Download Server Files
 #download server files scp [options] [source] [destination]
-```scp -r iiitd@192.168.3.130:/home/iiitd/HCD-main ~/Documents/server
+```scp -r iiitd@<address>:/home/iiitd/HCD-main ~/Documents/server
 ```
 
 ### Install Node.js and npm
