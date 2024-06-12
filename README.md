@@ -1,24 +1,128 @@
-# Local Machine
-#enter ssh
-ssh iiitd@192.168.3.130
+# Official Website for the Department of HCD, IIIT-Delhi
 
+Welcome to the official repository for the Department of Human-Centered Design (HCD) website developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project aims to provide a platform to showcase updates, information, and resources related to the HCD department at Indraprastha Institute of Information Technology, Delhi (IIIT-Delhi).
+
+- [Figma Community Design](https://www.figma.com/community/file/1115290531089636223): Access our Figma community design for UI/UX reference.
+- [Official Website](https://hcd.iiitd.ac.in/): Visit our official website to explore more about our department and its activities.
+- [GitHub Repository](https://github.com/VisShon/HCD): Access our GitHub repository for the latest updates and contributions.
+
+## Contact
+
+For any questions, feedback, or inquiries regarding the HCD department website, please contact:
+[Department of Human-Centered Design](mailto:hcd@iiitd.ac.in)
+
+# Comprehensive setup and deploymentGuide
+Welcome to the comprehensive setup and deployment guide for our Node.js and React application. This guide provides detailed instructions for setting up the development environment, managing the application server, and making necessary changes to the application structure and content. The document is structured to facilitate both new developers and experienced professionals in efficiently setting up and maintaining the application on local and remote machines.
+
+The directory structure you've posted indicates a project that appears to be a web application with both backend and frontend components. Here’s a breakdown of the structure:
+
+#### Top-Level Directories and Files
+- **backend**: This directory contains the backend application code.
+- **backend-old**: Presumably an older version of the backend, kept for reference or rollback purposes.
+- **frontend**: This directory contains the frontend application code.
+
+#### Backend Directory
+- **app.js**: Likely the main application file for the backend.
+- **bin/www**: Typically, the entry point for starting the server.
+- **package.json & package-lock.json**: These files manage the backend’s dependencies.
+- **public**: Contains publicly accessible files for the backend.
+  - **asset-manifest.json, favicon.ico, index.html, manifest.json, robots.txt**: Standard web files.
+  - **static**: Contains static assets like CSS, JavaScript, and media files.
+
+#### Backend-old Directory
+- Similar structure to the `backend` directory, probably contains a previous version of the backend code.
+
+#### Frontend Directory
+- **build**: Contains the production build of the frontend application.
+  - **asset-manifest.json, favicon.ico, index.html, manifest.json, robots.txt**: Standard web files.
+  - **static**: Contains static assets for the frontend similar to the backend static directory.
+- **package.json & package-lock.json**: These files manage the frontend’s dependencies.
+- **postcss.config.js**: Configuration file for PostCSS, a tool to transform CSS.
+- **public**: Publicly accessible files for the frontend.
+- **src**: Source code for the frontend application.
+  - **assets**: Contains images, icons, and other static assets.
+
+Notable Patterns
+1. **Mirroring Structure**: Both the `backend` and `frontend` have similar structures with their own `public` directories and `static` assets.
+2. **Media Files**: Numerous media files (images, SVGs) are used in both the backend and frontend, likely for UI elements, icons, and other visual content.
+3. **Build Artifacts**: The `build` directory in the frontend indicates the use of a build process, likely using tools like Webpack, Babel, or similar.
+
+# Table of Contents
+
+1. [Local Machine Setup](#local-machine-setup)
+2. [Entering SSH](#entering-ssh)
+3. [Download Server Files](#download-server-files)
+4. [Install Node.js and npm](#install-nodejs-and-npm)
+5. [Install nvm](#install-nvm)
+6. [Procedure of Changes](#procedure-of-changes)
+7. [React Structure](#react-structure)
+8. [Server Setup](#server-setup)
+9. [Running the Server](#running-the-server)
+10. [Server Deamon](#server-deamon)
+11. [Shell Script for Server Startup](#shell-script-for-server-startup)
+12. [File and Directory Operations](#file-and-directory-operations)
+13. [Node.js Server Configuration](#nodejs-server-configuration)
+14. [Steps to Run the Application](#steps-to-run-the-application)
+15. [Progress](#progress)
+
+## Local Machine Setup
+both of them at contentwise is updated as of June 12 2024.
+- ls bali branch
+kintsugi@machine:~/Documents/baligit/HCD-1$ ls
+backend  backend-old  frontend  package.json  package-lock.json  Procfile  README1.md  README.md
+backend-old is of machine ,not server
+- ls main
+it would contain : frontend,backend,other files
+
+### Enter SSH
+```ssh iiitd@192.168.3.130```
+
+### Download Server Files
 #download server files scp [options] [source] [destination]
-scp -r iiitd@192.168.3.130:/home/iiitd/HCD-main ~/Documents/server
+```scp -r iiitd@192.168.3.130:/home/iiitd/HCD-main ~/Documents/server
+```
 
-#install nodejs and npm
+### Install Node.js and npm
+```
 sudo apt-get install nodejs npm
 node -v
 npm -v
+```
 
+### Install nvm
+```
 #install nvm14 required
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 source ~/.bashrc  # or source ~/.zshrc depending on your shell
 nvm install 14
 nvm use 14
 nvm alias default 14
+```
 
-# Server
+### Procedure of Changes
+- install prereq.
+- clone main directory
+- it would contain : frontend,backend,other files
+- do all work in frontend
+- yarn install
+- yarn start
+- ctrl+c
 
+- cd backend
+- rm public
+- mkdir public
+- copy frontend build data to backend public
+- DONE ;0 
+
+### React Structure
+index.js routing
+assets mediadata
+data jsondata
+pages reactpages
+styles cssdata
+componrnts reactcardpages
+
+### Server Setup
 #Fetch File and yarn install : Don't use github clone etc[signal died],just use wget and for link ,hover over download zip option at github repo and copy link
 rm HCD-old #if any
 mv HCD-main HCD-old
@@ -28,6 +132,13 @@ rm main.zip
 cd HCD-main/backend
 yarn install
 
+### Running the Server
+#stop server
+sudo systemctl stop nginx
+sudo systemctl stop apache2
+sudo lsof -i :80
+sudo kill 3686 #see PID no.
+
 #manual run temp
 cd HCD-main/backend/bin
 sudo node www
@@ -36,6 +147,7 @@ sudo node www
 cd
 ./startup.sh
 
+### Server Deamon
 #stop server
 sudo systemctl stop nginx
 sudo systemctl stop apache2
@@ -49,8 +161,7 @@ sudo systemctl restart startup.service
 #exit
 exit
 
-## startup.sh
-
+### Shell Script for Server Startup startup.sh
 #old
 ```
 #!/bin/bash
@@ -62,8 +173,9 @@ sudo yarn start
 ```
 #!/bin/bash
 cd /home/iiitd/HCD-main/backend/bin
-sudo node www
-```
+sudo node www```
+
+### File and Directory Operations
 ## ls
 ```
 iiitd@hcd:~$ pwd
@@ -114,11 +226,10 @@ cp -r /home/iiitd/HCD/backend /home/iiitd/HCD-main/
 ```
 
 
-# www
-
+### Node.js Server Configuration
 The provided code sets up a Node.js server using Express to handle both HTTP and HTTPS traffic. Here’s a breakdown of what each part of the code does:
 
-### `www` File
+#### `www` File
 
 1. **Dependencies and Module Setup**:
    ```javascript
@@ -216,7 +327,7 @@ The provided code sets up a Node.js server using Express to handle both HTTP and
    }
    ```
 
-### `server.js` File
+#### `server.js` File
 
 1. **Express Setup**:
    ```javascript
@@ -238,7 +349,7 @@ The provided code sets up a Node.js server using Express to handle both HTTP and
    module.exports = app;
    ```
 
-### Explanation
+#### Explanation
 
 1. **SSL Certificates**: The code reads SSL certificates from the specified paths, which are required to enable HTTPS.
 2. **Port Configuration**: It normalizes the port values for HTTP and HTTPS.
@@ -246,7 +357,7 @@ The provided code sets up a Node.js server using Express to handle both HTTP and
 4. **Error Handling**: Functions to handle and log errors during server startup.
 5. **Catch-All Route**: In `server.js`, it serves the `index.html` file for any route, allowing the front-end to handle routing (useful for single-page applications).
 
-### Usage
+#### Usage
 
 - **Starting the Server**: To start the server, you need to run the `www` script.
 - **SSL Configuration**: Ensure that the SSL certificate paths are correct and the files are accessible.
@@ -255,11 +366,11 @@ The provided code sets up a Node.js server using Express to handle both HTTP and
 This setup ensures that all HTTP traffic is redirected to HTTPS, which is a common practice to enhance security by enforcing encrypted communication.
 To run the provided Node.js application, follow these steps:
 
-### Prerequisites
+#### Prerequisites
 1. **Node.js and npm**: Ensure Node.js and npm (Node Package Manager) are installed on your system. You can download and install them from [nodejs.org](https://nodejs.org/).
 2. **SSL Certificates**: Make sure you have valid SSL certificates placed in the specified paths (`/etc/letsencrypt/live/hcd.iiitd.ac.in/privkey.pem` and `/etc/letsencrypt/live/hcd.iiitd.ac.in/fullchain.pem`).
 
-### Steps to Run the Application
+#### Steps to Run the Application
 
 1. **Project Structure**:
    Ensure your project directory looks something like this:
@@ -300,7 +411,7 @@ To run the provided Node.js application, follow these steps:
    ```
    This will ensure your application runs in the background and restarts automatically on failure.
 
-### Additional Considerations
+#### Additional Considerations
 
 - **Permissions**: If you encounter permission errors while accessing the SSL certificates or binding to ports 80 and 443, you might need to run the command with `sudo`:
   ```bash
@@ -321,5 +432,59 @@ To run the provided Node.js application, follow these steps:
 
 By following these steps, you should be able to run your Node.js application with both HTTP and HTTPS support.
 
-# Todo
+### Steps to Run the Application
+- Local Machine : Run at Frontend till Changes Procedure done [Local Machine Setup](#local-machine-setup) & 6. [Procedure of Changes](#procedure-of-changes)
+- Server : Run at Backend 9. [Running the Server](#running-the-server)
+
+# Progress
+// Announcements.jsx
+// As of now, the components of frontend/src/pages/ResearchProj.jsx is being used so to avoid space we ahve used all its components in it too. It was created to display announcements on the website.
+
+frontend/src/data/newsData.json & frontend/src/components/About/newsSection.jsx is waste file
+
+not to touch build folder..as no need
+
+### Done
+- 
+- Footer Changed & Animated with css frontend/src/components/footer.jsx
+- NEWS Navbar Section frontend/src/components/navbar.jsx
+- Navbar New Links added frontend/src/components/navbar.jsx
+- 
+- Announcements Page with Card,Description,and json file [text](frontend/src/pages/Announcements.jsx)
+- Google Scholar or https://iiitd.irins.org/ Data collect IIITD Web Faculty link frontend/src/data/facultyPageData.json
+- Link to IIITD Web Faculty link at Faculty Page frontend/src/components/People/facultyCard.jsx
+- Data collect IIITD Web Faculty link frontend/src/data/facultyPageData.json
+- Link to IIITD Web Faculty link at Faculty Page frontend/src/components/People/facultyCard.jsx
+- navbar logo error done <a href="iiitd.ac.in">to  <a href="/">
+
+- navbar.jsx 
+{/* 
+                    // ABOUT US PAGE IS NOT THERE
+                    <Link className="w-[90%] text-center mx-5 hover:bg-[#f1f1f165] rounded-[0.5rem]" to='/'>ABOUT</Link> */}
+                    {/* <div className="navSep">|</div> */}
+- SLL Script update
+- Home error fixed
+- SSL error fixed
+- Faculties updated
+- Collabaration erroe fixed
+- Typos removed 
+- About error fixed 
+- Lorem ipsum fixed at Home page
+- All Updated
+- Video Changes
+- Detailed README.md
 - Study Nginx and apache2,specifically thier need and should we restart after restarting startup.services
+    - **Nginx and Apache2**: Both are web servers that can serve static content, reverse proxy requests, handle SSL/TLS encryption, and much more. If you restart your Node.js application with `startup.service`, restarting Nginx or Apache2 is generally not required unless you've made changes to their configurations or certificates.
+    
+    - **Nginx**: Commonly used for its performance and low resource usage. It's a popular choice for serving static files and as a reverse proxy.
+    
+    - **Apache2**: Known for its flexibility and module-based architecture. It can handle a variety of tasks beyond serving web pages, like URL rewriting, authentication, and more.
+
+    - **Should You Restart Nginx or Apache2 After Restarting `startup.service`**: Generally, it's not necessary unless changes are made to their configurations. For example, if you update SSL certificates, you might need to reload or restart Nginx or Apache2 to apply those changes.
+
+### Todo
+- footer.jsx
+- new lab
+- websites include
+- phd data
+
