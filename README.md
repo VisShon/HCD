@@ -75,7 +75,9 @@ backend-old is of machine ,not server
 it would contain : frontend,backend,other files
 
 ### Enter SSH
-```ssh iiitd@<address>```
+```
+ssh iiitd@<address>
+```
 
 ### Download Server Files
 #download server files scp [options] [source] [destination]
