@@ -112,6 +112,7 @@ nvm alias default 14
 - rm public
 - mkdir public
 - copy frontend build data to backend public
+- commit and push
 - DONE ;0 
 
 ### React Structure

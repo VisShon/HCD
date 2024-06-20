@@ -27,24 +27,8 @@
                 "abstract": "Qualitative Researcher",
                 "ResearchAreas": "Intersection of Human Computer Interaction and Women's Health and Wellbeing",
                 "Thesis": "Scoping ICTs for Menstrual Health Education and Menstrual Hygiene in Urban India",
-                "Supervisor": "Dr. Jainendra Shukla, Dr. Rajiv Ratn Shah"
+                "Supervisor": "Dr. Pushpendra Singh (IIITD) and Dr. Neha Kumar (Georgia Tech, USA)"
                 
-            }
-        ]
-    },
-    {
-        "profInfo": {
-            "image": "Punit.jpg",
-            "name": "Punit Kumar singh"
-        },
-        "projects": [
-            {
-                "title": "Punit Kumar singh",
-                "DOI": "https://www.linkedin.com/in/punit-kumar-singh-b35832100/",
-                "abstract": "Deep learning",
-                "ResearchAreas": "Deep learning, AI",
-                "Thesis": "Emotion aware embodied conversational agents",
-                "Supervisor": "Dr. Pushpendra Singh (IIIT-Delhi, India) and Dr. Neha Kumar (Georgia Tech, USA)"
             }
         ]
     }
