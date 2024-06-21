@@ -49,23 +49,7 @@
             }
         ]
     },
-    {
-        "profInfo": {
-            "image": "VaibhaviKowshik.jpg",
-            "name": "Vaibhavi Kowshik"
-        },
-        "projects": [
-            {
-                "title": "Vaibhavi Kowshik",
-                "DOI": "",
-                "abstract": "Design",
-                "ResearchAreas": "Human environment interactions, Culture and Creativity, Non-formal learning experiences, Art + Tech + Climate Action & Digital Activism",
-                "Thesis": "",
-                "Supervisor": "Prof. Grace Eden - IIITD (supervisor) & Prof. Charu Monga - IITD (co-supervisor)"
-                
-            }
-        ]
-    },
+    
     {
         "profInfo": {
             "image": "AdarshPandey.jpg",

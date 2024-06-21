@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm install && node server.js",
-    "dev": "node server.js"
+    "start": "yarn install && node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No build process specified'"
   },
   "author": "",
   "license": "ISC",

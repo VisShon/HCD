@@ -12,16 +12,19 @@ For any questions, feedback, or inquiries regarding the HCD department website, 
 [Department of Human-Centered Design](mailto:hcd@iiitd.ac.in)
 
 # Comprehensive setup and deploymentGuide
+
 Welcome to the comprehensive setup and deployment guide for our Node.js and React application. This guide provides detailed instructions for setting up the development environment, managing the application server, and making necessary changes to the application structure and content. The document is structured to facilitate both new developers and experienced professionals in efficiently setting up and maintaining the application on local and remote machines.
 
 The directory structure you've posted indicates a project that appears to be a web application with both backend and frontend components. Here’s a breakdown of the structure:
 
 #### Top-Level Directories and Files
+
 - **backend**: This directory contains the backend application code.
 - **backend-old**: Presumably an older version of the backend, kept for reference or rollback purposes.
 - **frontend**: This directory contains the frontend application code.
 
 #### Backend Directory
+
 - **app.js**: Likely the main application file for the backend.
 - **bin/www**: Typically, the entry point for starting the server.
 - **package.json & package-lock.json**: These files manage the backend’s dependencies.
@@ -30,9 +33,11 @@ The directory structure you've posted indicates a project that appears to be a w
   - **static**: Contains static assets like CSS, JavaScript, and media files.
 
 #### Backend-old Directory
+
 - Similar structure to the `backend` directory, probably contains a previous version of the backend code.
 
 #### Frontend Directory
+
 - **build**: Contains the production build of the frontend application.
   - **asset-manifest.json, favicon.ico, index.html, manifest.json, robots.txt**: Standard web files.
   - **static**: Contains static assets for the frontend similar to the backend static directory.
@@ -43,6 +48,7 @@ The directory structure you've posted indicates a project that appears to be a w
   - **assets**: Contains images, icons, and other static assets.
 
 Notable Patterns
+
 1. **Mirroring Structure**: Both the `backend` and `frontend` have similar structures with their own `public` directories and `static` assets.
 2. **Media Files**: Numerous media files (images, SVGs) are used in both the backend and frontend, likely for UI elements, icons, and other visual content.
 3. **Build Artifacts**: The `build` directory in the frontend indicates the use of a build process, likely using tools like Webpack, Babel, or similar.
@@ -64,28 +70,33 @@ Notable Patterns
 13. [Node.js Server Configuration](#nodejs-server-configuration)
 14. [Steps to Run the Application](#steps-to-run-the-application)
 
-
 ## Local Machine Setup
+
 both of them at contentwise is updated as of June 12 2024.
+
 - ls bali branch
-kintsugi@machine:~/Documents/baligit/HCD-1$ ls
-backend  backend-old  frontend  package.json  package-lock.json  Procfile  README1.md  README.md
-backend-old is of machine ,not server
+  kintsugi@machine:~/Documents/baligit/HCD-1$ ls
+  backend backend-old frontend package.json package-lock.json Procfile README1.md README.md
+  backend-old is of machine ,not server
 - ls main
-it would contain : frontend,backend,other files
+  it would contain : frontend,backend,other files
 
 ### Enter SSH
+
 ```
 ssh iiitd@<address>
 ```
 
 ### Download Server Files
+
 #download server files scp [options] [source] [destination]
+
 ```
 scp -r iiitd@<address>:/home/iiitd/HCD-main ~/Documents/server
 ```
 
 ### Install Node.js and npm
+
 ```
 sudo apt-get install nodejs npm
 node -v
@@ -93,6 +104,7 @@ npm -v
 ```
 
 ### Install nvm
+
 ```
 #install nvm14 required
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
@@ -103,6 +115,7 @@ nvm alias default 14
 ```
 
 ### Procedure of Changes
+
 - install prereq.
 - clone main directory
 - it would contain : frontend,backend,other files
@@ -112,15 +125,15 @@ nvm alias default 14
 - ctrl+c
 - yarn build
 
-
 - cd backend
 - rm public
 - mkdir public
 - copy frontend build data to backend public
 - commit and push
-- DONE ;0 
+- DONE ;0
 
 ### React Structure
+
 index.js routing
 assets mediadata
 data jsondata
@@ -129,6 +142,7 @@ styles cssdata
 componrnts reactcardpages
 
 ### Server Setup
+
 #Fetch File and yarn install : Don't use github clone etc[signal died],just use wget and for link ,hover over download zip option at github repo and copy link
 rm HCD-old #if any
 mv HCD-main HCD-old
@@ -140,6 +154,7 @@ yarn install
 yarn build
 
 ### Running the Server
+
 #stop server
 sudo systemctl stop nginx
 sudo systemctl stop apache2
@@ -150,11 +165,12 @@ sudo kill 3686 #see PID no.
 cd HCD-main/backend/bin
 sudo node www
 
-#manual run temp or 
+#manual run temp or
 cd
 ./startup.sh
 
 ### Server Deamon
+
 #stop server
 sudo systemctl stop nginx
 sudo systemctl stop apache2
@@ -169,7 +185,9 @@ sudo systemctl restart startup.service
 exit
 
 ### Shell Script for Server Startup startup.sh
+
 #old
+
 ```
 #!/bin/bash
 cd /home/iiitd/HCD-main/backend
@@ -177,6 +195,7 @@ sudo yarn start
 ```
 
 #temp fix
+
 ```
 #!/bin/bash
 cd /home/iiitd/HCD-main/backend/bin
@@ -184,7 +203,9 @@ sudo node www
 ```
 
 ### File and Directory Operations
+
 ## ls
+
 ```
 
 iiitd@hcd:~$ pwd
@@ -219,41 +240,51 @@ total 606372
 393226 -rw-------  1 iiitd iiitd     19441 Jun 12 12:10 .bash_history
 131073 drwxr-xr-x  3 root  root       4096 Feb 10  2023 ..
 393217 drwxr-x--- 10 iiitd iiitd      4096 Jun 12 14:26 .
-iiitd@hcd:~$ 
+iiitd@hcd:~$
 
 ```
 
 #Rename
+
 ```
 mv old_filename new_filename
 mv old_foldername new_foldername
 ```
 
 #copy
+
 ```
 cp -r /home/iiitd/HCD/backend /home/iiitd/HCD-main/
 ```
 
-
 ### Node.js Server Configuration
+
 The provided code sets up a Node.js server using Express to handle both HTTP and HTTPS traffic. Here’s a breakdown of what each part of the code does:
 
 #### `www` File
 
 1. **Dependencies and Module Setup**:
+
    ```javascript
-   const fs = require('fs');
-   var express = require('express');
-   var app = require('../app');
-   var debug = require('debug')('backend:server');
-   var http = require('http');
-   var https = require('https');
+   const fs = require("fs");
+   var express = require("express");
+   var app = require("../app");
+   var debug = require("debug")("backend:server");
+   var http = require("http");
+   var https = require("https");
    ```
 
 2. **Reading SSL Certificates**:
+
    ```javascript
-   const privateKey = fs.readFileSync('/etc/letsencrypt/live/hcd.iiitd.ac.in/privkey.pem', 'utf8');
-   const certificate = fs.readFileSync('/etc/letsencrypt/live/hcd.iiitd.ac.in/fullchain.pem', 'utf8');
+   const privateKey = fs.readFileSync(
+     "/etc/letsencrypt/live/hcd.iiitd.ac.in/privkey.pem",
+     "utf8"
+   );
+   const certificate = fs.readFileSync(
+     "/etc/letsencrypt/live/hcd.iiitd.ac.in/fullchain.pem",
+     "utf8"
+   );
    const credentials = {
      key: privateKey,
      cert: certificate,
@@ -261,32 +292,38 @@ The provided code sets up a Node.js server using Express to handle both HTTP and
    ```
 
 3. **Port Normalization**:
+
    ```javascript
-   var port = normalizePort(process.env.PORT || '80');
-   var httpsport = normalizePort(process.env.PORT || '443');
-   app.set('port', port);
+   var port = normalizePort(process.env.PORT || "80");
+   var httpsport = normalizePort(process.env.PORT || "443");
+   app.set("port", port);
    ```
 
 4. **Creating HTTP and HTTPS Servers**:
+
    ```javascript
    var httpsServer = https.createServer(credentials, app);
    const redirector = express();
-   redirector.get('*', (req, res) => res.redirect("https://" + req.headers.host + req.url));
+   redirector.get("*", (req, res) =>
+     res.redirect("https://" + req.headers.host + req.url)
+   );
    const httpServer = http.createServer(redirector);
    ```
 
 5. **Starting Servers and Setting Up Event Listeners**:
+
    ```javascript
    httpsServer.listen(httpsport);
-   httpsServer.on('error', onError);
-   httpsServer.on('listening', onListening);
+   httpsServer.on("error", onError);
+   httpsServer.on("listening", onListening);
 
    httpServer.listen(port);
-   httpServer.on('error', onError);
-   httpServer.on('listening', onListening);
+   httpServer.on("error", onError);
+   httpServer.on("listening", onListening);
    ```
 
 6. **Port Normalization Function**:
+
    ```javascript
    function normalizePort(val) {
      var port = parseInt(val, 10);
@@ -301,22 +338,21 @@ The provided code sets up a Node.js server using Express to handle both HTTP and
    ```
 
 7. **Error Handling**:
+
    ```javascript
    function onError(error) {
-     if (error.syscall !== 'listen') {
+     if (error.syscall !== "listen") {
        throw error;
      }
-     var bind = typeof port === 'string'
-       ? 'Pipe ' + port
-       : 'Port ' + port;
+     var bind = typeof port === "string" ? "Pipe " + port : "Port " + port;
 
      switch (error.code) {
-       case 'EACCES':
-         console.error(bind + ' requires elevated privileges');
+       case "EACCES":
+         console.error(bind + " requires elevated privileges");
          process.exit(1);
          break;
-       case 'EADDRINUSE':
-         console.error(bind + ' is already in use');
+       case "EADDRINUSE":
+         console.error(bind + " is already in use");
          process.exit(1);
          break;
        default:
@@ -329,30 +365,30 @@ The provided code sets up a Node.js server using Express to handle both HTTP and
    ```javascript
    function onListening() {
      var addr = httpsServer.address();
-     var bind = typeof addr === 'string'
-       ? 'pipe ' + addr
-       : 'port ' + addr.port;
-     debug('Listening on ' + bind);
+     var bind = typeof addr === "string" ? "pipe " + addr : "port " + addr.port;
+     debug("Listening on " + bind);
    }
    ```
 
 #### `server.js` File
 
 1. **Express Setup**:
+
    ```javascript
-   var express = require('express');
-   var path = require('path');
+   var express = require("express");
+   var path = require("path");
    var app = express();
 
    app.use(express.json());
    app.use(express.urlencoded({ extended: false }));
-   app.use(express.static(path.join(__dirname, 'public')));
+   app.use(express.static(path.join(__dirname, "public")));
    ```
 
 2. **Catch-All Route**:
+
    ```javascript
-   app.get('*',  (req, res) => {
-       res.sendFile(path.join(__dirname, 'public', 'index.html'));
+   app.get("*", (req, res) => {
+     res.sendFile(path.join(__dirname, "public", "index.html"));
    });
 
    module.exports = app;
@@ -376,6 +412,7 @@ This setup ensures that all HTTP traffic is redirected to HTTPS, which is a comm
 To run the provided Node.js application, follow these steps:
 
 #### Prerequisites
+
 1. **Node.js and npm**: Ensure Node.js and npm (Node Package Manager) are installed on your system. You can download and install them from [nodejs.org](https://nodejs.org/).
 2. **SSL Certificates**: Make sure you have valid SSL certificates placed in the specified paths (`/etc/letsencrypt/live/hcd.iiitd.ac.in/privkey.pem` and `/etc/letsencrypt/live/hcd.iiitd.ac.in/fullchain.pem`).
 
@@ -383,6 +420,7 @@ To run the provided Node.js application, follow these steps:
 
 1. **Project Structure**:
    Ensure your project directory looks something like this:
+
    ```
    your-project/
    ├── bin/
@@ -395,6 +433,7 @@ To run the provided Node.js application, follow these steps:
 
 2. **Install Dependencies**:
    Navigate to your project directory in the terminal and install the required Node.js packages.
+
    ```bash
    cd your-project
    npm install express debug
@@ -405,9 +444,11 @@ To run the provided Node.js application, follow these steps:
 
 4. **Running the Application**:
    You can run the server using `node`. If your `www` file is located in the `bin` directory as shown, you can start it by running:
+
    ```bash
    node bin/www
    ```
+
    Alternatively, you might need to provide the correct path if your structure differs.
 
 5. **Using a Process Manager** (Optional but recommended):
@@ -423,16 +464,19 @@ To run the provided Node.js application, follow these steps:
 #### Additional Considerations
 
 - **Permissions**: If you encounter permission errors while accessing the SSL certificates or binding to ports 80 and 443, you might need to run the command with `sudo`:
+
   ```bash
   sudo node bin/www
   ```
 
 - **Environment Variables**: If you want to specify custom ports or other environment variables, you can set them before running the application:
+
   ```bash
   PORT=8080 HTTPS_PORT=8443 node bin/www
   ```
 
 - **Debugging**: The script uses the `debug` module to log messages. You can enable debug messages by setting the `DEBUG` environment variable:
+
   ```bash
   DEBUG=backend:server node bin/www
   ```
@@ -442,5 +486,6 @@ To run the provided Node.js application, follow these steps:
 By following these steps, you should be able to run your Node.js application with both HTTP and HTTPS support.
 
 ### Steps to Run the Application
+
 - Local Machine : Run at Frontend till Changes Procedure done [Local Machine Setup](#local-machine-setup) & 6. [Procedure of Changes](#procedure-of-changes)
 - Server : Run at Backend 9. [Running the Server](#running-the-server)
