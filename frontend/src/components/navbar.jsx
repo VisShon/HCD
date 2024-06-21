@@ -11,10 +11,10 @@ export default function NavBar({logo, rel, bg=true}){
     const[isResearchClicked, setResearchClicked] = useState(false);
     const[isNewsClicked, setNewsClicked] = useState(false);
     const leaveHandler=()=>{
-        setResearchClicked(true);
-        setPeoplesClicked(true);
-        setAcadClicked(true);
-        setNewsClicked(true); 
+        setResearchClicked(false);
+        setPeoplesClicked(false);
+        setAcadClicked(false);
+        setNewsClicked(false); 
     }
     const acadClickHandler=()=>{
         setResearchClicked(false);
