@@ -8,7 +8,7 @@
             {
                 "title": "Abhijeet Mishra",
                 "DOI": "https://www.linkedin.com/in/abhijeet-mishra-08bba269/",
-                "abstract": "Haptic Systems, Tangible Interfaces, Visio-Haptic Designs, Input Sensing.",
+                "abstract": "Prototypes, User Researcher, Electronics Designer, Designing Tangible Interfaces",
                 "ResearchAreas": "Haptic Systems, Tangible Interfaces, Visio-Haptic Designs, Input Sensing",
                 "Thesis": "Novel Interactive Systems",
                 "Supervisor": "Dr Aman Parnami, Dr Jainendra Shukla"
@@ -28,6 +28,91 @@
                 "ResearchAreas": "Intersection of Human Computer Interaction and Women's Health and Wellbeing",
                 "Thesis": "Scoping ICTs for Menstrual Health Education and Menstrual Hygiene in Urban India",
                 "Supervisor": "Dr. Pushpendra Singh (IIITD) and Dr. Neha Kumar (Georgia Tech, USA)"
+                
+            }
+        ]
+    },
+    {
+        "profInfo": {
+            "image": "ManshulVBelani.jpg",
+            "name": "Manshul Belani"
+        },
+        "projects": [
+            {
+                "title": "Manshul Belani",
+                "DOI": "https://www.linkedin.com/in/manshulbelani/",
+                "abstract": "Human Centered Computing, Mixed Reality, Accessibility and Inclusive Design",
+                "ResearchAreas": "Human-Centered Computing and Design, VR/AR",
+                "Thesis": "Designing Learning Environments in Virtual Reality",
+                "Supervisor": "Dr Aman Parnami and Prof Pushpendra"
+                
+            }
+        ]
+    },
+    {
+        "profInfo": {
+            "image": "VaibhaviKowshik.jpg",
+            "name": "Vaibhavi Kowshik"
+        },
+        "projects": [
+            {
+                "title": "Vaibhavi Kowshik",
+                "DOI": "",
+                "abstract": "Design",
+                "ResearchAreas": "Human environment interactions, Culture and Creativity, Non-formal learning experiences, Art + Tech + Climate Action & Digital Activism",
+                "Thesis": "",
+                "Supervisor": "Prof. Grace Eden - IIITD (supervisor) & Prof. Charu Monga - IITD (co-supervisor)"
+                
+            }
+        ]
+    },
+    {
+        "profInfo": {
+            "image": "AdarshPandey.jpg",
+            "name": "Adarsh Pandey"
+        },
+        "projects": [
+            {
+                "title": "Adarsh Pandey",
+                "DOI": "",
+                "abstract": "Mobile computing, health monitoring ",
+                "ResearchAreas": "Health monitoring via Wearable devices",
+                "Thesis": "Advancements in health monitoring systems via Wearable devices ",
+                "Supervisor": "Dr. Rajiv ratn shah"
+                
+            }
+        ]
+    },
+    {
+        "profInfo": {
+            "image": "ChandramaMallick.jpeg",
+            "name": "Chandrama Mallick"
+        },
+        "projects": [
+            {
+                "title": "Chandrama Mallick",
+                "DOI": "https://www.instagram.com/lifestylebook_99/",
+                "abstract": "Design and Visual Communication",
+                "ResearchAreas": "Graphics Design, Inclusive Design and accessibility, HCI",
+                "Thesis": "Tactile Graphical Perception for Blind and Visually Impaired Individuals",
+                "Supervisor": "Dr. Richa Gupta"
+                
+            }
+        ]
+    },
+    {
+        "profInfo": {
+            "image": "ShikhaSharma.jpg",
+            "name": "Shikha Sharma"
+        },
+        "projects": [
+            {
+                "title": "Shikha Sharma",
+                "DOI": "",
+                "abstract": "Computer Science",
+                "ResearchAreas": "Multimodal Education for Independent Learning in Blind and Visually Impaired Students",
+                "Thesis": "Multimodal Education for Independent Learning in Blind and Visually Impaired Students",
+                "Supervisor": "Dr. Richa Gupta, Dr. Rajiv Ratn Shah"
                 
             }
         ]

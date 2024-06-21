@@ -110,6 +110,8 @@ nvm alias default 14
 - yarn install
 - yarn start
 - ctrl+c
+- yarn build
+
 
 - cd backend
 - rm public
@@ -135,6 +137,7 @@ unzip main.zip
 rm main.zip
 cd HCD-main/backend
 yarn install
+yarn build
 
 ### Running the Server
 #stop server

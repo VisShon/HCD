@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.955dceb0.css",
-    "main.js": "/static/js/main.cf598953.js",
+    "main.js": "/static/js/main.e786f0a0.js",
     "static/media/final2.mp4": "/static/media/final2.072bf8dad9bcadda7fc5.mp4",
     "static/media/final0.mp4": "/static/media/final0.178ec605b8fa9eb8f82e.mp4",
     "static/media/final.mp4": "/static/media/final.adae64d2309b58310c32.mp4",
@@ -15,6 +15,7 @@
     "static/media/faculty.jpg": "/static/media/faculty.42991f66dcb81446e786.jpg",
     "static/media/Anu.jpg": "/static/media/Anu.aca1aa0b258fcaf48992.jpg",
     "static/media/facultyImg.png": "/static/media/facultyImg.5aead01c675a0b8522b1.png",
+    "static/media/AdarshPandey.jpg": "/static/media/AdarshPandey.39501255429f985c834f.jpg",
     "static/media/anoop.png": "/static/media/anoop.bf3b99c3dfe466a2cf49.png",
     "static/media/PHDimg.svg": "/static/media/PHDimg.eb495b1abb5f27ff4af2518fc7b3aa2a.svg",
     "static/media/aman.png": "/static/media/aman.cfa85bdf981971dea686.png",
@@ -24,6 +25,9 @@
     "static/media/admissions.svg": "/static/media/admissions.9dac7dd4121fe5bd8afaccef92792b77.svg",
     "static/media/collab3.png": "/static/media/collab3.8872fb100c03243e3306.png",
     "static/media/collab10.png": "/static/media/collab10.f2cce0d8d1d9b917a001.png",
+    "static/media/ChandramaMallick.jpeg": "/static/media/ChandramaMallick.4fb64a1f5f87e0632ff1.jpeg",
+    "static/media/ManshulVBelani.jpg": "/static/media/ManshulVBelani.c16b2cd42dce006f5005.jpg",
+    "static/media/VaibhaviKowshik.jpg": "/static/media/VaibhaviKowshik.2aaa9edc97e3b85c3404.jpg",
     "static/media/speaker.png": "/static/media/speaker.c82ba69a68048899bde0.png",
     "static/media/collab14.png": "/static/media/collab14.0cf024322f7a9512bc77.png",
     "static/media/midasImg.svg": "/static/media/midasImg.140401504f585c68b7da.svg",
@@ -51,6 +55,7 @@
     "static/media/amanparnami.png": "/static/media/amanparnami.73f02ee9d92462b5e8f4.png",
     "static/media/richaPodium.png": "/static/media/richaPodium.129c47d6363fddce9ca5.png",
     "static/media/ratn.png": "/static/media/ratn.db5cdfb701dc98403e54.png",
+    "static/media/ShikhaSharma.jpg": "/static/media/ShikhaSharma.bb79ea9b787f6338b723.jpg",
     "static/media/Kalpana_podium.png": "/static/media/Kalpana_podium.a42981c4b8bc6c368f00.png",
     "static/media/cdnmImg.png": "/static/media/cdnmImg.e7c420571fce61103dba.png",
     "static/media/acadSec1Mobile.png": "/static/media/acadSec1Mobile.a2281de27daca005e791.png",
@@ -95,10 +100,10 @@
     "static/media/arrow.svg": "/static/media/arrow.2ab9e1c051196754267f72586b996340.svg",
     "static/media/dropN.svg": "/static/media/dropN.0626ab082c7517e0533f5282577bba47.svg",
     "main.955dceb0.css.map": "/static/css/main.955dceb0.css.map",
-    "main.cf598953.js.map": "/static/js/main.cf598953.js.map"
+    "main.e786f0a0.js.map": "/static/js/main.e786f0a0.js.map"
   },
   "entrypoints": [
     "static/css/main.955dceb0.css",
-    "static/js/main.cf598953.js"
+    "static/js/main.e786f0a0.js"
   ]
 }
