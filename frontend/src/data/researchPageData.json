@@ -1,5 +1,4 @@
 [
-
     {
         "id":"1",
         "title": "Accessibility and Inclusive Design Lab",
@@ -15,10 +14,10 @@
     {
         "id":"2",
         "title": "Creative Interfaces Lab",
-        "subtitle": "Dr. Anmol Srivastava, A-416",
+        "subtitle": "Dr. Anmol Srivastava, A - 416",
         "description": "We are a design research group working at the intersection of HCI and various disciplines. Our aim is to design, craft and evaluate interactive tools and experiences that augment  human capabilities and imagination.",
         "buttonText": "Visit Website",
-        "link":"https://cilab.iiitd.edu.in/index.html",
+        "link":"https://cilab.iiitd.edu.in",
         "color": "#A4DAC3",
         "logo": "creative.png",
         "Panelimage": "hci.svg",
@@ -36,21 +35,8 @@
         "Panelimage": "hands.svg",
         "txtColor":"#FFFFFF"
     },
-    
     {
         "id":"4",
-        "title": "Weave Lab",
-        "subtitle": "Dr. Aman Parnami, A - 416",
-        "description": "At Weave Lab we weave interactivity into everyday objects and experiences. We envision as well as discover through critical observations new opportunities for human-computer interactions. Through our extensive research on material and technologies, we prototype manifestations of our ideas, which we then iteratively improve. Our applied research approach interweaves basic research with which we contribute to the advancement of the technologies we leverage.",
-        "buttonText": "Visit Website",
-        "link":"https://weave.iiitd.edu.in/",
-        "color": "#F4B950",
-        "logo": "weave.png",
-        "Panelimage": "vr.svg",
-        "txtColor":"#2A3832"
-    },
-    {
-        "id":"5",
         "title": "MIDAS Lab",
         "subtitle": "Dr. Rajiv Ratn Shah, A - 415",
         "description": "MIDAS is a group of researchers at IIIT-Delhi who study, analyze, and build different multimedia systems for society leveraging multimodal information. MIDAS stands for Multimodal Digital Media Analysis Lab and it is founded by Dr. Rajiv Ratn Shah. Dr. Shah is an assistant professor in the Department of Computer Science and Engineering (jointly appointed with the Department of Human-Centered Design) at IIIT-Delhi.",
@@ -62,15 +48,15 @@
         "txtColor":"#FFFFFF"
     },
     {
-        "id":"6",
-        "title": "The Emerging Technology Integrated Design & Manufacturing lab (ETiDM)",
-        "subtitle": "Dr. Kalpana Shankhwar, A - 403",
+        "id":"5",
+        "title": "ETiDM Lab",
+        "subtitle": "Dr. Kalpana Shankhwar, A - 416",
         "description": "The Emerging Technology Integrated Design & Manufacturing lab (ETiDM) at HCD focuses on exploring and investigating emerging technologies including Extended reality (XR)/ (AR, VR, MR), Artificial Intelligence (AI), Digital Twin, Internet Of Things (IoT) and Haptic Technology. The ongoing research projects employ emerging technologies to develop smart training, tutorial and evaluation systems in the context of Industry 4.0 and Education 4.0. The lab aims to explore emerging technologies and conduct interdisciplinary research to overcome existing challenges in diverse fields for example, education, healthcare, manufacturing, teleoperation, guidance for safety and so forth.",
         "buttonText": "Visit Website",
         "link":"https://etidm.iiitd.edu.in",
-        "color": "#47638A",
-        "logo": "etdm.png",
-        "Panelimage": "aidImg.svg",
+        "color": "#111827",
+        "logo": "edtm_icon.png",
+        "Panelimage": "edtm_panel.png",
         "txtColor":"#FFFFFF"
     }
     
