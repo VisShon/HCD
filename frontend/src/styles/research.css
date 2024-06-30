@@ -318,8 +318,8 @@
     flex-direction: column;
     /* align-items: center; */
 }
-.publicationsSection{
-    position : relative;
+.researchPublicationsSection{
+    /* position : relative; */
     top: -2em;
     display: flex;
     flex-direction: column;
@@ -328,8 +328,10 @@
     width: 94%;
 
     align-self: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
-.profScroll{
+.researchProfScroll{
     display: flex;
     overflow-x: scroll;
     justify-content: left;
@@ -338,12 +340,12 @@
     padding: 3rem 3rem;
 }
 
-.profScroll::-webkit-scrollbar{
+/* .profScroll::-webkit-scrollbar{
     display: none;
 }
 .projScroll::-webkit-scrollbar{
     display: none;
-}
+} */
 
 #topSection{
     background: #39AEA8;
