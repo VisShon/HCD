@@ -4,6 +4,7 @@ import '../styles/footer.css';
 import img from '../assets/bcg.png';
 import tweet from '../assets/tweet.png';
 import insta from '../assets/insta.png';
+import linkedin from '../assets/linkedin.png';
 import facebook from '../assets/facebook.png'
 import { Link } from 'react-router-dom';
 
@@ -38,15 +39,19 @@ export default function Footer() {
                             <a href="mailto:admin-hcd@iiitd.ac.in"> admin-hcd@iiitd.ac.in</a>
                             <a href="tel:+91-11-26907588">+91-11-26907588</a>
                             <span className='flex justify-between my-4 mx-2 small:w-[30%]'>
-                                <a href="https://www.facebook.com/hcdiiitd">
-                                    <img className='hover:scale-125' src={facebook} alt="Facebook"/>
-                                </a>
-                                <a href="https://www.instagram.com/hcdiiitd/" >
-                                    <img className='hover:scale-125' src={insta} alt="Instagram"/> 
-                                </a>
-                                <a href="https://twitter.com/hcdiiitd">
-                                    <img className='hover:scale-125' src={tweet} alt="Twitter"/> 
-                                </a>
+                            <a href="https://in.linkedin.com/company/hcdiiitd">
+    <img class='hover:scale-125' src={linkedin} alt="LinkedIn"/>
+</a>
+<a href="https://twitter.com/hcdiiitd">
+    <img class='hover:scale-125' src={tweet} alt="Twitter"/>
+</a>
+<a href="https://www.instagram.com/hcdiiitd/">
+    <img class='hover:scale-125' src={insta} alt="Instagram"/> 
+</a>
+<a href="https://www.facebook.com/hcdiiitd">
+    <img class='hover:scale-125' src={facebook} alt="Facebook"/>
+</a>
+
                             </span>
                         </div>
 
