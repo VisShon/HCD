@@ -10,36 +10,49 @@ export default function NavBar({logo, rel, bg=true}){
     const[isPeoplesClicked, setPeoplesClicked] = useState(false);
     const[isResearchClicked, setResearchClicked] = useState(false);
     const[isNewsClicked, setNewsClicked] = useState(false);
+    const[isEventsClicked, setEventsClicked] = useState(false);
+
     const leaveHandler=()=>{
         setResearchClicked(false);
         setPeoplesClicked(false);
         setAcadClicked(false);
         setNewsClicked(false); 
+        setEventsClicked(false);
     }
     const acadClickHandler=()=>{
         setResearchClicked(false);
         setPeoplesClicked(false);
         setAcadClicked(true);
         setNewsClicked(false);
+        setEventsClicked(false);
     }
     const peepClickHandler=()=>{
         setAcadClicked(false);
         setResearchClicked(false);
         setPeoplesClicked(true);
         setNewsClicked(false);
+        setEventsClicked(false);
     }
     const resClickHandler=()=>{
         setAcadClicked(false);
         setPeoplesClicked(false);
         setResearchClicked(true);
         setNewsClicked(false);
+        setEventsClicked(false);
     }
-
     const newsClickHandler=()=>{
         setAcadClicked(false);
         setPeoplesClicked(false);
         setResearchClicked(false);
         setNewsClicked(true);
+        setEventsClicked(false);
+    }
+    const eventsClickHandler=()=>{
+        setAcadClicked(false);
+        setPeoplesClicked(false);
+        setResearchClicked(false);
+        setNewsClicked(false);
+        setEventsClicked(true);
     }
 
     return(
@@ -63,6 +76,18 @@ export default function NavBar({logo, rel, bg=true}){
                     <Link className="w-[90%] text-center mx-5 hover:bg-[#FFFFFFCC] rounded-[0.5rem]" to='/'>ABOUT</Link> */}
 
                     {/* <div className="navSep">|</div> */}
+
+                    <div className={isEventsClicked?"Selected w-[90%] text-center mx-5 hover:bg-[#FFFFFFCC] rounded-[0.5rem]" :" w-[90%] text-center mx-5"} onMouseOver={eventsClickHandler} onMouseOut={leaveHandler}>EVENTS
+                        {isEventsClicked&&<div hidden={true} className='SelectedContent'>
+                            <div  className='w-[80%] h-[0.1rem] bg-[#444343]'></div>
+                            <Link id="subHeading" to='/Events24'>2023-2024 </Link>
+                        
+                        </div>}
+                    </div>
+                    
+                    <div className="navSep">|</div>
+
+
 
                     <div className={isNewsClicked?"Selected w-[90%] text-center mx-5 hover:bg-[#FFFFFFCC] rounded-[0.5rem]" :" w-[90%] text-center mx-5"} onMouseOver={newsClickHandler} onMouseOut={leaveHandler}>NEWS
                         {isNewsClicked&&<div hidden={true} className='SelectedContent'>
@@ -135,7 +160,7 @@ export default function NavBar({logo, rel, bg=true}){
                     <Link  className="w-[90%] text-center mx-5 hover:bg-[#FFFFFFCC] rounded-[0.5rem]" to='/contactUs'>CONTACT US</Link>
                     
                 </div>
-                {bg&&<div className="w-[60.5%] h-[1.6rem] absolute top-[5rem] right-0 rounded-l-lg bg-[#FFFFFFCC] small:hidden"></div>}
+                {bg&&<div className="w-[70.5%] h-[1.6rem] absolute top-[5rem] right-0 rounded-l-lg bg-[#FFFFFFCC] small:hidden"></div>}
             </div>
         </>
     )

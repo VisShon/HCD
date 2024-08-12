@@ -20,7 +20,8 @@ import PHD from './pages/phd';
 import Staff from './pages/Staff';
 import Collaborations from './pages/Collaborations';
 import Advisory from './pages/Advisory';
-import PhdStudent from './pages/PhdStudent'
+import PhdStudent from './pages/PhdStudent';
+import Events_24 from './pages/Events_24';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -52,6 +53,7 @@ root.render(
       <Route path="/Announcements" element={<Announcements/>}/>
       Announcements
       <Route path="/Collaborations" element={<Collaborations/>}/>
+      <Route path="/Events24" element={<Events_24/>}/>
 
       <Route path="*" element={<NotFound/>}/>
     </Routes>

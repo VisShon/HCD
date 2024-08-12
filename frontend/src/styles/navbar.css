@@ -15,7 +15,7 @@
 #navbar{
   display: flex;
   justify-content: space-evenly;
-  min-width: 60%;
+  min-width: 70%;
   right: 0;
   /* color: #444343; */
   font-size: 1.1rem;
