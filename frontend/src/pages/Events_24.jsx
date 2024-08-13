@@ -7,7 +7,10 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-
+import  { useState } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css'; 
+import 'slick-carousel/slick/slick-theme.css'; 
 // Events Images Import
 import img1 from '../assets/events/event_1.png';
 import img2 from '../assets/events/event_2.png';
@@ -107,7 +110,7 @@ function Events_24() {
             images: [],
         },
         {
-            title: 'I-wayplus - Automated Indoor Navigation Initiative for persoons with Blindness',
+            title: 'I-wayplus - Automated Indoor Navigation Initiative for persons with Blindness',
             date: '11th Sep 2023 ',
             details: "<b>Organizing Team:</b> Dr. Richa Gupta, Center for Design and New Media in collaboration with the Department of Human-Centered Design, IIIT-Delhi\n\n <b>Keynote Speaker:</b> Dr. Vikas Upadhayay (IIT Delhi / Iwayplus) and Pulkit Sapra (IIT Delhi / Raised lines foundation) Work and challenges around education resources and automated indoor navigation systems for persons with blindness.\n",
             images: [
@@ -147,7 +150,7 @@ function Events_24() {
             images: [],
         },
         {
-            title: 'Artificial Intelligence in Industrail sector',
+            title: 'Artificial Intelligence in Industrial sector',
             date: 'October 2023',
             details: "<b>Organizing Team:</b> Dr. Vinish, Center for Design and New Media in collaboration with the Department of Human-Centered Design, IIIT-Delhi\n\n <b>Keynote Speaker:</b> Puneet Wadhwa, Head IT & Digital Development\n",
             images: [
@@ -396,14 +399,15 @@ function Events_24() {
         <>
             <NavBar logo={true} rel={false} bg={false}/>
             <div id="topSection">    
-                <span id="heading" className='font-Archivo font-[200] text-[8vw] small:w-[100%]'>2023-2024</span>
+                <span id="heading" className='font-Archivo font-[100] text-[10vw]'>EVENTS'23-24</span>
             </div>
+
             <Carousel />
-            <div style={{ padding: '20px', textAlign: 'center' }}>
-                <Typography variant="h4" style={{ margin: '10px 0', fontWeight: 'bold', fontFamily: 'Arial, sans-serif' }}>
-                    Events
-                </Typography>
-            </div>
+            
+            {/* <div class="text-center mt-10">    
+                    <span id="banner" className="font-Archivo  text-[#39AEA8] text-[3vw]">EVENTS</span>
+                </div> */}
+
             <div>
                 {data.map((section, index) => (
                     <AccordionComponent
@@ -420,38 +424,387 @@ function Events_24() {
     )
 }
 
-const AccordionComponent = ({ title, date, details, images }) => (
-    <Accordion style={{ margin: '0 20px 10px 20px' }}>
-        <AccordionSummary
-            expandIcon={<ArrowDropDownIcon />}
-            aria-controls="panel-content"
-            id="panel-header"
-            style={{
-                backgroundColor: '#39AEA8',
-                borderBottom: '1px solid #ddd',
+// const AccordionComponent = ({ title, date, details, images }) => (
+//     <Accordion style={{ margin: '10px 40px 8px 40px' }}>
+//         <AccordionSummary
+//             expandIcon={<ArrowDropDownIcon />}
+//             aria-controls="panel-content"
+//             id="panel-header"
+//             style={{
+//                 backgroundColor: '#D0E2DF',
+//                 borderBottom: '1px solid #ddd',
+//             }}
+//         >
+//             <Typography variant="subtitle1" style={{ fontWeight: 'bold', fontFamily: 'Arial, sans-serif', color: '#39AEA8' }}>
+//                 <span id="banner" className="font-Archivo  text-[#39AEA8] ">{title}</span>
+//             </Typography>
+//         </AccordionSummary>
+//         <AccordionDetails style={{ backgroundColor: '#fafafa', padding: '16px', borderTop: '1px solid #ddd' }}>
+//             <div style={{ marginBottom: '10px' }}>
+//                 <Typography variant="body2" style={{ fontFamily: 'Arial, sans-serif', color: '#888' }}>
+//                     {date}
+//                 </Typography>
+//             </div>
+//             <Typography variant="body1" style={{ fontFamily: 'Arial, sans-serif', color: '#666', marginBottom: '10px', whiteSpace: 'pre-line' }} dangerouslySetInnerHTML={{ __html: details }}>
+//             </Typography>
+//             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+//                 {images.map((img, index) => (
+//                     <a key={index} href={img} target="_blank" rel="noopener noreferrer">
+//                         <img 
+//                             src={img} 
+//                             alt={`img-${index}`} 
+//                             style={{ 
+//                                 width: '500px', 
+//                                 height: '250px', 
+//                                 objectFit: 'cover', 
+//                                 borderRadius: '10px',  // Rounded corners
+//                                 border: '5px solid #39AEA8'  // Solid border
+//                             }} 
+//                         />
+//                     </a>
+//                 ))}
+//             </div>
+
+//         </AccordionDetails>
+//     </Accordion>
+// );
+
+// import Accordion from '@mui/material/Accordion';
+// import AccordionSummary from '@mui/material/AccordionSummary';
+// import AccordionDetails from '@mui/material/AccordionDetails';
+// import Typography from '@mui/material/Typography';
+// import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
+// const AccordionComponent = ({ title, date, details, images }) => {
+//     const [isClicked, setIsClicked] = useState(false);
+
+//     const handleAccordionClick = () => {
+//         setIsClicked(!isClicked);
+//     };
+
+//     return (
+//         <Accordion 
+//             style={{ 
+//                 margin: '10px 40px 8px 40px',
+//                 backgroundColor: isClicked ? '#39AEA8' : '#D0E2DF',
+//             }}
+//             onClick={handleAccordionClick}
+//         >
+//             <AccordionSummary
+//                 expandIcon={<ArrowDropDownIcon />}
+//                 aria-controls="panel-content"
+//                 id="panel-header"
+//                 style={{
+//                     backgroundColor: isClicked ? '#39AEA8' : '#D0E2DF',
+//                     borderBottom: '1px solid #ddd',
+//                 }}
+//             >
+//                 <Typography 
+//                     variant="subtitle1" 
+//                     style={{ 
+//                         fontWeight: 'bold', 
+//                         fontFamily: 'Arial, sans-serif', 
+//                         color: isClicked ? 'white' : '#39AEA8',
+//                         transition: 'color 0.3s ease',  // Smooth transition for color change
+//                     }}
+//                 >
+//                     {title}
+//                 </Typography>
+//             </AccordionSummary>
+//             <AccordionDetails 
+//                 style={{ 
+//                     backgroundColor: '#fafafa', 
+//                     padding: '16px', 
+//                     borderTop: '1px solid #ddd' 
+//                 }}
+//             >
+//                 <div style={{ marginBottom: '10px' }}>
+//                     <Typography 
+//                         variant="body2" 
+//                         style={{ 
+//                             fontFamily: 'Arial, sans-serif', 
+//                             color: '#888' 
+//                         }}
+//                     >
+//                         {date}
+//                     </Typography>
+//                 </div>
+//                 <Typography 
+//                     variant="body1" 
+//                     style={{ 
+//                         fontFamily: 'Arial, sans-serif', 
+//                         color: '#666', 
+//                         marginBottom: '10px', 
+//                         whiteSpace: 'pre-line' 
+//                     }} 
+//                     dangerouslySetInnerHTML={{ __html: details }}
+//                 />
+//                 <div 
+//                     style={{ 
+//                         display: 'flex', 
+//                         flexWrap: 'wrap', 
+//                         gap: '10px' 
+//                     }}
+//                 >
+//                     {images.map((img, index) => (
+//                         <a 
+//                             key={index} 
+//                             href={img} 
+//                             target="_blank" 
+//                             rel="noopener noreferrer"
+//                         >
+//                             <img 
+//                                 src={img} 
+//                                 alt={`img-${index}`} 
+//                                 style={{ 
+//                                     width: '500px', 
+//                                     height: '250px', 
+//                                     objectFit: 'cover', 
+//                                     borderRadius: '10px',
+//                                     border: '5px solid #39AEA8' 
+//                                 }} 
+//                             />
+//                         </a>
+//                     ))}
+//                 </div>
+//             </AccordionDetails>
+//         </Accordion>
+//     );
+// };
+
+// const AccordionComponent = ({ title, date, details, images }) => {
+//     const [isClicked, setIsClicked] = useState(false);
+
+//     const handleAccordionClick = () => {
+//         setIsClicked(!isClicked);
+//     };
+const AccordionComponent = ({ title, date, details, images }) => {
+    const [isClicked, setIsClicked] = useState(false);
+
+    const handleAccordionClick = () => {
+        setIsClicked(!isClicked);
+    };
+
+    return (
+        <Accordion 
+            style={{ 
+                margin: '10px 40px 8px 40px',
+                backgroundColor: isClicked ? '#D0E2DF' : '#39AEA8',
+                transition: 'background-color 0.3s ease',
             }}
+            onClick={handleAccordionClick}
+            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = isClicked ? '#39AEA8' : '#D0E2DF'}
+            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = isClicked ? '#D0E2DF' : '#39AEA8'}
         >
-            <Typography variant="subtitle1" style={{ fontWeight: 'bold', fontFamily: 'Arial, sans-serif', color: '#333' }}>
-                {title}
-            </Typography>
-        </AccordionSummary>
-        <AccordionDetails style={{ backgroundColor: '#fafafa', padding: '16px', borderTop: '1px solid #ddd' }}>
-            <div style={{ marginBottom: '10px' }}>
-                <Typography variant="body2" style={{ fontFamily: 'Arial, sans-serif', color: '#888' }}>
-                    {date}
-                </Typography>
-            </div>
-            <Typography variant="body1" style={{ fontFamily: 'Arial, sans-serif', color: '#666', marginBottom: '10px', whiteSpace: 'pre-line' }} dangerouslySetInnerHTML={{ __html: details }}>
-            </Typography>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-            {images.map((img, index) => (
-                    <a key={index} href={img} target="_blank" rel="noopener noreferrer">
-                        <img src={img} alt={`img-${index}`} style={{ width: '500px', height: '250px', objectFit: 'cover' }} />
-                    </a>
-                ))}
-            </div>
-        </AccordionDetails>
-    </Accordion>
-);
+            <AccordionSummary
+                expandIcon={<ArrowDropDownIcon />}
+                aria-controls="panel-content"
+                id="panel-header"
+                style={{
+                    backgroundColor: isClicked ? '#D0E2DF' : '#39AEA8',
+                    borderBottom: '1px solid #ddd',
+                    transition: 'background-color 0.3s ease',
+                }}
+                onMouseEnter={(e) => {
+                    e.currentTarget.style.backgroundColor = isClicked ? '#39AEA8' : '#D0E2DF';
+                    e.currentTarget.querySelector('span').style.color = isClicked ? '#D0E2DF' : '#39AEA8';
+                }}
+                onMouseLeave={(e) => {
+                    e.currentTarget.style.backgroundColor = isClicked ? '#D0E2DF' : '#39AEA8';
+                    e.currentTarget.querySelector('span').style.color = isClicked ? '#39AEA8' : '#D0E2DF';
+                }}
+            >
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
+                    <Typography 
+                        variant="subtitle1" 
+                        style={{ 
+                            fontWeight: 'bold', 
+                            fontFamily: 'Arial, sans-serif', 
+                            color: isClicked ? '#39AEA8' : '#D0E2DF',
+                            transition: 'color 0.3s ease',
+                        }}
+                    >
+                        <span>{title}</span>
+                    </Typography>
+                    <Typography 
+                        variant="body2" 
+                        style={{ 
+                            fontFamily: 'Arial, sans-serif', 
+                            color: isClicked ? '#39AEA8' : '#D0E2DF', // Change color based on isClicked
+                            fontSize: '0.8rem', // Smaller font size for date
+                            transition: 'color 0.3s ease', // Add transition for smooth effect
+                        }}
+                    >
+                        {date}
+                    </Typography>
+                </div>
+            </AccordionSummary>
+            <AccordionDetails 
+                style={{ 
+                    backgroundColor: '#fafafa', 
+                    padding: '16px', 
+                    borderTop: '1px solid #ddd' 
+                }}
+            >
+                <div style={{ marginBottom: '10px' }}>
+                    <Typography 
+                        variant="body2" 
+                        style={{ 
+                            fontFamily: 'Arial, sans-serif', 
+                            color: '#888' 
+                        }}
+                    >
+                        {date}
+                    </Typography>
+                </div>
+                <Typography 
+                    variant="body1" 
+                    style={{ 
+                        fontFamily: 'Arial, sans-serif', 
+                        color: '#666', 
+                        marginBottom: '10px', 
+                        whiteSpace: 'pre-line' 
+                    }} 
+                    dangerouslySetInnerHTML={{ __html: details }}
+                />
+                <div 
+                    style={{ 
+                        display: 'flex', 
+                        flexWrap: 'wrap', 
+                        gap: '10px' 
+                    }}
+                >
+                    {images.map((img, index) => (
+                        <a 
+                            key={index} 
+                            href={img} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <img 
+                                src={img} 
+                                alt={`img-${index}`} 
+                                style={{ 
+                                    width: '500px', 
+                                    height: '250px', 
+                                    objectFit: 'cover', 
+                                    borderRadius: '10px',
+                                    border: '5px solid #39AEA8' 
+                                }} 
+                            />
+                        </a>
+                    ))}
+                </div>
+            </AccordionDetails>
+        </Accordion>
+    );
+};
+
+//     return (
+//         <Accordion 
+//             style={{ 
+//                 margin: '10px 40px 8px 40px',
+//                 backgroundColor: isClicked ? '#D0E2DF' : '#39AEA8',
+//                 transition: 'background-color 0.3s ease',
+//             }}
+//             onClick={handleAccordionClick}
+//             onMouseEnter={(e) => e.currentTarget.style.backgroundColor = isClicked ? '#39AEA8' : '#D0E2DF'}
+//             onMouseLeave={(e) => e.currentTarget.style.backgroundColor = isClicked ? '#D0E2DF' : '#39AEA8'}
+//         >
+//             <AccordionSummary
+//                 expandIcon={<ArrowDropDownIcon />}
+//                 aria-controls="panel-content"
+//                 id="panel-header"
+//                 style={{
+//                     backgroundColor: isClicked ? '#D0E2DF' : '#39AEA8',
+//                     borderBottom: '1px solid #ddd',
+//                     transition: 'background-color 0.3s ease',
+//                 }}
+//                 onMouseEnter={(e) => {
+//                     e.currentTarget.style.backgroundColor = isClicked ? '#39AEA8' : '#D0E2DF';
+//                     e.currentTarget.querySelector('span').style.color = isClicked ? '#D0E2DF' : '#39AEA8';
+//                 }}
+//                 onMouseLeave={(e) => {
+//                     e.currentTarget.style.backgroundColor = isClicked ? '#D0E2DF' : '#39AEA8';
+//                     e.currentTarget.querySelector('span').style.color = isClicked ? '#39AEA8' : '#D0E2DF';
+//                 }}
+//             >
+//                 <Typography 
+//                     variant="subtitle1" 
+//                     style={{ 
+//                         fontWeight: 'bold', 
+//                         fontFamily: 'Arial, sans-serif', 
+//                         color: isClicked ? '#39AEA8' : '#D0E2DF',
+//                         transition: 'color 0.3s ease',
+//                     }}
+//                 >   
+
+//                 <span>{title}</span>
+
+                   
+//                 </Typography>
+//             </AccordionSummary>
+//             <AccordionDetails 
+//                 style={{ 
+//                     backgroundColor: '#fafafa', 
+//                     padding: '16px', 
+//                     borderTop: '1px solid #ddd' 
+//                 }}
+//             >
+//                 <div style={{ marginBottom: '10px' }}>
+//                     <Typography 
+//                         variant="body2" 
+//                         style={{ 
+//                             fontFamily: 'Arial, sans-serif', 
+//                             color: '#888' 
+//                         }}
+//                     >
+//                         {date}
+//                     </Typography>
+//                 </div>
+//                 <Typography 
+//                     variant="body1" 
+//                     style={{ 
+//                         fontFamily: 'Arial, sans-serif', 
+//                         color: '#666', 
+//                         marginBottom: '10px', 
+//                         whiteSpace: 'pre-line' 
+//                     }} 
+//                     dangerouslySetInnerHTML={{ __html: details }}
+//                 />
+//                 <div 
+//                     style={{ 
+//                         display: 'flex', 
+//                         flexWrap: 'wrap', 
+//                         gap: '10px' 
+//                     }}
+//                 >
+//                     {images.map((img, index) => (
+//                         <a 
+//                             key={index} 
+//                             href={img} 
+//                             target="_blank" 
+//                             rel="noopener noreferrer"
+//                         >
+//                             <img 
+//                                 src={img} 
+//                                 alt={`img-${index}`} 
+//                                 style={{ 
+//                                     width: '500px', 
+//                                     height: '250px', 
+//                                     objectFit: 'cover', 
+//                                     borderRadius: '10px',
+//                                     border: '5px solid #39AEA8' 
+//                                 }} 
+//                             />
+//                         </a>
+//                     ))}
+//                 </div>
+//             </AccordionDetails>
+//         </Accordion>
+//     );
+// };
+// export default AccordionComponent;
+
 
 export default Events_24
