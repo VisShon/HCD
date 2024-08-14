@@ -15,7 +15,7 @@
 #navbar{
   display: flex;
   justify-content: space-evenly;
-  min-width: 60%;
+  min-width: 70%;
   right: 0;
   /* color: #444343; */
   font-size: 1.1rem;
@@ -56,7 +56,7 @@
     border-radius: 5% 0% 0% 5%;
     padding: 2.2%;
     margin: 0% 0% 10% 0%;
-    background: rgba(255, 255, 255, 0.478);
+    background: rgba(255, 255, 255, 0.8);
     display: flex;
     flex-direction: column;
     justify-content: center;

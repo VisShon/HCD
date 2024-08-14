@@ -10,15 +10,16 @@ import Footer from '../components/footer';
 function back(){
     window.location.reload(false);
 }
-const arr = ['1','2','3','4','5','6'] 
+const numLabs = data.length;
+
 function Research(){
     const [panelID, setPanelID] = useState('0');
     var wind = window.matchMedia("(max-width: 600px)")
 
     function clicked(id){
-        for(var i = 0; i < arr.length; i++){
-            if(arr[i]!= id){
-                const hide = document.getElementById(arr[i]);
+        for(var i = 1; i <= numLabs; i++){
+            if(i != id){
+                const hide = document.getElementById(i);
                 hide.style="transition: opacity 0.2s; opacity: 0;pointer-events: none;"
             }
         }
@@ -28,24 +29,27 @@ function Research(){
             panel.style='transition: transform ease-out 0.5s;transform: translateY(-'+(40*(parseInt(id)-1))+'vh);pointer-events: none;'
         }
         else{
-            panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(20*(parseInt(id)-1))+'vw);pointer-events: none;'
+            const xposInPx = panel.getBoundingClientRect().x;
+            panel.style='transition: transform ease-out 0.5s;transform: translateX(-'+(xposInPx)+'px);pointer-events: none;'
         }
         const x = document.getElementById('backBtn');
-        const y = document.getElementById('title');
+        const y = document.getElementById('banner')
         x.hidden=false;
-        y.hidden=true;
+        if(y) {
+            y.hidden = true;
+        }
     }
 
     return (
         <div className="bg-[#f1f1f1]">
-            <NavBar logo={wind.matches} rel={false} bg={false}/>
+            <NavBar logo={wind.matches} rel={false} bg={true}/>
             <button type="button" id='backBtn' hidden="true" onClick={()=>back()} >
                 <img src={backBtn}/>
             </button>
             <div className="panelBody">
                 {(wind.matches)&&<div id="banner" className="font-Archivo  text-[#39AEA8] text-[3vw] w-[40%]  bottom-[-5vw] relative p-10 small:bottom-0 small:p-0 small:text-[3vh] small:w-[100%] small:text-center">RESEARCH LABS</div>}
                 {data.map((labs)=>(<div id={labs.id} onClick={()=>clicked(labs.id)} key={labs.id}>
-                    <Panel color={labs.color} logo={labs.logo} image={labs.Panelimage} title={labs.title} subtitle={labs.subtitle} txtColor = {labs.txtColor}/>
+                    <Panel id="researchpanel" color={labs.color} logo={labs.logo} image={labs.Panelimage} title={labs.title} subtitle={labs.subtitle} txtColor = {labs.txtColor}/>
                 </div> ))} 
             </div>
             <Body data={parseInt(panelID)==0?null:data[parseInt(panelID)-1]}/>

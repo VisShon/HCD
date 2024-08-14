@@ -14,10 +14,10 @@
     
 }
 
-#panel{
+#researchpanel{
     position: relative;
     height: 100vh;
-    width: 20vw;
+    width: calc(100vw / 5); 
     
     display: flex;
     flex-direction: column;
@@ -29,8 +29,15 @@
     transition: transform 0.3s ease-out;
     transform: scale(1);
 }
+
+#researchpanel:hover{
+    transition: transform 0.3s ease-out;
+    transform: scale(1.025);
+}
+
+
 @media only screen and (max-width: 600px){
-    #panel{
+    #researchpanel{
         height: 40vh;
         width: 100vw;
         flex-direction: row;
@@ -38,10 +45,6 @@
     }
 }
 
-#panel:hover{
-    transition: transform 0.3s ease-out;
-    transform: scale(1.025);
-}
 
 #panelImage{
     position: relative;
@@ -315,8 +318,8 @@
     flex-direction: column;
     /* align-items: center; */
 }
-.publicationsSection{
-    position : relative;
+.researchPublicationsSection{
+    /* position : relative; */
     top: -2em;
     display: flex;
     flex-direction: column;
@@ -325,8 +328,10 @@
     width: 94%;
 
     align-self: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
-.profScroll{
+.researchProfScroll{
     display: flex;
     overflow-x: scroll;
     justify-content: left;
@@ -335,12 +340,12 @@
     padding: 3rem 3rem;
 }
 
-.profScroll::-webkit-scrollbar{
+/* .profScroll::-webkit-scrollbar{
     display: none;
 }
 .projScroll::-webkit-scrollbar{
     display: none;
-}
+} */
 
 #topSection{
     background: #39AEA8;
